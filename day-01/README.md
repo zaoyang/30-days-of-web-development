@@ -1,5 +1,5 @@
-<h3>Day 01 - What is Vue?</h3>
+<h3>Day 02 - The Vue Instance - Data</h3>
 
 Application can be run by opening the `src/index.html` file in your favourite browser.
 
-Article photo by the talented [Siska Vrijburg](https://unsplash.com/photos/AjyF1e_AGmc).
+Article photo by the talented [Diana Parkhouse](https://unsplash.com/photos/1tsAbBciTic)
