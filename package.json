@@ -1,0 +1,24 @@
+{
+  "name": "30-days-of-d3",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">   <img src=\"./images/30-days-of-vue-hardcover@2x_v2.png\"/> </p> <h3 align=\"center\">   ✨ 30 Days of Vue ✨ </h3> <p align=\"center\">   An Introduction to Vue - in 30 Bite-Size Morsels. Written by the authors of <a href=\"https://fullstack.io/vue\">Fullstack Vue</a></a> </p> <p align=\"center\">   <a href=\"https://fullstack.io/30-days-of-vue\">     <img src=\"./images/download-button.png\" width=\"484\" height=\"83\" />   </a> </p>",
+  "main": "config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fullstackio/30-days-of-d3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fullstackio/30-days-of-d3/issues"
+  },
+  "homepage": "https://github.com/fullstackio/30-days-of-d3#readme",
+  "dependencies": {
+    "@fullstackio/cqmd": "^6.0.3",
+    "concurrently": "^4.1.1",
+    "live-server": "^1.2.1"
+  }
+}
