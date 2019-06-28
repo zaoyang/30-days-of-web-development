@@ -57,6 +57,7 @@ yarn serve
 <table>
   <tr>
     <td align="center"><a href='https://github.com/Monkeychip'><img src='https://avatars3.githubusercontent.com/u/6618863?v=4' width='140px;'/><h4 align='center'><a href='https://github.com/Monkeychip'>Angel Garbarino</a></h4></td>
+    <td align="center"><a href='https://newline.co'><img src='https://avatars2.githubusercontent.com/u/4318?v=4' width='140px;'/><h4 align='center'><a href='https://newline.co'>Nate Murray</a></h4></td>
   </tr>
 </table>
 
