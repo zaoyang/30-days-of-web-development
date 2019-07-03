@@ -78,7 +78,7 @@ It's worth stopping for a moment, and appreciating what you just did: you modifi
 
 I>Making changes in the DevTools doesn't modify the actual HTML.  You are only modifying what your browser is displaying.  In other words, you won't break anything.  If you refresh the page, all your changes go away.
 
-A browser's developer tools does way more than just allow you to make text changes.  You can modify colors, layout, run code, and see details of how the web page is loading.  Learning how to navigate and use the DevTools will be an essential skill that you will pickup on your way to becoming a Web Developer.  I've only introduced you to it, but we'll revisit it in later exercises and hopefully you start exploring some of it's functionality on your own. 
+A browser's developer tools does way more than just allow you to make text changes.  You can modify colors, layout, run code, and see details of how the web page is loading.  Learning how to navigate and use the DevTools will be an essential skill that you will pickup on your way to becoming a Web Developer.  I've only introduced you to it, but we'll revisit it in later exercises and hopefully you start exploring some of its functionality on your own. 
 
 Tomorrow we'll learn more about operating systems, and why understanding some of their key concepts will help you understand the foundations of web development.
 
