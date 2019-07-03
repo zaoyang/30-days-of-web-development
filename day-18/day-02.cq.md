@@ -45,7 +45,7 @@ I want to stress; because I was unsure when I first started my journey, you can 
 
 A widely circulated illustration for what it takes to become a Web Developer can be found at the bottom of the W3School's[^w3s] page ["Web Development Roadmaps."](https://www.w3schools.com/whatis/)  I 💛 this field guide, but honestly I think it's better suited for those at say course level 201, not 101. On day 30 of this series, I will introduce a Field Guide better suited for the very beginners, those who are considering signing up for a bootcamp, or are curious, but are not quite sure what it means when someone says "Learn the Basics."
 
-In the next series of articles, we'll setup key tools we'll need in this journey.  The first being the browser's Developer Tools.
+In the next series of articles, we'll setup key tools we'll need in this journey.  The first being the Chrome DevTools.
 
 [^BLS]:https://www.bls.gov/ooh/computer-and-information-technology/home.htm
 [^devmtn]:https://devmountain.com/guides/learn-web-development
