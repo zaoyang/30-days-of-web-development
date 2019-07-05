@@ -6,7 +6,7 @@ coverImageBackgroundPosition: "50% 87%;"
 
 # Day 03 - Operating System - Setup & Tooling
 
-Most folks probably know that "Operating System" means something with a computer, and _maybe_ involves Steve Jobs, Bill Gates, or was it was Mark Zuckerberg...  
+Most folks know that "Operating System" means something with a computer, and _maybe_ involves Steve Jobs, Bill Gates, or was it was Mark Zuckerberg...  
 
 This inaccurate and shallow understanding of an Operating System is satisfactory for everyday use.  However, it's not sufficient for those who want to work in web development.
 
@@ -22,11 +22,7 @@ A lot.  Generally speaking, they manage the hardware of your computer. Your comp
 
 * **Managing Memory**. Your computer's memory primarily comes from RAM (rapid-access memory).  All process, applications, actions on a computer requires some amount of memory. It's common for computers to come shipped with anywhere from 4-16+ gigabytes of RAM.
 
-// image of solder ram? anyone?
-
 * **Managing Storage**.  Memory and storage are different. The amount of RAM you have says nothing about the amount of storage your computer has. Storage is associated directly with your computer's hard disk drive or solid state drive.  Storage is where data stays until forcefully removed.  Things remain in storage even when your computer is off.
-
-// image of storage?
 
 T>When you save a word doc, that goes into storage.  When you open the word application, like Google Docs that requires RAM.
 
@@ -36,7 +32,7 @@ In the following screenshot, you can see I have 16 gigabytes of memory, and 698.
 
 ![](public/assets/storage-memory.png)
 
-This all makes sense if you remember **your Operating System controls your computer's hardware**.  Your computer only listens to binary code (0s and 1s).  Via fancy translation, your Operating System listens to what you tell it- like "make a new file" - and it translates this command into something your computer can understand.  The result is your computer allocating memory and storage to "make new file."
+This all makes sense if you remember **your Operating System controls your computer's hardware**.  Your computer only listens to binary code (0s and 1s).  Via fancy translation, your Operating System listens to what you tell it- like "make a new file" - and it translates this command into something your computer can understand.  The result is your computer allocating memory and storage to "make a new file."
 
 ## Different Types of Operating Systems
 
@@ -56,7 +52,7 @@ Though you may not know it, you’re very familiar with GUI’s. These are progr
 
 An example of a popular GUI is the Finder program, see the following screenshot.  The equivalent program in Windows is “Finder Explorer.”
 
-[](public/assets/finder-example.png)
+![](public/assets/finder-example.png)
 
 MacOS and Windows OS have slightly different ways of organizing and presenting files. Functionally, these differences will not matter to us. However, if you find any of the examples difficult because you are using a different operating system, please reach out to us for assistance.
 
@@ -76,14 +72,12 @@ Remember a moment ago when I said that your Finder program was a GUI?  Well a GU
 
 ![](public/assets/finder-shell.png)
 
-The Finder program is just another type of shell that goes around your Operating System.  We'll learn about other types of Shells in later exercises.
-
 ## Why Again do I need to know this?
 
 You don't need to be an Operating System expert to be a Web Developer.  You should, however, as a developer, understand some of the fundamentals.  
 
 Code doesn't just run on its own.  When you write programs or applications for other people to use, they will be using computers.  And guess what those computers will be using to run your programs or application?  An operating system.
 
-What if you write an amazing web application, but it zaps all of your users' RAM? Your users probably won't be that happy.  If you've ever had the pleasure of using Microsoft Excel you'll know that once you make anything slightly North of complicated on that program, your computer comes screeching halt, because it has taken all your computer's RAM trying to run. 
+What if you write an amazing web application, but it zaps all of your users' RAM? Your users probably won't be that happy.  If you've ever had the pleasure of using Microsoft Excel you'll know that once you make anything slightly North of complicated on that program, your computer comes to a screeching halt, because it has taken all your computer's RAM trying to run. 
 
 In our next installment of the series, we'll finish up our Setup & Tooling by installing our text editor.

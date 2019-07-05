@@ -10,7 +10,7 @@ I>A **text editor** is not the same as a **word processor**.  A word processor, 
 
 Technically, you could use your computer's default text editor to write code.  However, because developers use their text editors so much, it shouldn't surprise you to learn they have developed fancy, sophisticated text editors for the sole purpose of writing code.
 
-For these exercises, I am going to suggest you use the **VSCode** text editor.  For several reasons: it's free, easy to navigate for beginners, and is a great first code editor that you can continue to use as you advance in web development.
+For these exercises, I am going to suggest you use the **VSCode** text editor.  For several reasons: it's free, easy to navigate for beginners, and is a great first text editor that you can continue to use as you advance in web development.
 
 W>I refuse to be brought into a debate about which text editor is better than another.  By suggesting folks start off with VSCode I am not making a statement that it is better than say Sublime or Atom. In fact, either of those would also be fine substitutes.  I'll leave the text editor debates to those also debating Windows vs. Mac.
 
@@ -58,11 +58,7 @@ Now, back in VSCode, open the file you just downloaded by clicking File -> Open,
 
 ![](public/assets/vs-5.png)
 
-VSCode is just an application that lets you modify documents.  Just like Microsoft Word allows you to edit word docs.  The difference is, text editors are designed to modify documents of "code".
-
-I> I keep putting "code" in quotes because the precise definition of code is a complex one.  HTML and CSS are not technically code, but in later exercises we will be editing .html and .css files in our text editor.
-
-7\. One very helpful thing about text editors is that they give line/row numbers.  We will use these in our examples to describe where on the document you should look.  So for example, if I say "on row 3", I mean the row with the sloth fact.
+7\. One very helpful thing about text editors like VSCode is that they give line/row numbers.  We will use these in our examples to describe where on the document you should look.  So for example, if I say "on row 3", I mean the row with the sloth fact.
 
 ![](public/assets/vs-6.png)
 
@@ -76,6 +72,4 @@ You don't have to use this command, but it's helpful if you have a big file and 
 
 By the end of these 30 days, you'll have more practice using VSCode and should get more comfortable using it. VSCode has a lot more bells and whistles, and if you'd like to learn more about them, I recommend VSCode's ["Getting Started" videos](https://code.visualstudio.com/docs/introvideos/basics).
 
-That's it for Setup & Tooling.  We now are set with navigating the DevTools, understanding some key concepts about our Operating System, and VSCode setup. 
-
-Tomorrow, we'll start looking at the foundational language of the web, HTML. 
+That's it for Setup & Tooling.  Tomorrow, we'll start looking at the foundational language of the web, HTML. 
