@@ -47,4 +47,4 @@ That is what plain text looks like.  Without markup, there are no links, and all
 
 T>HTML is a markup language, not a programming language.  Programming languages allow you to run a process or execute an action, which HTML does not do.
 
-Now that we have acquainted ourselves with HTML, tomorrow we'll get into it's syntax, i.e., how to write it.
+Now that we have acquainted ourselves with HTML, tomorrow we'll get into HTML's syntax, i.e., how to write it.
