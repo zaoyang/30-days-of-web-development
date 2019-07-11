@@ -4,7 +4,7 @@ coverImageBackgroundPosition: "50% 87%;"
 
 # Day 07 - Playing with Elements and Tags - HTML
 
-We should know be comfortable understanding the basic syntax of HTML. Today we'll start using what we learned yesterday to change the look of a web page.
+We should now be comfortable understanding the basic syntax of HTML. Today we'll start using what we learned yesterday to change the look of a web page.
 
 #### Exercise: Uncomment HTML
 
@@ -48,3 +48,4 @@ Feel free to change to the text to whatever you'd like, but in my example, I cha
 Keep playing around if you'd like.  To experiment with more HTML tags, checkout W3Schools list [here](https://www.w3schools.com/tags/).
 
 Tomorrow we'll spice 🌶 things up by using the DevTools to play with a Web Pages Tags and Elements.
+// ARG: no longer true, talk about rendering and DOM instead.
