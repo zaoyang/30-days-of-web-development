@@ -3,9 +3,9 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 06 - Tags and Elements - HTML
+# Day 07 - Tags and Elements - HTML
 
-Yesterday we learned that HTML is a kind of Markup Language.  HTML, however, is not the only type of Markup Language, this blog post for example is written in a Mark*down*[5]. 
+Yesterday we learned that HTML is a kind of Markup Language.  HTML, however, is not the only type of Markup Language, this blog post, for example, is written in a Mark*down*[5]. 
 
 If I wanted to write a **bold word** in this blog post, I start and end the word with double asterisks `**bold words**`.  In HTML, I would write bold words like this: `<b>bold words</b>`.  
 
@@ -20,14 +20,14 @@ HTML **tags** are special keywords surrounded by a pair of angle brackets `<tag 
 | `<em>keyword: em </em>` | *keyword: em* |
 | `<h3>keyword: h3 </h3>` | <h3>keyword: h3 </h3> |
 
-Some tags, like the tag used to display an image `<img >`, do not have a closing version.  This is because you do not need to define a opening and closing to display an image, just a location of where the image can be found.
+Some tags, like the tag used to display an image `<img >`, do not have a closing version.  This is because you do not need to define an opening and closing to display an image, just a location of where the image can be found.
 {#porcupine}
 
 | HTML | In a browser | 
 | :--------------------------: | :---------------: | 
 | `<img src="./porcupine.png">` | ![](public/assets/porcupine.png) |
 
-There are close to 100 HTML tags [^html-tags].  Below are some of the more common ones.  If they have an closing tag, I've included it.
+There are close to 100 HTML tags [^html-tags].  Below are some of the more common ones.  If they have a closing tag, I've included it.
 
 | Tag       | Tag Name          | Definition                            |
 | :-------: | :---------------: | :-----------------------------------: |
@@ -64,6 +64,6 @@ Where tags are used to define the start and stop of an element, elements refer t
 T> **Elements vs. Tag**
 T> Elements are made up of tags, tags are not made up of elements.  Elements are the building blocks of HTML.   Example of an element: `<p>Paragraph Element</p>`, example of a tag `<p>` 
 
-Today was all reading and no doing.  Tomorrow, we'll change that and get our start playing with Tags and Elements using VSCode.
+Today was all reading and no doing.  Tomorrow, we'll change that and get our start playing with tags and elements using VSCode.
 
 [^foo3]: https://en.wikipedia.org/wiki/List_of_document_markup_languages

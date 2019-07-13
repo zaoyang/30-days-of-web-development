@@ -2,13 +2,13 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 01 - How to Add Style - CSS
+# Day 09 - Giving your HTML some style 😎 - CSS
 
-In the previous chapter, we introduced you to HTML.  You learned some basic syntax and should have walked away with a rough understanding of what a web page is.
+In the last several blog posts we looked at HTML.
 
-Admittedly, all the examples in that chapter didn't look very good. They were rather dull, with no color or unique font. In this chapter, we'll change that. 
+Admittedly, all the examples in the HTML articles didn't look very good. They were rather dull, with no color or unique font. We're going to change that by introducing **CSS**.
 
-Here we are going to introduce you to  **CSS**.  CSS works hand-in-hand with HTML to give your web page "style."
+CSS works hand-in-hand with HTML to give your web page "style."
 
 This chapter is an overview of CSS, covering some of the more essential concepts, and reviewing basic syntax.
 
