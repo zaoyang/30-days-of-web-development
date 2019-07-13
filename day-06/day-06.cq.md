@@ -1,69 +1,50 @@
-
 ---
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 06 - Tags and Elements - HTML
+# Day 05 - HTML is a Markup Language - HTML
 
-Yesterday we learned that HTML is a kind of Markup Language.  HTML, however, is not the only type of Markup Language, this blog post for example is written in a Mark*down*[5]. 
+HyperText Markup Language, better known as HTML, is  the foundational language of all content on the web.
 
-If I wanted to write a **bold word** in this blog post, I start and end the word with double asterisks `**bold words**`.  In HTML, I would write bold words like this: `<b>bold words</b>`.  
+To better understand what HTML is, let's break down the acronym.  
 
-Each markup language uses its own rules to define blocks of text and assign formatting.  HTML does this by using **tags** and **elements**.  
+### HyperText
 
-#### HTML Tags
-HTML **tags** are special keywords surrounded by a pair of angle brackets `<tag keyword>`. Most tags come in pairs, with an opening and closing tag. The closing tag is the same as an opening tag with the addition of a forward-slash. The closing bold tag looks like this `</b>`.   
+The "HT," **HyperText** refers to a system of linking topics to related information.  In short, it means a page that links to other pages.  
 
-| HTML | In a browser | 
-| :--------------------------: | :---------------: | 
-| `<b>keyword: b </b>` | **keyword: b** |
-| `<em>keyword: em </em>` | *keyword: em* |
-| `<h3>keyword: h3 </h3>` | <h3>keyword: h3 </h3> |
+When you have a web page linking to other web pages, you have a website.  If you go back to the first [web page ever built](http://info.cern.ch/hypertext/WWW/TheProject.html), you'll notice it's literally just that: an HTML file that has links to other HTML files.
 
-Some tags, like the tag used to display an image `<img >`, do not have a closing version.  This is because you do not need to define a opening and closing to display an image, just a location of where the image can be found.
-{#porcupine}
+![](public/assets/3-website-links.png)
 
-| HTML | In a browser | 
-| :--------------------------: | :---------------: | 
-| `<img src="./porcupine.png">` | ![](public/assets/porcupine.png) |
+### Markup Language
 
-There are close to 100 HTML tags [^html-tags].  Below are some of the more common ones.  If they have an closing tag, I've included it.
+The "ML" in HTML stands for **markup language**.  Markup language is a generic term that refers to *any* language that tells you how to format a digital document.  It does this via a standardized set of rules.  These rules are different depending on which markup language you are using.
 
-| Tag       | Tag Name          | Definition                            |
-| :-------: | :---------------: | :-----------------------------------: |
-| `<p></p>` | Paragraph      | To define the start and stop of a paragraph. |
-| `<h1></h1>` | Heading      | These can range from h1 - h6.  The higher the number, the smaller the heading.  <h3>heading 3</h3> <h6>heading 6</h6> |
-| `<br>` | Line break     | Inserts a single line break. <br> There’s a single line break between these two sentences. |
-| `<div></div>` | Division     | A division is a container to hold other elements.  It's very helpful in helping separate blocks of HTML|
-| `<em></em>` | _Italic text_     | *italic text* |
-| `<a></a>` | Anchor     | You use the anchor tag to define what text should be clickable and where the click should take you. <a href="https://www.fullstack.io/">I navigate to the Fullstack.io website.</a> |
+Markup is easy to take for granted because almost all the interactions we have with text have markup applied.  When you are writing in a word processor, typing an email, or even looking at spreadsheets, you're looking at markup. 
 
-#### HTML Elements
-HTML **elements** are individual components of HTML defined by HTML **tags**.  At first glance, **elements** and **tags** can easily be mistaken for the same thing, but the key to remember is that elements are made up of tags, but tags are not made up of elements.  
+In the following screenshot, all these popular interfaces - Google docs, email, and Google Spreadsheets - are using markup.  
 
-To help clarify, see the following examples of tags vs. elements.   
+![](public/assets/4-doc-email-spreadsheet.png)
 
-<b>Tags</b>
-{lang=html,crop-start-line=1,crop-end-line=1}
-    <p>
-    </p>
-    <b>
-    </b>
-    <img>
+Text that does not have markup is called **plain text**, and it's unlikely that you see it very often. 
 
-<b>Elements</b>
-{lang=html,crop-start-line=1,crop-end-line=1}
-    <p></p>
-    <p>This text and the tags are considered an element</p>
-    <b>bold</b>
-    <img>
-    <img src="https://somewebsite.com/upload/image_of_mountain.jpg">
+To help demonstrate what markup does, we are going to look at what the first website looks like without any markup, i.e., in **plain text**. 
 
-Where tags are used to define the start and stop of an element, elements refer to _both_ the opening and closing tag and everything in-between.  The elements that don't require a closing tag, like the `<img>` element, are called **void elements**.  Elements are the building blocks of a web page and are a key concept that we will continue to revisit. 
+#### Exercise: Plain Text vs. Markup 
+1\. Open the [first website](http://info.cern.ch/hypertext/WWW/TheProject.html) in a browser window.
 
-T> **Elements vs. Tag**
-T> Elements are made up of tags, tags are not made up of elements.  Elements are the building blocks of HTML.   Example of an element: `<p>Paragraph Element</p>`, example of a tag `<p>` 
+2\. Select and Copy all the text on the web page.
 
-Today was all reading and no doing.  Tomorrow, we'll change that and get our start playing with Tags and Elements using VSCode.
+3\. Open the [My Text Area](http://www.mytextarea.com/) website in another browser window.
 
-[^foo3]: https://en.wikipedia.org/wiki/List_of_document_markup_languages
+4\. Paste the copied first website content onto the My Text Area web page.[^My-Text-Area] 
+
+You should see the following:
+
+![](public/assets/5-plain-text.png)
+
+That is what plain text looks like.  Without markup, there are no links, and all the text looks the same.  Try this experiment with other text from a word processor, emails, or web pages.  Seeing the markup stripped away will give you a better understanding of what markup does.   
+
+T>HTML is a markup language, not a programming language.  Programming languages allow you to run a process or execute an action, which HTML does not do.
+
+Now that we have acquainted ourselves with HTML, tomorrow we'll get into HTML's syntax, i.e., how to write it.

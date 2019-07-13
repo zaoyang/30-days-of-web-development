@@ -1,75 +1,45 @@
+
+
 ---
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 04 - Text Editor - Setup & Tooling
+# Day 03a - GUIs and Shells
 
-Every mainstream computer comes with what is called a **text editor**.  What this means is that this program edits text without adding markup, i.e. in plain text.  Developers use text editors to assist in writing "code".
+Continuing our Operating System discussion from yesterday, we now understand generally what Operating Systems do.  There are some more convoluted differences between the different types of Operating System, but the one we are concerned with is the GUI and Shell.  Two terms we will introduce and talk about today.
 
-I>A **text editor** is not the same as a **word processor**.  A word processor, something like Microsoft Word or Open Office, adds styling to text (e.g., margins, font-size, bold, italic, etc.).  A text editor does not. When you write code, it's crucial that you *do not* use a word processor because the added styling will corrupt your code.
+### GUI's
 
-Technically, you could use your computer's default text editor to write code.  However, because developers use their text editors so much, it shouldn't surprise you to learn they have developed fancy, sophisticated text editors for the sole purpose of writing code.
+Though you may not know it, you’re very familiar with GUI’s. These are programs designed to make it easy for the everyday computer user to do things with their computer. They use graphics, icons, and menus to make navigation and executing commands easy.
 
-For these exercises, I am going to suggest you use the **VSCode** text editor.  For several reasons: it's free, easy to navigate for beginners, and is a great first text editor that you can continue to use as you advance in web development.
+An example of a popular GUI is the Finder program, see the following screenshot.  The equivalent program in Windows is “Finder Explorer.”
 
-W>I refuse to be brought into a debate about which text editor is better than another.  By suggesting folks start off with VSCode I am not making a statement that it is better than say Sublime or Atom. In fact, either of those would also be fine substitutes.  I'll leave the text editor debates to those also debating Windows vs. Mac.
+![](public/assets/finder-example.png)
 
-#### Exercise: Setting up VSCode
+MacOS and Windows OS have slightly different ways of organizing and presenting files. Functionally, these differences will not matter to us. However, if you find any of the examples difficult because you are using a different operating system, please reach out to us for assistance.
 
-In this Exercise, we are going to download/install VSCode, and practice opening and navigating around a text file.
+## Shell and the Kernel
 
-1\. Download VSCode [here](https://visualstudio.microsoft.com/downloads/).
+Shell and Kernels are about as deep as we need our learning of Operating Systems to go for now.  However, understanding even on a surface level, these two terms will clarify _how_ you can work with an Operating System; something you'll be doing as a web developer.
 
-![](public/assets/vs-1.png)
+A **Shell** is an interface that gives you access to your computer’s Operating System. Think of it as a wrapper around your Operating System - technically it wraps around your Operating System’s Kernel. Hence the name Shell - a shell/protective barrier - around the brain/core of your computer.
 
-You'll want to select the Free version which you can find under "Visual Studio Code".  See the pink box in the screenshot.  Also, make sure you are downloading the correct version.  If you are on Windows you will need to select "Windows", and not "macOS", like I have here.
+The **Kernel** is a computer program, that is the core of your computer's Operating System.  For our purposes, it's enough to know that it connects all your computers application software to the hardware of your computer.  Most like to think the Kernel is the Operating System.  This is not accurate, however, as it's only a part of the Operating System, not the whole thing.
 
-2\. Once you click download, a zip file will start downloading.  Open it when it's done.  Once downloaded move the VSCode application to your Applications folder.
+![](public/assets/pistachio.png)
 
-3\. Open VSCode like you would any other Application.
+### GUI's are a type of Shell
 
-![](public/assets/vs-2.png)
+Remember a moment ago when I said that your Finder program was a GUI?  Well a GUI is also a type of Shell.  It makes sense if you think about it.  You use your Finder to do things to your Operating System's file system, like make or delete folders and files.
 
-4\. First things first, let's make this thing look good.  The default theme in VSCode is pretty good, but I want to show you where you can modify these settings in case you have different preferences.
+![](public/assets/finder-shell.png)
 
-Open VSCode preferences by clicking Code -> Preferences -> Settings.
+## Why Again do I need to know this?
 
-![](public/assets/vs-3.png)
+You don't need to be an Operating System expert to be a Web Developer.  You should, however, as a developer, understand some of the fundamentals.  
 
-Once you're in Preferences, search for "theme" in the search navigation (see the top-most <span style="color:#960064">pink</span> box in the following screenshot).
+Code doesn't just run on its own.  When you write programs or applications for other people to use, they will be using computers.  And guess what those computers will be using to run your programs or application?  An operating system.
 
-![](public/assets/vs-4.png)
+What if you write a fantastic web application, but it zaps all of your users' RAM? Your users probably won't be that happy.  If you've ever had the pleasure of using Microsoft Excel, you'll know that once you make anything slightly North of complicated on that program, your computer comes to a screeching halt, because it has taken all your computer's RAM trying to run. 
 
-After searching for "theme" an area will come up where you can select a different theme.
-
-Out of the box, VSCode comes with a variety of themes.  I am using a theme called "Verdandi" because it's light and easy to take screenshots from (Verdandi is not included by default. I had to download it).  For now, just play around with different themes and see which one you like best.
-
-I>If you want to explore even more themes, you can find them in the [VSCode Marketplace](https://marketplace.visualstudio.com/search?term=themes&target=VS&category=Tools&vsVersion=&subCategory=All&sortBy=Relevance).
-
-5\. Now that we have our vanity taken care of, let's open a simple text file using VSCode.
-
-Download the following [`test-file.txt`](public/src/1-setup/test-file.txt).
-
-Now, back in VSCode, open the file you just downloaded by clicking File -> Open, and select the file `test-file.txt`.
-
-![](public/assets/6-file-open.png)
-
-6\. Once open, you should see something like the following screenshot - remember your theme/look is likely different than mine.  
-
-![](public/assets/vs-5.png)
-
-7\. One very helpful thing about text editors like VSCode is that they give line/row numbers.  We will use these in our examples to describe where on the document you should look.  So for example, if I say "on row 3", I mean the row with the sloth fact.
-
-![](public/assets/vs-6.png)
-
-Use the keyboard shortcut `control + g` to navigate to a specific row. Once you hit that command you'll be asked to type in a line number.  Here I typed in 2, and you can see the line 2 in highlighted is light-yellow.
-
-![](public/assets/vs-7.png)
-
-You don't have to use this command, but it's helpful if you have a big file and want to navigate to a specific line/row number quickly. Try it out and see if you find it helpful.
-
-8\. One last "how to" that we should know for VSCode is saving.  Saving here is just like saving in any other application.  You can go to File -> Save, or as I prefer, use a keyboard shortcut `command + s` (control for Windows users).
-
-By the end of these 30 days, you'll have more practice using VSCode and should get more comfortable using it. VSCode has a lot more bells and whistles, and if you'd like to learn more about them, I recommend VSCode's ["Getting Started" videos](https://code.visualstudio.com/docs/introvideos/basics).
-
-That's it for Setup & Tooling.  Tomorrow, we'll start looking at the foundational language of the web, HTML. 
+In our next blog post, we'll setup one last web developer tool by installing a text editor.

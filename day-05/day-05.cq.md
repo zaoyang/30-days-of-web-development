@@ -2,49 +2,56 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 01 - HTML is a Markup Language - HTML
+# Day 04 - Text Editor - Setup & Tooling
 
-HyperText Markup Language, better known as HTML, is  foundational language of all content on the web.
+Every mainstream computer comes with what is called a **text editor**.  What this means is that this program edits text without adding markup, i.e., in plain text.  Developers use text editors to assist in writing "code".
 
-To better understand what HTML is, let's break down the acronym.  
+I>A **text editor** is not the same as a **word processor**.  A word processor, something like Microsoft Word or Open Office, adds styling to text (e.g., margins, font-size, bold, italic, etc.).  A text editor does not. When you write code, it's crucial that you *do not* use a word processor because the added styling will corrupt your code.
 
-### HyperText
+Technically, you could use your computer's default text editor to write code.  However, because developers use their text editors so much, it shouldn't surprise you to learn they have developed fancy, sophisticated text editors for the sole purpose of writing code.
 
-The "HT," **HyperText** refers to a system of linking topics to related information.  In short, it means a page that links to other pages.  
+For this blog series, I am going to suggest you use the **VSCode** text editor.  For several reasons: it's free, easy to navigate for beginners, and is a great first text editor that you can continue to use as you advance in web development.
 
-When you have a web page linking to other web pages, you have a website.  If you go back to the first [web page ever built](http://info.cern.ch/hypertext/WWW/TheProject.html), you'll notice it's literally just that: an HTML file that has links to other HTML files.
+W>I refuse to debate which text editor is better than another.  By suggesting folks start off with VSCode I am not making a statement that it is better than say Sublime or Atom. In fact, either of those would also be fine substitutes.  I'll leave the text editor debates to those also debating Windows vs. Mac.
 
-![](public/assets/3-website-links.png)
+#### Exercise: Setting up VSCode
 
-### Markup Language
+1\. Download VSCode [here](https://visualstudio.microsoft.com/downloads/).
 
-The "ML" in HTML stands for **markup language**.  Markup language is a generic term that refers to *any* language that tells you how to format a digital document.  It does this via a standardized set of rules.  These rules are different depending on which markup language you are using.
+![](public/assets/vs-1.png)
 
-Markup is easy to take for granted because almost all the interactions we have with text have markup applied.  When you are writing in a word processor, typing an email, or even looking at spreadsheets, you're looking at markup. 
+You'll want to select the Free version which you can find under "Visual Studio Code."  See the pink box in the screenshot.  Also, make sure you are downloading the correct version.  If you are on Windows you will need to select "Windows," and not "macOS," as I have here.
 
-In the following screenshot, all these common interfaces - Google docs, email, and Google Spreadsheets - are using markup.  
+2\. Once you click download, a zip file will start downloading.  Open it when it's done.  Once downloaded, move the VSCode application to your Applications folder.
 
-![](public/assets/4-doc-email-spreadsheet.png)
+3\. Open VSCode like you would any other Application.
 
-Text that does not have markup is called **plain text**, and it's unlikely that you see it very often. 
+![](public/assets/vs-2.png)
 
-To help demonstrate what markup does, we are going to look at what the first website looks like without any markup, i.e., in **plain text**. 
+4\. Next, let's open a simple text file using VSCode.
 
-#### Exercise: Plain Text vs. Markup 
-1\. Open the [first website](http://info.cern.ch/hypertext/WWW/TheProject.html) in a browser window.
+Download the following [`test-file.txt`](public/src/1-setup/test-file.txt).
 
-2\. Select and Copy all the text on the web page.
+Back in VSCode, open the file you just downloaded by clicking File -> Open, and select the file `test-file.txt`.
 
-3\. Open the [My Text Area](http://www.mytextarea.com/) website in another browser window.
+![](public/assets/6-file-open.png)
 
-4\. Paste the copied first website content onto the My Text Area web page.[^My-Text-Area] 
+6\. Once open, you should see something like the following screenshot (your theme/look is likely different than mine).  
 
-You should see the following:
+![](public/assets/vs-5.png)
 
-![](public/assets/5-plain-text.png)
+7\. One helpful thing about text editors like VSCode is that they give line/row numbers.  We will use these in our examples to describe where on the document you should look.  So for example, if I say "on row 3", I mean the row with the sloth fact.
 
-That is what plain text looks like.  Without markup, there are no links, and all the text looks the same.  Try this experiment with other text from a word processor, emails, or web pages.  Seeing the markup stripped away will give you a better understanding of what markup does.   
+![](public/assets/vs-6.png)
 
-T>HTML is a markup language, not a programming language.  Programming languages allow you to run a process or execute an action, which HTML does not do.
+Use the keyboard shortcut `control + g` to navigate to a specific row. Once you hit that command, you'll be asked to type in a line number.  Here I typed in 2, and you can see the line 2 in highlighted is light-yellow.
 
-Now that we have acquainted ourselves with HTML, tomorrow we'll get into HTML's syntax, i.e., how to write it.
+![](public/assets/vs-7.png)
+
+You don't have to use this command, but it's helpful if you have a big file and want to navigate to a specific line/row number quickly. Try it out and see if you find it useful.
+
+8\. One last, "how to" that we should know for VSCode is saving.  Saving here is just like saving in any other application.  You can go to File -> Save, or as I prefer, use a keyboard shortcut `command + s` (control for Windows users).
+
+By the end of these 30 days, you'll have more practice using VSCode and should get more comfortable using it. VSCode has a lot more bells and whistles, and if you'd like to learn more about them, I recommend VSCode's ["Getting Started" videos](https://code.visualstudio.com/docs/introvideos/basics).
+
+That's it for Setup & Tooling.  Tomorrow, we'll start looking at the foundational language of the web, HTML. 

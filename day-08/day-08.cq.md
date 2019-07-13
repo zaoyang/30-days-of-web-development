@@ -2,53 +2,50 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 08 - How the browser "reads and writes" HTML
+# Day 07 - Playing with Elements and Tags - HTML
 
-I think we can agree that HTML does not look like a web page.  In the following screenshot, what we see on the left (HTML) is not what we see on the right (web page).
+We should now be comfortable understanding the basic syntax of HTML. Today we'll start using what we learned yesterday to change the look of a web page.
 
-![](public/assets/rendering.png)
+#### Exercise: Uncomment HTML
 
-So how does the browser take HTML elements like the following `<h1></h1>` and `<img >` and turn them into more appealing text and a porcupine image?
+1\. Download and open in VSCode the following html document [`html-practice.html`](public/src/html-practice.html).
 
-The browser does this through a process called **rendering**.  The terms render (also referred to as "process") is used throughout programming, and in general, it merely means to display.
+2\. In your text editor, you'll notice that a lot of the HTML is <span style="color:grey">greyed-out </span> (my theme colors the comment<span style="color:grey">grey</span>, but depending on your theme it maybe a different color).  That is because the majority of the HTML is commented out.
 
-I am going to treat the rendering process like it is a recipe for making sausages.  I want to give you just enough to get a general understanding, but I don't want to scare you off with too many details.
+The "Uncomment #1" indicates the HTML snippet I want to uncomment here for practice.
 
-![](public/assets/sausage-making.png)
+![](public/assets/6-first-website-html-intro.png)
 
-### Rendering Engine
+I>Comments wrap around the text you want to comment out, with an opening set of characters and closing set of characters.  To comment around HTML, you use a less than character <, plus an open exclamation point ! followed by two dashes --.  This opens the comment.  To close the comment, you use two dashes -- followed by a greater than character >.  Here’s an example: `<!-- to my left is open, to my right is close -->`.  The text in-between the opening and closing set of characters is what is commented out.
 
-When a browser retrieves an HTML file, it uses its **rendering engine** to read the file from top to bottom.  While reading the HTML file, the rendering engine **parses** the HTML.  Parsing, put simply, is the browser working through the markup.  
+Comments are helpful because they allow us to write out HTML without it being displayed in the browser.  When we're ready to display the HTML snippet, we remove the comments wrapping the snippet.
 
-During the parsing process, the browser is checking for proper nesting structure, and loading any external resources the HTML file tells it to use.  
+To delete a comment (a.k.a "uncomment"), you need to remove the opening `<!--` and closing `-->`.  So for example, the first comment we will uncomment is #1. 
 
-In most web pages the HTML document will include several `<script>` and  `<link>` tags.  These tags include links to external files[^external] and indicate to the rendering engine that to display the web page, it will need to get these files and apply their instructions as well. We will cover some of these external file types in greater detail in the following chapters. 
+![](public/assets/7-html-comments.png)
 
-![](public/assets/script-link.png)
+Here's what it looks like after uncommenting #1.
+![](public/assets/8-uncommented.png)
 
-I>When investigating the first web page, we didn't encounter any of these external files because the first web page didn't require any additional styling, images, or functionality. However, we do run into these file types in the next chapter, so for now, take note.
+3\. Next, make sure you save your changes, and then review them in the browser.  On your computer, go to where the "html-practice.html" file lives.  Right click on it and open it with Chrome.
 
-Once the rendering engine is done parsing the HTML, it turns what it read into a model called the **DOM Tree**.
+4\.  Once opened in the browser, assuming you have uncommented #1, you should see something like the following screenshot:  
 
-### DOM 
-{#DOM}
+![](public/assets/uncomment-1.png)
 
-The Document Object Model, a.k.a. DOM (pronounced: Dom as in *Dom*inique), is the browser's completed model of what the HTML will look like.  It's referred to as the DOM Tree because it looks like a tree diagram.  Each HTML element is represented as a **node** on the diagram. 
+5\. Let's test out the HTML elements we introduced in yesterdays article. In VSCode go ahead and uncomment snippets #2, #3, #4, and #5. These four snippets show the bold `b`, italic `em`, heading-3 `h3`, and `img` tags.
 
-W> The DOM is an important concept.  Get a general understanding of it now, and more difficult programming concepts will make sense faster later on.  It's not the most intuitive concept, so take your time, and try and wrap your head around it.
+Notice there is no closing tag on the `<img>` element. Everything you need to display the image is contained within the opening `<` and closing angle brackets `>`.
 
-I find that words are not enough to quite explain what a DOM tree is; it is best visualized.  In the following diagram, hopefully, the connection between the HTML elements -> DOM -> web page comes through.
+Hopefully, by uncommenting the HTML you can see how the various HTML tags work and effect what you see on the browser.
 
-The `<body></body>` element is the trunk and coming off the trunk are the `<p></p>` and `<h1></h1>` elements.  They are illustrated this way to demonstrate that each element is a _node_ .  And the `<p></p>` and `<h1></h1>` elements branch *off* of the `<body></body>` element.
+6\. For our last step, let's modify the #4 tag, the `h3` tag.  Let's change it to a paragraph tag and change the text.
 
-The tree should help illustrate the elements' relationship to one another.
+Feel free to change to the text to whatever you'd like, but in my example, I changed it to "meeping".
 
-![](public/assets/DOM-Tree-Diagram.png)
+![](public/assets/h3-p.png)
 
-In the previous screenshot, I have illustrated 3 elements as DOM nodes.  The `<body></body>` element is the main "tree" because it wraps the other elements.  In other words, the `<h1></h1>` and `<p></p>` elements are nested inside of the `<body></body>` element.   Thus, these elements becomes branches off of the main `<body></body>` element.
+Keep playing around if you'd like.  To experiment with more HTML tags, checkout W3Schools list [here](https://www.w3schools.com/tags/).
 
-Of course, the real DOM Tree doesn't look like something out of Dr. Seuss' Lorax, but the idea is the DOM Tree is a model of the HTML elements' relationship to each other. 
-
-The DOM Tree is a crucial concept because it's the DOM tree that you modify and play with.  The DOM is an abstraction of the HTML.
-
-// ARG: tmrw we'll
+Tomorrow we'll spice 🌶 things up by using the DevTools to play with a Web Pages Tags and Elements.
+// ARG: no longer true, talk about rendering and DOM instead.

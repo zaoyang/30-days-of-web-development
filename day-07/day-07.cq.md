@@ -1,51 +1,69 @@
+
 ---
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 07 - Playing with Elements and Tags - HTML
+# Day 06 - Tags and Elements - HTML
 
-We should now be comfortable understanding the basic syntax of HTML. Today we'll start using what we learned yesterday to change the look of a web page.
+Yesterday we learned that HTML is a kind of Markup Language.  HTML, however, is not the only type of Markup Language, this blog post for example is written in a Mark*down*[5]. 
 
-#### Exercise: Uncomment HTML
+If I wanted to write a **bold word** in this blog post, I start and end the word with double asterisks `**bold words**`.  In HTML, I would write bold words like this: `<b>bold words</b>`.  
 
-1\. Download and open in VSCode the following html document [`html-practice.html`](public/src/html-practice.html).
+Each markup language uses its own rules to define blocks of text and assign formatting.  HTML does this by using **tags** and **elements**.  
 
-2\. In your text editor, you'll notice that a lot of the HTML is <span style="color:grey">greyed-out </span> (my theme colors the comment<span style="color:grey">grey</span>, but depending on your theme it maybe a different color).  That is because the majority of the HTML is commented out.
+#### HTML Tags
+HTML **tags** are special keywords surrounded by a pair of angle brackets `<tag keyword>`. Most tags come in pairs, with an opening and closing tag. The closing tag is the same as an opening tag with the addition of a forward-slash. The closing bold tag looks like this `</b>`.   
 
-The "Uncomment #1" indicates the HTML snippet I want to uncomment here for practice.
+| HTML | In a browser | 
+| :--------------------------: | :---------------: | 
+| `<b>keyword: b </b>` | **keyword: b** |
+| `<em>keyword: em </em>` | *keyword: em* |
+| `<h3>keyword: h3 </h3>` | <h3>keyword: h3 </h3> |
 
-![](public/assets/6-first-website-html-intro.png)
+Some tags, like the tag used to display an image `<img >`, do not have a closing version.  This is because you do not need to define a opening and closing to display an image, just a location of where the image can be found.
+{#porcupine}
 
-I>Comments wrap around the text you want to comment out, with an opening set of characters and closing set of characters.  To comment around HTML, you use a less than character <, plus an open exclamation point ! followed by two dashes --.  This opens the comment.  To close the comment, you use two dashes -- followed by a greater than character >.  Here’s an example: `<!-- to my left is open, to my right is close -->`.  The text in-between the opening and closing set of characters is what is commented out.
+| HTML | In a browser | 
+| :--------------------------: | :---------------: | 
+| `<img src="./porcupine.png">` | ![](public/assets/porcupine.png) |
 
-Comments are helpful because they allow us to write out HTML without it being displayed in the browser.  When we're ready to display the HTML snippet, we remove the comments wrapping the snippet.
+There are close to 100 HTML tags [^html-tags].  Below are some of the more common ones.  If they have an closing tag, I've included it.
 
-To delete a comment (a.k.a "uncomment"), you need to remove the opening `<!--` and closing `-->`.  So for example, the first comment we will uncomment is #1. 
+| Tag       | Tag Name          | Definition                            |
+| :-------: | :---------------: | :-----------------------------------: |
+| `<p></p>` | Paragraph      | To define the start and stop of a paragraph. |
+| `<h1></h1>` | Heading      | These can range from h1 - h6.  The higher the number, the smaller the heading.  <h3>heading 3</h3> <h6>heading 6</h6> |
+| `<br>` | Line break     | Inserts a single line break. <br> There’s a single line break between these two sentences. |
+| `<div></div>` | Division     | A division is a container to hold other elements.  It's very helpful in helping separate blocks of HTML|
+| `<em></em>` | _Italic text_     | *italic text* |
+| `<a></a>` | Anchor     | You use the anchor tag to define what text should be clickable and where the click should take you. <a href="https://www.fullstack.io/">I navigate to the Fullstack.io website.</a> |
 
-![](public/assets/7-html-comments.png)
+#### HTML Elements
+HTML **elements** are individual components of HTML defined by HTML **tags**.  At first glance, **elements** and **tags** can easily be mistaken for the same thing, but the key to remember is that elements are made up of tags, but tags are not made up of elements.  
 
-Here's what it looks like after uncommenting #1.
-![](public/assets/8-uncommented.png)
+To help clarify, see the following examples of tags vs. elements.   
 
-3\. Next, make sure you save your changes, and then review them in the browser.  On your computer, go to where the "html-practice.html" file lives.  Right click on it and open it with Chrome.
+<b>Tags</b>
+{lang=html,crop-start-line=1,crop-end-line=1}
+    <p>
+    </p>
+    <b>
+    </b>
+    <img>
 
-4\.  Once opened in the browser, assuming you have uncommented #1, you should see something like the following screenshot:  
+<b>Elements</b>
+{lang=html,crop-start-line=1,crop-end-line=1}
+    <p></p>
+    <p>This text and the tags are considered an element</p>
+    <b>bold</b>
+    <img>
+    <img src="https://somewebsite.com/upload/image_of_mountain.jpg">
 
-![](public/assets/uncomment-1.png)
+Where tags are used to define the start and stop of an element, elements refer to _both_ the opening and closing tag and everything in-between.  The elements that don't require a closing tag, like the `<img>` element, are called **void elements**.  Elements are the building blocks of a web page and are a key concept that we will continue to revisit. 
 
-5\. Let's test out the HTML elements we introduced in yesterdays article. In VSCode go ahead and uncomment snippets #2, #3, #4, and #5. These four snippets show the bold `b`, italic `em`, heading-3 `h3`, and `img` tags.
+T> **Elements vs. Tag**
+T> Elements are made up of tags, tags are not made up of elements.  Elements are the building blocks of HTML.   Example of an element: `<p>Paragraph Element</p>`, example of a tag `<p>` 
 
-Notice there is no closing tag on the `<img>` element. Everything you need to display the image is contained within the opening `<` and closing angle brackets `>`.
+Today was all reading and no doing.  Tomorrow, we'll change that and get our start playing with Tags and Elements using VSCode.
 
-Hopefully, by uncommenting the HTML you can see how the various HTML tags work and effect what you see on the browser.
-
-6\. For our last step, let's modify the #4 tag, the `h3` tag.  Let's change it to a paragraph tag and change the text.
-
-Feel free to change to the text to whatever you'd like, but in my example, I changed it to "meeping".
-
-![](public/assets/h3-p.png)
-
-Keep playing around if you'd like.  To experiment with more HTML tags, checkout W3Schools list [here](https://www.w3schools.com/tags/).
-
-Tomorrow we'll spice 🌶 things up by using the DevTools to play with a Web Pages Tags and Elements.
-// ARG: no longer true, talk about rendering and DOM instead.
+[^foo3]: https://en.wikipedia.org/wiki/List_of_document_markup_languages
