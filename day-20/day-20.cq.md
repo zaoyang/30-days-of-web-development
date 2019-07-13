@@ -2,53 +2,72 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 01 - What is Web Development
+# Day 20 - Summary of some of the top Programming languages summary
 
-Let's look at what Web Development is and why you might be interested in learning more about it. 
+// just what they are used for, and the car analogy. Only do about 5.
 
-I>**Web Developers** are also called **Programmers**, **Developers**, **Software Engineers**, **Coders**, and the list goes on.  The key to all of these nouns is that they describe someone who makes or builds web programs, web applications, and/or web pages.
+OK, so now we have a sense of what programming languages are "popular", but popularity still isn't enough to decide what language(s) to learn; being an Alaskan Crabber could be super _popular_, but that doesn't mean you want to live your days cold and on a boat.
 
-##Can you become a Web Developer?
+Our next step is to look at what these top programming languages are used for.
 
-Assuming you have access to a computer, the internet, and the self-motivation to take learning into your own hands, I can confidently answer **Yes**.  Yes, you can become a Web Developer.
+In this investigation, I will cover 4 of the most popular programming languages (according to Github's Octoverse), and what type of things they are used for.  I cover the remaining 6 languages in the "How to Become a Web Developer: A Field Guide", in addition to adding code snippets and examples of companies that use the language.
 
-Learning about Web Development is not only for the hoodied introvert who overuses the word "algorithm."  Web Development is one of the few careers attainable via a self-taught curriculum, opening itself up to incredibly diverse group of people.  
+W>**Disclaimer**: In the following sections, I'll be speaking in very broad terms to try and give you a sense of the space as a beginner -- each of these languages are versatile, and you’ll see them being used in lots of ways. Consider what I’m describing as a stereotype, with all of the benefits and drawbacks that come from generalizing.
 
-According to Stack Overflow's 2019 Developer Survey Results, close to 37% of Professional Developers do *not* have an undergraduate degree in Computer Science[^stackoverfloweducation].  
+> **Car Analogy**: To help relate these languages to something you are more familiar with, at the end of each discussion, I'll relate the language back to a car[^analogy].
 
-![](public/assets/stackoverflow-undergraduate-degree.png)
+### JavaScript: The Language of the Web
 
-Many developers, myself included, are self-taught, or have sought additional non-collegiate means to learn their skills; bootcamps, on-job training, etc.  Teaching yourself the skills to get hired as a Web Developer is very accessible, especially compared to a profession like nursing; no tricky questions about how to find a cadaver or willing friend for practice 😬.
+As we learned in an earlier blog post, JavaScript is seemingly everywhere on the web. It's in every web browser, every smartphone, and billions - literally billions - of other devices.
 
-Second, learning about Web Development is not just for those that want to _be_ Web Developers.  Learning the basics of Web Development is valuable to those working on the periphery of the software/computer world.  If you work for Software as a Service company “SaaS,” either in Sales, Customer Service, Quality Assurance, etc. there are a lot of little tricks and tidbits about Web Development that we’ll cover in these 30 days that will improve your ability to do what you do.
+JavaScript is a great first Programming Language to learn. I would suggest that anyone going into programming should learn JavaScript to an intermediate level.
 
-## Should I become a Web Developer?
+> If JavaScript were a car, it would be a **Honda Civic**. It's everywhere, affordable, only needs an oil change to keep it going, and dang do people like to trick them out! _React - the Library that enhances JavaScript - is a lot like your cousin's tricked-out Civic_.
 
-This is a question I can't answer.  However, I give you some potential persuasive statistics.
+> ![](images/5-Programming-Languages/honda.png)
 
-T>A personal story`:` Post-college, I have worked as an Economist, a Barista, a Bartender, Personal Trainer, Event Manager, and now as Frontend Developer.  In my current position, I work remotely - from home 🏡 - and I absolutely love my job. I solve problems, I am challenged, and work with a diverse, smart group of co-workers.  Additionally, I know that as I grow my skills, my job prospects and job security rise correspondingly.  I think it's a solid career path.
+### Java: An Industry Workhorse
 
-The field of Web Development is growing, and the demand is high.  According to the Bureau of Labor Statistics, Computer and IT occupations are the fastest growing of all US occupations[^BLS].  Additionally, there is a shortage of qualified people to fill those jobs.  A commonly cited statistic is, "that by 2020, there will be a 1.4 million computing jobs in 2020, with only 400,000 qualified developers to fill them[devmtn]."  A little research shows this is likely a flawed assumption[^flawed], especially taking into consideration the growing international developer community.  That being said, the demand and jobs are there.
+Not in any way related to JavaScript, Java is a language that is extremely mature. It is well supported and used in lots of applications, including very large services.
 
-The **$$$** isn't bad either. Back to StackOverflow's Annual Developers Survey, we can see at the very least, a career in Web Development can pay in the six-figure range.
+While some may consider Java "verbose", Java is also considered a relatively easy Programming Language to learn. It has a large class library, and a strong open-source community - meaning that a lot of functionality is already written for you.
 
-**United States**
-![](public/assets/salary-us.png)
+Java is used for both web applications, like Google Docs, and also for applications on your computer. For example, any Open Office[^openoffice] application - think applications like Microsoft Word or Excel - is written in Java.
 
+Java is now owned by Oracle[^oracle], so if you are using Oracle products, then it's a safe bet that Java is involved.
 
-**Global**
-![](public/assets/salary-global.png)
+Java is also a popular language for use in Android Smartphone applications, and the Internet of Things (IoT).
 
-## How do I become a Web Developer?
+T>The term IoT will come up in other programming languages. It essentially means anything that provides a system of related computer devices that talk to each other over a network[^iot]. Examples include things like home security systems (e.g., Nest), or Amazon Alexa and Google Assistant[^iotex].
 
-I want to stress; because I was unsure when I first started my journey, you can learn how to become a Web Developer _and_ find a job in the field _on your own_.  You don't need a bootcamp, or university degree.  It will take work, self-discipline, and likely won't come without some costs, most notably opportunity costs. Meaning, you'll have to give up some things in your life to make way for the time commitment this will take.
+A downside of Java is that historically it tends to use up a lot of memory (though this has improved in recent years). It is powerful, but that power comes at a cost.
 
-A widely circulated illustration for what it takes to become a Web Developer can be found at the bottom of the W3School's[^w3s] page ["Web Development Roadmaps."](https://www.w3schools.com/whatis/)  I 💛 this field guide, but honestly I think it's better suited for those at say course level 201, not 101. On day 30 of this series, I will introduce a Field Guide better suited for the very beginners, those who are considering signing up for a bootcamp, or are curious, but are not quite sure what it means when someone says "Learn the Basics."
+> If Java were a car, it would be a **Sprinter Van**. It's practical, strong, easy to adapt to whatever utility. But it's a little slow and forget about getting under its hood.
 
-In the next series of articles, we'll setup key tools we'll need in this journey.  The first being the Chrome DevTools.
+### Python: Bring on the Data
 
-[^BLS]:https://www.bls.gov/ooh/computer-and-information-technology/home.htm
-[^devmtn]:https://devmountain.com/guides/learn-web-development
-[^flawed]:http://econdataus.com/claim400k.htm
-[^stackoverfloweducation]:https://insights.stackoverflow.com/survey/2019#education
-[^w3s]: W3School is a popular website for learning all things web development.
+Python has grown into a very popular language used for software development, infrastructure management, and data science. It is also a key driver in big data analytics, and artificial intelligence (AI)[^python].
+
+Python can be used for desktop General User Interface (a.k.a. GUI) applications; think of any application you download and put on your computer. For example, Dropbox's Desktop interface is built using Python[^dropdox].
+
+![](images/5-Programming-Languages/dropbox.png)
+
+Where Python shines is in **data science**. The libraries for scientific and mathematical computing in Python are mature and widely used in both industry and academia.
+
+Nearly all of the popular open-source libraries for _Deep Learning_ (such as Tensorflow or PyTorch) are based on Python. If you are interested in machine learning or artificial intelligence, then Python is a mandatory language to learn.
+
+> If Python were a car, it would be the **BMW 3 Series**. The BMW 3 Series has long been acknowledged as the best of luxury sedans for many years. It's reliable and still offers high performance.
+
+### PHP: One of the Web’s Original Languages
+
+PHP, though on a mild downward trend, is not going away anytime soon. WordPress is built on PHP. If you are not already familiar with WordPress, it is a website creation tool. WordPress _is the largest_ Website Creation tool, and it is estimated that 27% of the websites on the internet are powered using WordPress[^wp]. If you want to build WordPress websites, you'll need to know PHP.
+
+Facebook also uses PHP. However, Facebook is somewhat "old", and it is generally thought that if Facebook were to be started today, they would use something other than PHP.
+
+That said, PHP is still very powerful, which is why Facebook can still use it. But you’ll find that most Silicon Valley companies don’t choose PHP for new projects anymore. Instead, they tend to favor other technologies like Node.js[^node], [Ruby on Rails](https://rubyonrails.org/) or other languages like Java/Python for this role.
+
+PHP used to be the de facto Programming Language to learn after JavaScript, but with the rise of Node.js, Java, and Python, this is not the case anymore. While PHP still has its advocates, I would only recommend learning PHP if you want to work on WordPress sites, or the job you want is looking for PHP developers.
+
+> If PHP were a car, it would be the **Toyota Camry**. The Toyota Camry is better today than it has ever been (just like the new PHP 7). The Camry was one of Toyota's best selling vehicles for many years. But times are changing, and everyone wants SUVs.
+
+//Next we'll cover places to look for jobs.
