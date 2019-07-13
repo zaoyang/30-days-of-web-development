@@ -2,21 +2,15 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 02 - 
-
----
-coverImageBackgroundPosition: "50% 87%;"
----
-
 # Day 02 - Developer Tools - Setup & Tooling
 
-Now that we know what Web Development *is* and *why* we want to learn more about it, let's get setup with some essential tooling.
+Now that we know what Web Development *is* and *why* we want to learn more, let's get set up with some essential tooling.
 
 ## Developer Tools
 
-Every modern browser comes with its own web developer tools (also called DevTools). These tools are used heavily by - you guessed it - Web Developers. DevTools aim to help developers test and debug their code.
+Every modern browser comes with web developer tools (also called DevTools). These tools are used heavily by - you guessed it - Web Developers. The DevTools aim to help developers test and debug their code.
 
-A good chunk of our future exercises will require we use a web browser and developer tools.  We will be using the Chrome web browser, and subsequently the Chrome DevTools.
+A good chunk of our future exercises will require we use a web browser and DevTools.  We will be using the Chrome web browser, and subsequently, the Chrome DevTools.
 
 ### Opening Chrome DevTools
 
@@ -28,7 +22,7 @@ With a web page open, hold `command + alt + j` (Windows Users: `ctrl + shift + j
 
 ![](public/assets/4-keyboard.png)
 
-Once you have the DevTools open you should see the following window pop-up.
+Once you have the DevTools open, you should see the following window pop-up.
 
 ![](public/assets/devtools-1.png)
 
@@ -44,11 +38,11 @@ A couple of things to note:
 
 ![](public/assets/devtools-2.png)
 
-The Elements panel shows the web page as "code".  A good way to visual what the Elements panel does is to think of the web page as a stitching.  The Elements panel would then be the backside of the stitches; they're one and the same, one is just prettier.
+The Elements panel shows the web page as "code."  A good way to visualize what the Elements panel does is to think of the web page as a stitching.  The Elements panel would then be the backside of the stitches; they're the same, one is just prettier.
 
 ![](public/assets/stitching.png)
 
-3\. To help demonstrate how the DevTools can be useful we are going to change the text of something on a web page.  For this example, we are going to use the very first website ever created.  Built in 1991 by CERN, it’s rather incredible that this first website is still visible and usable today.
+3\. To help demonstrate how the DevTools can be useful, we are going to change the text of something on a web page.  For this example, we are going to use the very first website ever created.  Built-in 1991 by CERN, it’s rather incredible that this first website is still visible and usable today.
 
 **Open the first website** in your Chrome browser by clicking on the [link here](http://info.cern.ch/hypertext/WWW/TheProject.html).
 
@@ -56,11 +50,11 @@ The Elements panel shows the web page as "code".  A good way to visual what the 
 
 ![](public/assets/elements-tab.png)
 
-Under the Element’s section is the HTML of the web page.  We will be playing with the heading element.
+Under the Element’s section is the HTML of the web page.  We will be playing with the heading Element.
 
-Click on the `<h1></h1>` Element.  This is the Element that makes the header of the web page read "**World Wide Web**".
+Click on the `<h1></h1>` element.  This is the element that makes the header of the web page read "**World Wide Web**".
 
-I>We talk more about **Elements** and **Tags** in an upcoming article. For now, it's enough to know they represent the structure of the web page.
+I>We talk more about **elements** and **tags** in an upcoming article. For now, it's enough to know they represent the structure of the web page.
 
 5\. Now, double-click on the `World Wide Web` text, and change the text from "World Wide Web" to "Your First Website."  To see the change take effect, click outside of the Elements panel.
 
@@ -68,9 +62,9 @@ Now look at the web page and see that the text inside the `<h1></h1>` element ha
 
 ![](public/assets/change-h1.png)
 
-It's worth stopping for a moment, and appreciating what you just did: you modified a web page!  Nicely done.   
+It's worth stopping for a moment, and appreciate what you just did: you modified a web page!  Nicely done.   
 
-A browser's developer tools does way more than just allow you to make text changes.  You can modify colors, layout, run code, and see details of how the web page is loading.  Learning how to navigate and use the DevTools will be an essential skill that you will pickup on your way to becoming a Web Developer.
+A browser's developer tools do way more than allow you to make text changes.  You can modify colors, layout, run code, and see details of how the web page is loading.  Learning how to navigate and use the DevTools will be an essential skill that you will pick up on your way to becoming a Web Developer.
 
 Tomorrow we'll learn more about Operating Systems, and why understanding some of their key concepts will help you understand the foundations of Web Development.
 
