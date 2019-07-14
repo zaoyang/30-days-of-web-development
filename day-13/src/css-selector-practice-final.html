@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <style>
+      div { 
+        border: 5px solid black;
+        margin-bottom: 20px; /* creates space between the two div tags */
+        padding: 10px; /* creates space between the border and the text */
+        width: 50%; /* sets the width of the div tags to be 50% of the window */
+      }
+      
+      .border { border: 5px dotted #D7A3EE }
+      
+      .green { border: 5px solid #689A09 }
+            
+      #rainbow { 
+        border: 10px solid;
+        border-color: #4E1DD9 #D7A3EE #ED240E #689A09; 
+        border-radius: 5px; /* makes a rounded corner look */
+      }
+      
+    </style>
+  </head>   
+  <body>
+    <h1>CSS Selector Practice</h1>
+    <div class="border green" id="rainbow">
+        <p>I am a paragraph inside the div with a class name of "border".
+            I also have a second class name "blue", and an Id of "pink".</p>
+    </div>  
+    <div class="border">
+      <p>I am a paragraph inside the div with a class name of "border"</p>
+    </div>  
+  </body>
+</html>

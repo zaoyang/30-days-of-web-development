@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <style>
+      /* Uncomment #1 - Tag selector
+      div { 
+        border: 5px solid black;
+        margin-bottom: 20px;
+        padding: 10px;
+        width: 50%;
+      }
+      */
+
+      /* Uncomment #2 - Class selector
+      .border { border: 5px dotted #D7A3EE }
+      */
+
+      /* Uncomment #3 - Class selector chaining
+      .green { border: 5px solid #689A09 }
+      */
+      
+      /* Uncomment #4 - Id trumps them all
+      #rainbow { 
+        border: 10px solid;
+        border-color: #4E1DD9 #D7A3EE #ED240E #689A09; 
+        border-radius: 5px;
+      }
+      */
+    </style>
+  </head>   
+  <body>
+    <h1>CSS Selector Practice</h1>
+    <div class="border green" id="rainbow">
+      <p>I am a paragraph inside the div with a class name of "border".
+      I also have a second class name "blue", and an Id of "pink"</p>
+    </div>  
+    <div class="border">
+      <p>I am a paragraph inside the div with a class name of "border"</p>
+    </div>  
+  </body>
+</html>

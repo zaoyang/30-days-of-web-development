@@ -2,55 +2,56 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 13 - CSS color values
+# Day 13 - Playing with CSS Selectors
 
-### Color Values
+To get more comfortable with Selector Specificity, let's revisit our "css-practice.html" document.  I've gone ahead and added a couple more elements, some that now have class names and one with an Id.  I've also modified the Internal stylesheet so that we have "Uncomment sections" like we did in Day 8 when we played with HTML.
 
-Some CSS properties require a color value. For these CSS properties, we've just been writing out color names, such as <span style="color:deeppink">deeppink</span>. But naming a color is not the only color value CSS properties can accept. Below are some of the more common color values.
+1\. Go ahead and open this new file that I am now calling: [`css-selector-practice`](src/css-selector-practice) in your text editor and a Chrome browser window. 
 
-|    Color Value    |                                                                                                           Description                                                                                                           |
-| :---------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|       blue        |                                                              **Color Name**. This is what we have been using in our examples. The browser predefines these.                                                              |
-|     #0000FF;      | **Hexadecimal Colors**. These are specified with #RRGGBB, RR = red, GG = green, and BB = blue. All values are between 00 and FF.  #0000FF is blue because the last two digits are set to the highest value, FF. |
-|   rgb(0,0,255)    |      **RGB**. Similar to hex, the values read rgb(red, green, blue). The color's intensity can vary by an integer between 0-255. rgb(0,0,255) is blue because the third value - blue - is set to the highest number.      |
-| rgba(0,0,255,0.5) |                                   **RGBA**. Exactly like RGB but with an added alpha[^alpha] value that specifies the opacity. rgba(0,0,255,0.5) would be blue set at opacity 50%.                                   |
+2\. Like in our HTML uncomment practice we will be uncommenting the CSS sections one by one, and then discussing what happened.
 
-|       color: value       |                    Example                    |
-| :----------------------: | :-------------------------------------------: |
-|       color: blue        |       <p style="color:blue">Howdy!</p>        |
-|      color: #0000FF      |      <p style="color:#0000ff">Howdy!</p>      |
-|   color: rgb(0,0,255)    |   <p style="color:rgb(0,0,255)">Howdy!</p>    |
-| color: rgba(0,0,255,0.5) | <p style="color:rgba(0,0,255,0.5)">Howdy!</p> |
+Go ahead and uncomment #1, save the changes, and refresh the browser window.
+
+![](public/assets/uncomment-1.gif)
+
+This first example is using Tag selectors.  Specifically, it is targeting all `div` tags.  We haven't used div yet in any of our examples, but they are very helpful in organizing HTML. In short, div tags define a section of HTML[^div].
+
+We are using the Tag selector here to add a black border around all div tags.
+
+3\. Next, we'll uncomment #2, but before we do see if you can predict what will happen. Hint: Class selectors trump Tag selectors.
+
+OK, with your prediction made, go ahead an uncomment #2, save your changes, and refresh the browser window.
+
+You should see something like the following:
+![](public/assets/uncomment-2.png)
+
+Because the Class selector is _more_ specific than the Tag selector, the dotted pink border is what is applied.
+
+If you open the DevTools, you can see the black border CSS is crossed out, indicating that a more specific selector has overriden it.
+
+![](public/assets/uncomment-2-devtools.png)
+
+4\. Next, let's uncomment #3, and again, try and predict what is going to happen before seeing the changes.  Something to keep in mind, is that you can chain class names.  In this example, the first div has two class names: "border" _and_ "green".
+
+![](public/assets/uncomment-3.png)
+
+After uncommenting, saving your changes, and refreshing you'll see that only the first div has the green border, where the second has kept the pink dotted border. The use of multiple class names has made the green border more specific than just the one, and thus the green border trumps the pink.
+
+5\. Last step, let's uncomment #4, but again try and predict what is going to happen first.  Remember, Ids trump both Tags and Class selectors.
+
+![](public/assets/uncomment-4.png)
+
+Well, that's fun, I mean who doesn't like rainbows 🌈?
+
+The key here is that, yes, Ids trump them all, _but_ they can only be used one.  Just like Max's name in our Friends analogy in yesterday's article.
+
+I>You can find a final version of the "css-selector-practice.html" document [here](src/css-selector-practice-final), without any of the comments.
+
+That's it for today.  Hopefully, you have a better understanding of how CSS selectors effect how the browser determines what CSS to apply.  If you'd like to learn more, I recommend on of my favorite go-to CSS websites, "CSS-Tricks".  They have a [solid article](https://css-tricks.com/multiple-class-id-selectors/) on Selector Specificity that augments much of what I've discussed here.
+
+Tomorrow, we'll wrap up our CSS discussion by looking a CSS units.  If you've been wondering what the `px` means when I do something like `padding: 50px`, your confusion will be assuaged in tomorrow's post.
 
 
-// Modify
-To get more familiar with color values and units, we are going to be using the DevTool's Style pane to make changes to our previous Porcupine HTML document.
-
-1\. Open the previously complete [`3-adding-style/4-html-css-selector-final.html`](code/src/3-adding-style/4-html-css-selector-final.html) in a browser window.
- 
-2\. Open the DevTools.  In the Elements Panel, click on the paragraph with `id=answer` to select it.
-
-Notice under the Styles pane, that the `font-size: 16px` and the color is <span style="color:lawngreen">lawngreen</span>.  We are going to change that.
-
-![](images/3-CSS/porcupine-font-color.png)
-
-3\. Double-click on the font size and change it to `1em`, and then `2em`.  Watch the font size change pretty dramatically.  Remember `em` is a scalable unit, so a change from 1 to 2 makes a big difference.  Try changing it to something like `50%`, or `20pt`, and see what happens.  Play around.
-
-![](images/3-CSS/porcupine-font-color-2.png)
-
-4\. Next, double-click on the color lawngreen, and change it from `lawngreen` to `#0000FF`. That changes the color to <span style="color:#0000FF">blue</span>.  
-
-But what if you wanted to make the blue somewhat transparent?  Use the RGBA color unit, and set the last value to the level of transparency you'd like.  In the following screenshot, I've changed it to transparency 0.5 or 50% of its regular color `rgba(0,0,255,0.5)`.  
-
-![](images/3-CSS/porcupine-font-color-3.png)
-
-5\. Now let's play with the DevTools' Color Picker.  Click once on the color in the Styles pane, and the color picker will come up.  You can slide the rulers to change colors or click inside the color palette to choose colors.  
-
-![](images/3-CSS/porcupine-font-color-4.png)
-
-6\. If you click on the ↕ you can select any of the color value types.  This tool is super handy and fun to play around with.  
-
-![](images/3-CSS/porcupine-font-color-5.png)
 
 
-// next units
+[^div]:If you'd like to learn more I recommend W3Schools web page on them [here](https://www.w3schools.com/tags/tag_div.asp)
