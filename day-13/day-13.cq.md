@@ -31,25 +31,25 @@ If you open the DevTools, you can see the black border CSS is crossed out, indic
 
 ![](public/assets/uncomment-2-devtools.png)
 
-4\. Next, let's uncomment #3, and again, try and predict what is going to happen before seeing the changes.  Something to keep in mind, is that you can chain class names.  In this example, the first div has two class names: "border" _and_ "green".
+4\. Next, let's uncomment #3, and again, try and predict what is going to happen before seeing the changes.  Something to keep in mind is that you can chain class names.  In this example, the first div has two class names: "border" _and_ "green."
 
 ![](public/assets/uncomment-3.png)
 
 After uncommenting, saving your changes, and refreshing you'll see that only the first div has the green border, where the second has kept the pink dotted border. The use of multiple class names has made the green border more specific than just the one, and thus the green border trumps the pink.
 
-5\. Last step, let's uncomment #4, but again try and predict what is going to happen first.  Remember, Ids trump both Tags and Class selectors.
+5\. The last step, let's uncomment #4, but again try and predict what is going to happen first.  Remember, Ids trump both Tags and Class selectors.
 
 ![](public/assets/uncomment-4.png)
 
-Well, that's fun, I mean who doesn't like rainbows 🌈?
+Well, that's fun, I mean, who doesn't like rainbows 🌈?
 
 The key here is that, yes, Ids trump them all, _but_ they can only be used one.  Just like Max's name in our Friends analogy in yesterday's article.
 
 I>You can find a final version of the "css-selector-practice.html" document [here](src/css-selector-practice-final), without any of the comments.
 
-That's it for today.  Hopefully, you have a better understanding of how CSS selectors effect how the browser determines what CSS to apply.  If you'd like to learn more, I recommend on of my favorite go-to CSS websites, "CSS-Tricks".  They have a [solid article](https://css-tricks.com/multiple-class-id-selectors/) on Selector Specificity that augments much of what I've discussed here.
+That's it for today.  Hopefully, you have a better understanding of how CSS selectors affect how the browser determines what CSS to apply.  If you'd like to learn more, I recommend one of my favorite go-to CSS websites, "CSS-Tricks".  They have a [solid article](https://css-tricks.com/multiple-class-id-selectors/) on Selector Specificity that augments much of what I've discussed here.
 
-Tomorrow, we'll wrap up our CSS discussion by looking a CSS units.  If you've been wondering what the `px` means when I do something like `padding: 50px`, your confusion will be assuaged in tomorrow's post.
+Tomorrow, we'll wrap up our CSS discussion by looking at CSS units.  If you've been wondering what the `px` means when I do something like `padding: 50px`, your confusion will be assuaged in tomorrow's post.
 
 
 

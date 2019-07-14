@@ -2,63 +2,21 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 14 - CSS Color Values and Units
+# Day 14 - CSS Units
 
-### Color Values
+We've been using CSS Units throughout our examples, but I have yet to stop and address what they mean.
 
-Some CSS properties require a color value. For these CSS properties, we've just been writing out color names, such as <span style="color:deeppink">deeppink</span>. But naming a color is not the only color value CSS properties can accept. Below are some of the more common color values.
+CSS Units, like the Color value `blue` or `rgba(0,0,0,.5), are the value in the property:value pair of CSS.
 
-|    Color Value    |                                                                                                           Description                                                                                                           |
-| :---------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|       blue        |                                                              **Color Name**. This is what we have been using in our examples. The browser predefines these.                                                              |
-|     #0000FF;      | **Hexadecimal Colors**. These are specified with #RRGGBB, RR = red, GG = green, and BB = blue. All values are between 00 and FF.  #0000FF is blue because the last two digits are set to the highest value, FF. |
-|   rgb(0,0,255)    |      **RGB**. Similar to hex, the values read rgb(red, green, blue). The color's intensity can vary by an integer between 0-255. rgb(0,0,255) is blue because the third value - blue - is set to the highest number.      |
-| rgba(0,0,255,0.5) |                                   **RGBA**. Exactly like RGB but with an added alpha[^alpha] value that specifies the opacity. rgba(0,0,255,0.5) would be blue set at opacity 50%.                                   |
+Quick refresher:
 
-|       color: value       |                    Example                    |
-| :----------------------: | :-------------------------------------------: |
-|       color: blue        |       <p style="color:blue">Howdy!</p>        |
-|      color: #0000FF      |      <p style="color:#0000ff">Howdy!</p>      |
-|   color: rgb(0,0,255)    |   <p style="color:rgb(0,0,255)">Howdy!</p>    |
-| color: rgba(0,0,255,0.5) | <p style="color:rgba(0,0,255,0.5)">Howdy!</p> |
+![](public/assets/selector-property-value.png)
 
+Some CSS properties take color values, and others take CSS Units.  For example, the CSS padding property expects a CSS unit as a value.
 
-// Modify
-To get more familiar with color values and units, we are going to be using the DevTool's Style pane to make changes to our previous Porcupine HTML document.
+![](public/assets/selector-property-value-unit.png)
 
-1\. Open the previously complete [`3-adding-style/4-html-css-selector-final.html`](code/src/3-adding-style/4-html-css-selector-final.html) in a browser window.
- 
-2\. Open the DevTools.  In the Elements Panel, click on the paragraph with `id=answer` to select it.
-
-Notice under the Styles pane, that the `font-size: 16px` and the color is <span style="color:lawngreen">lawngreen</span>.  We are going to change that.
-
-![](images/3-CSS/porcupine-font-color.png)
-
-3\. Double-click on the font size and change it to `1em`, and then `2em`.  Watch the font size change pretty dramatically.  Remember `em` is a scalable unit, so a change from 1 to 2 makes a big difference.  Try changing it to something like `50%`, or `20pt`, and see what happens.  Play around.
-
-![](images/3-CSS/porcupine-font-color-2.png)
-
-4\. Next, double-click on the color lawngreen, and change it from `lawngreen` to `#0000FF`. That changes the color to <span style="color:#0000FF">blue</span>.  
-
-But what if you wanted to make the blue somewhat transparent?  Use the RGBA color unit, and set the last value to the level of transparency you'd like.  In the following screenshot, I've changed it to transparency 0.5 or 50% of its regular color `rgba(0,0,255,0.5)`.  
-
-![](images/3-CSS/porcupine-font-color-3.png)
-
-5\. Now let's play with the DevTools' Color Picker.  Click once on the color in the Styles pane, and the color picker will come up.  You can slide the rulers to change colors or click inside the color palette to choose colors.  
-
-![](images/3-CSS/porcupine-font-color-4.png)
-
-6\. If you click on the ↕ you can select any of the color value types.  This tool is super handy and fun to play around with.  
-
-![](images/3-CSS/porcupine-font-color-5.png)
-
-
-// next units
-
-
-### Units
-
-The pixel unit type `px` is one we've used several times. A `px` is a **Unit** that CSS properties use when describing the size of something. Any CSS property that deals with size takes `px`. But `px` is just one of the many unit sizes CSS properties accept.
+The pixel unit type `px` is a **Unit** that CSS properties use when describing the size of something. Any CSS property that deals with size accepts the CSS Unit `px`. But `px` is just one of the many unit sizes.
 
 | Unit |                                                                                                                   Description                                                                                                                    |
 | :--: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -87,37 +45,50 @@ Now let's see what happens when we use the same number for each unit type. Notic
 |  font-size: 5%   | <p style="font-size:5%">Howdy!</p>  |
 
 
-#### Exercise 4 of 6: Using the DevTools to play with colors and units
-//ARG will modify.
+#### Exercise: Using the DevTools to Play with Units
 
-To get more familiar with color values and units, we are going to be using the DevTool's Style pane to make changes to our previous Porcupine HTML document.
+To get more familiar with CSS Units, we are going to be using the DevTool's Style pane to make changes to our previous "css-practice-selector.html" file (with all the snippets uncommented).
 
-1\. Open the previously complete [`3-adding-style/4-html-css-selector-final.html`](code/src/3-adding-style/4-html-css-selector-final.html) in a browser window.
+1\. In a Chrome browser window, open [`css-units-selector.html`](code/src/3-adding-style/4-html-css-selector-final.html) (I renamed the file and changed the text in the header, but everything else is the same as the previous "css-selector-practice.html").
  
-2\. Open the DevTools.  In the Elements Panel, click on the paragraph with `id=answer` to select it.
+2\. Open the DevTools (cmd + alt +j).  Navigate to the Elements Panel and click on the `<h1>CSS Units Practice</h1>`.
 
-Notice under the Styles pane, that the `font-size: 16px` and the color is <span style="color:lawngreen">lawngreen</span>.  We are going to change that.
+Notice under the Styles pane, that the `font-size: 2em`.  This is the default font-size the browser automatically gives to any `h1` elements it sees.  We are going to change that.
 
-![](images/3-CSS/porcupine-font-color.png)
+![](public/assets/h1.png)
 
-3\. Double-click on the font size and change it to `1em`, and then `2em`.  Watch the font size change pretty dramatically.  Remember `em` is a scalable unit, so a change from 1 to 2 makes a big difference.  Try changing it to something like `50%`, or `20pt`, and see what happens.  Play around.
+3\. In the `element.style` section just above the h1 styles, adding `font-size: 5em`.  This will override the default CSS.
 
-![](images/3-CSS/porcupine-font-color-2.png)
+![](public/assets/5em.gif)
 
-4\. Next, double-click on the color lawngreen, and change it from `lawngreen` to `#0000FF`. That changes the color to <span style="color:#0000FF">blue</span>.  
+Watch the font size change pretty dramatically.  Remember `em` is a scalable unit, so a change from 2 to 5 makes a big difference.
 
-But what if you wanted to make the blue somewhat transparent?  Use the RGBA color unit, and set the last value to the level of transparency you'd like.  In the following screenshot, I've changed it to transparency 0.5 or 50% of its regular color `rgba(0,0,255,0.5)`.  
+4\. Next, select any of the paragraph elements, and just like we did in the previous step, try adding a new font-size, and this time make it `1em`.  Nothing should change.
 
-![](images/3-CSS/porcupine-font-color-3.png)
+Why is that?  Because 1em is the _base_, and em is a scalable unit, with the base of 1em. 
 
-5\. Now let's play with the DevTools' Color Picker.  Click once on the color in the Styles pane, and the color picker will come up.  You can slide the rulers to change colors or click inside the color palette to choose colors.  
+So what happens if we change it to 0.2em? Try it out. 
 
-![](images/3-CSS/porcupine-font-color-4.png)
+![](public/assets/small.png)
 
-6\. If you click on the ↕ you can select any of the color value types.  This tool is super handy and fun to play around with.  
+It gets a bit tough to see 🧐.
 
-![](images/3-CSS/porcupine-font-color-5.png)
+5\. Right now, I have the div tag's width set at 50%.  I'm using the percent CSS unit, that tells the div to be set at 50% of their parent's width.  
 
-// note much more to learn about CSS.
+**Parent** is a common term in CSS and HTML.  We won't cover it here, but for our purposes know that it is the element that *contains* the div.
 
-// Next JavaScript
+In our case, the "parent" to the div tags is the `<body></body>` element. 
+
+Let's change the `<body></body>` element's width to 50%, and see what happens.
+
+![](public/assets/body.gif)
+
+Notice, how the div tags shrunk?  Their width when from 50% of the full body to 50% of 50%, i.e., 25%.
+
+6\.  Continue playing around, adjusting various CSS units.  For example, try adjusting the paragraphs font-size to 20pt, or 500px.
+
+That wraps up our CSS discussion. CSS is powerful and has a lot more use cases and caveats that we did not have time to cover.  If you plan on going into Web Development, plan on spending a substantial amount of time learning CSS.  The more you learn about CSS, the more powerful of a developer you'll be.  
+
+In addition to the topics covered in these blog posts, I recommend spending time understanding the Cascading Mechanism, the CSS Box Model, FlexBox, and for fun, CSS animations.
+
+Next up, is JavaScript.  Like CSS, I cannot teach you JavaScript over a couple of blog posts, instead, I hope to get you familiar with what JavaScript is, what it does, and some understanding of how prevalent it is.
