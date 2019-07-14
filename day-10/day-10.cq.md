@@ -4,85 +4,104 @@ coverImageBackgroundPosition: "50% 87%;"
 
 # Day 10 - CSS and HTML together
 
+Yesterday we played with changing the color of an HTML element via the DevTools.
+
+W>Because this is not a course on CSS, I'm not going to spend much time on the different styles you can add to HTML elements, nor will I touch on how CSS effects HTML elements' position and layout.
+
+Today we're going to look at how you add CSS to a web page.
+
 ## How do you add CSS to a web page?
 
-There are three basic ways of adding CSS to your web page.  So far we've only explored one of them.  We've been adding CSS directly onto the HTML document, inside a `<style></style> ` element.  
+There are three basic ways of adding CSS to a web page.
 
-![](images/3-CSS/internal-style.png)
-
-This approach is called **Internal Style**, but it's just one of the three ways you can add CSS to an HTML document.
-
-We will cover each of these in more detail, but in summary, the three ways to add style to an HTML document are as follows:
-
-1. External stylesheet
+1. Inline style
 2. Internal stylesheet
-3. Inline style
+3. External stylesheet
 
-### 1. External stylesheet
+### 1. Inline style
 
-If you add CSS via an External Stylesheet you are telling the browser to find another file and use that for style.  You do this by adding a `<link>` element with an `href` attribute pointing to the CSS file. 
+One way to add CSS to HTML is via **Inline style**. Inline style adds CSS directly inside any HTML element[^anyhtmlelement]. To do this, you use the `style` attribute[^attr] on the HTML element you want to add style to.
 
-The browser looks for external stylesheets inside the `<head></head>` element.  If it sees a `<link>` element with reference to a CSS file, it knows to import it and use it.  
+For example, here is our Heading element with the color <span style="color:blue">blue</span> added via inline style.
 
-In the following example, the `<link>` element is telling the browser: use the file called "external-stylesheet.css" to apply style to this document.
+```css
+<h1 style="color: blue">Heading Size 1</h1>
+```
 
-![](images/3-CSS/external-stylesheet.png)
+**Inline** here means what it sounds like: the style is applied _in-line_ with the element.
 
-#### Exercise 5 of 6: Make an External CSS file.
+You can apply CSS this way to any element.  However, because of the way CSS rules sort themselves out (hint: sorting has everything to do with the C in CSS, "Cascading") inline styles are generally avoided, especially in more complex projects.
 
-Our previous Porcupine HTML file has been using an internal stylesheet. In this exercise, we're going to change that to an external stylesheet.
+#### Exercise: Inline Styles
 
-1\. Open [`3-adding-style/4-html-css-selector-final.html`](code/src/3-adding-style/4-html-css-selector-final.html) in your text editor.
+1\. Open up your previous "css-practice.html" file from yesterday.  If you don't have it open, here's a [quick link](public/src/css-practice.html)
 
-2\. Copy and remove (`command + x`) all the style between the style tag. 
+On row 3, add the inline style to the heading element, such that it reads like the following:
+```html
+<html>
+  <body>
+      <h1 style="color:blue">Heading Size 1</h1>
+```
 
-![](images/3-CSS/copy-and-remove.png)
+Save your changes.  Open the HTML document in your Chrome browser and see the heading element change. 
 
-3\. Now that we have all of our style removed from our HTML document, we are going to make a new file called `external-stylesheet.css`.
+Additionally, if you open your Chrome DevTools, you'll see that the `color:blue` is now added the `h1` styles.
 
-Open a new file in your text editor and paste all the previously copied style into it.  **Save** the file and name it `external-stylesheet.css`.  
+![](public/assets/blue-h1.)
 
-Notice the `.css` file ending.  That tells the editor and browser that this is a CSS file. 
-
-![](images/3-CSS/steps.png)
-
-If you'd like to see an example file, you can here: [`3-adding-style/external-stylesheet.css`](code/src/3-adding-style/external-stylesheet.css)
-
-4\. Go back to the HTML file, and inside the `<head></head>` element add a `<link>` element with the following information:
-
-![](images/3-CSS/now-linking.png)
-
-In the previous screenshot, the pink box with the multiple *X*s over it is the style you removed and have now replaced with the `<link>` element below it.
-
-If you'd like to copy-paste the link tag, you can find it on the [`3-adding-style/external-stylesheet-final.html`](code/src/3-adding-style/5-external-stylesheet-final.html)
-
-5\. **Save** the updated HTML file.  
-
-Go back to your finder, and open the file in a browser window.  As long as you've opened the HTML file in the same folder as the `external-stylesheet.css` file, you will see the CSS applied even though we've removed it from the HTML file.  
-
-I> To quickly summarize, you removed the previous style on the HTML page and moved it to its own CSS file.  You then linked to that new CSS file in the HTML document.  Thus, successfully adding style to a web page via an External Stylesheet.
 
 ### 2. Internal stylesheet
 
-Another way to add CSS to an HTML file is within the `<style></style>` element. This is an approach we are familiar with as we've been using this for all our earlier examples.  
+The second way to add CSS to an HTML file is within an HTML element called the **style** `<style></style>` element.
 
-The following is a refresher from our earlier `4-html-css-selector-final` example.  
+This approach adds the style element goes inside something called the head element of an HTML document.  You'll learn more about this element along with the other boilerplate HTML elements as you continue your studies.  I recommend the [W3School's page](https://www.w3schools.com/tags/tag_style.asp) on the style tag if you're interested in learning more.
 
-![](images/3-CSS/internal-style.png)
+To use an Internal stylesheet on our "css-practice.html" file we need to both add a `<head></head>` element and the `<style></style>` element. 
 
-Whether you are adding CSS via an **External stylesheet** or **Internal style** the syntax is the same.  You wrap the CSS in curly braces `{}`, i.e., a **declaration block**. And inside the declaration block, you list the **Property** followed by a colon `:` and then the **Value**.  Each property : value statement ends with a semicolon.
+T>There are some small syntax differences between adding Inline style vs. the other methods.  Unlike Inline styles, Internal and External stylesheets require you identify the element you want to add the style to and then surround the CSS in curly braces.  The syntax is important, and something you'll grasp with more practice.
 
-![](images/3-CSS/declaration-block.png)
+Here's a gif showing how I added an Internal stylesheet to the "css-practice.html" document.  
 
-### 3. Inline style
+![](public/assets/internal.gif)
 
-The third way to add CSS to HTML is via **Inline style**. Inline style adds CSS directly inside any HTML element[^anyhtmlelement]. To do this, you use the `style` attribute on the HTML element you want to add style to.
+I removed the Inline styles as it trumps Internal styles. If I did not remove the Inline style you would not see our color change.  This trumping/sorting comes from Cascading, something you'll want to learn more about, but we won't cover here.
 
-![](images/3-CSS/inline-css.png)
+Here are the HTML and CSS I added.  Feel free to copy-paste this snippet into the HTML file as I did in the gif.
 
-There are some small syntax differences between adding Inline style vs. the other methods.  Unlike External or Internal Stylesheets, Inline styles are surrounded in quotations after the `style` attribute, and there is no declaration block. See the example below.
+```html
+  <head>
+    <style>
+      h1 {
+        color: orange;
+      }
+    </style>
+  </head>
+```
 
-![](images/3-CSS/html-css-inline-syntax.png)
+The benefit of an Internal stylesheet is that it allows you to add a bunch of style to the various HTML element in the document you're working on.  However, this again is not the preferred method as it takes up space and doesn't make sense for larger projects with multiple pages of HTML.
 
-// Maybe small exercise with HTML file example
-// Cut this down.
+### 3. External stylesheet
+
+The preferred method for most projects is to add CSS via the External Stylesheet.
+
+I>In practice, you often find a combination of these three methods being used.
+
+If you add CSS via an External Stylesheet you are telling the browser to find another file and use that for style; hence "external".  You do this by adding a `<link>` element with an `href` attribute pointing to the CSS file. 
+
+In the following example, the `<link>` element is telling the browser: use the file called "external-stylesheet.css".
+
+```html
+<head>
+  <link rel="stylesheet" type="text/css" href="external-stylesheet.css">
+</head>
+```
+
+To keep things brief, we will not be making an External stylesheet, but I have included one that you can practice with - [see here](public/src/external-stylesheet.css). To use this External stylesheet make sure it's in the same folder as your "css-practice.html".  On the External stylesheet, I have added a couple of basic CSS styles to play with.  Amend, break, and play with as you see fit.
+
+Here is the [css-practice-final.html](public/src/css-practice-final.html) with the internal, and external stylesheets added if you'd like to look.
+
+Whew 🤯 - that was a lot.  If it all still seems a little foggy, don't worry it will get easier.  CSS is not something you get in one day, or from a couple blog posts.
+
+Tomorrow, we'll look more at CSS syntax.
+
+[^attr]: We won't cover attributes here, but I cover them in How to Become a Web Developer: A Field Guide, or you can read [this resource](https://www.w3schools.com/html/html_attributes.asp) by W3Schools.

@@ -8,7 +8,7 @@ We should now be comfortable understanding the basic syntax of HTML. Today we'll
 
 #### Exercise: Playing with HTML
 
-In this exercise we will be "uncommenting" out HTML.  A comment is effectively a way to hide HTML.  What I mean by hide will become clear as we work through this exercise.
+In this exercise, we will be "uncommenting" out HTML.  A comment is effectively a way to hide HTML.  What I mean by "hide" will become clear as we work through this exercise.
 
 To use comments, you wrap the HTML with an opening and closing comment tag. To open an HTML comment you use the less than character <, plus an open exclamation point ! followed by two dashes --.  To close the comment, you use two dashes -- followed by a greater than character >.  Here’s an example:
 
@@ -74,14 +74,14 @@ Back in VSCode, add the `<br>` tag in between the `<b></b>` element and the `<em
 
 ![](public/assets/break-up.gif)
 
-After saving your changes in VSCode, refresh the browser to see the changes take affect.
+After saving your changes in VSCode, refresh the browser to see the changes take effect.
 
 ![](public/assets/broken-up.png)
 
-That looks a little better.  And hopefully you're starting to see how HTML uses tags and elements to structure a web page.
+That looks a little better.  And hopefully, you're starting to see how HTML uses tags and elements to structure a web page.
 
 Keep playing around with different HTML elements and tags.  I recommend checking out W3Schools list of HTML tags and elements [here](https://www.w3schools.com/tags/).  There's a lot we didn't cover, so have at it!
 
-Tomorrow we will move on to introduce CSS, another markup language, that adds style to HTML.  We are moving away from HTML, but do not take that to mean there is nothing more regarding HTML you need to learn.  We skipped **a lot**.
+Tomorrow we I will introduce CSS - another markup language - that adds style to HTML.  We _are_ moving away from HTML, but do not take that to mean there is nothing more regarding HTML you need to learn.  We skipped **a lot**.
 
-I cover crucial HTML topics in "How to Become a Web Developer: A Field Guide," including such topics as attributes, nesting, child/parent relationships, indentations, rending and the Document Object Model.  These last couple of blog posts on HTML should be considered a sneak peek.
+T>I cover crucial HTML topics in "How to Become a Web Developer: A Field Guide," including such topics as attributes, nesting, child/parent relationships, indentations, rending and the Document Object Model.  These last couple of blog posts on HTML should be considered a sneak peek.

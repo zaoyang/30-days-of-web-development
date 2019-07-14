@@ -1,0 +1,17 @@
+body {
+  background-color: rgba(0,0,0,.1);
+}
+
+h1 {
+  color: #960064; /*This color is trumped by inline styles*/
+  text-align: center;
+}
+
+p {
+  font-size: 24px;
+  font-family: cursive;
+}
+
+img {
+  transform: rotate(180deg);
+}
