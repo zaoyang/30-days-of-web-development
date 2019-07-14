@@ -6,28 +6,48 @@ coverImageBackgroundPosition: "50% 87%;"
 
 HTML gives the web structure. CSS provides that structure with style.  **JavaScript makes that structure *interactive***.
 
-![](images/4-JavaScript/flying.png)
+![](public/assets/flying.png)
 
 To give you a better sense of what I mean by "interactive", we are going to play with JavaScript using HTML examples that have JavaScript already on them.
 
-T> **JavaScript is a programming language**, unlike HTML and CSS, which are markup languages. We will learn more about Programming Languages in [the Programming Languages Chapter](#programming-language-chapter).
+T> **JavaScript is a programming language**, unlike HTML and CSS, which are markup languages. We will learn more about Programming Languages in later blog posts.
 
-#### Exercise 1 of 12: What does "interactive" look like? {#exercise-1}
-1\. In the code that comes with this book, open the following HTML file in a web browser:
-[`4-javascript/js-example-1.html`](code/src/4-javascript/js-example-1.html). 
+#### Exercise: What does "interactive" look like? 
+
+1\. Open the following HTML file in a Chrome window:
+[`/js-example.html`](src/js-example.html). 
 
 Once open you should see a web page that looks something like the following:
 
-![](images/4-JavaScript/js-example.png)
+![](public/assets/js-example.png)
 
-2\.  The rabbit and turtle will start racing right away.  Play around with stopping and restarting the animation.  
+The rabbit 🐇 and turtle 🐢 will start racing right away.  Play around with stopping and restarting the animation.  
 
 3\.  The "racing" between the rabbit and turtle, as well as the buttons "stopping" and "restarting" the race is all done by JavaScript.  This is an example of what interactivity looks like.
 
-If you are curious and would like to look at the JavaScript causing this interactivity, in your text editor, navigate to row 61 on the `js-example-1.html` file.  Row 61 is where the JavaScript code starts.
+If you are curious and would like to look at the JavaScript causing this interactivity, in your text editor, navigate to row 61 on the `js-example.html` file.  Row 61 is where the JavaScript code starts.
 
-T>Don't let the code overwhelm you. I simply want to point out where it lives on the HTML file.  By no means do I expect you to understand it.  
+T>Don't let the code overwhelm you. I simply want to point out where it lives on the HTML file.  By no means do I expect you to understand it.
 
-In this chapter, I will introduce you to some core JavaScript concepts. During this process, you should start to understand - even if only generally - how JavaScript affects your interactions/experience with web pages.
+We will revisit the racing rabbit and turtle in a later blog post.  But let's look at some other amazing examples of JavaScript making the structure interactive.
 
-// Next, why is JavaScript important?
+#### [Histography](http://www.histography.io/)
+*http://www.histography.io/*
+
+Using JavaScript[^histography], this site pulls data in from events from a variety of sources including Wikipedia, Google image and YouTube.
+
+It consumes the data, and then makes it visually appealing and digestable to see 14 billion years of time.
+
+#### [Multeor](http://multeor.com/)
+*http://multeor.com/* 
+
+Written in JavaScript, Multeor is a multiplayer game that allows you to control a metoror crashing into earth.  Don't be fooled, you're not trying to save earth 🌎, but rather leave the biggest path of destruction.  Eight players can play at once.
+
+Multeor is impressive because most online games use other technologies/programming languages to handle complex animations. But Multeor, written in plain JavaScript, proves how powerful plain JavaScript _can_ be[^node].
+
+I>I use the word "plain" to describe JavaScript, because, as we'll learn later, there are lots of libraries and frameworks that build-off of JavaScript, enhancing the language.  When I say "plain", I mean written in pure JavaScript, not using one of these libraries or frameworks.
+
+Hopefully, these examples give you a sense of what JavaScript does; it adds interactivity.  Next, we'll look at why JavaScript is so important.
+
+[^histography]: According to various tech stack websites, Histography more specifically uses the jQuery library, which is a library built on-top of JavaScript. For those that have worked with jQuery, this blows my mind 🤯.
+[^node]: Multeor uses Node.js manages communications between the devices using WebSockets.

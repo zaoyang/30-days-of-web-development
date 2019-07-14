@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+     <style>
+       body { 
+        font-family: monospace; 
+      }
+      #racing-lane {
+        position: relative;
+      }
+      .racing {
+        display: inline-block;
+        position: absolute;
+      }
+      button{
+        font-size: 17px;
+        padding: 10px;
+        border-radius:25px;
+        color: #f7f8f9;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+      }
+      #button-holder {
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+        top: 200px;
+        position: relative;
+      }
+      #start {
+        background-color: #66993e;
+      }
+      #stop {
+        background-color: #960064;
+      }
+      #turtle {
+        margin-top: 75px;
+      }
+     </style> 
+  </head>
+  <body>
+    <h1>Go turtle Go!</h1>
+    <p>JavaScript is causing the following two images to race each other.</p>
+    <!-- Adding in the rabbit image.  It's an image element inside a div element -->
+    <div class="racing" id="rabbit">
+      <img src='./rabbit.png' width="200px">
+    </div>
+    <!-- Adding in the turtle image.  It's an image element inside a div element -->
+    <div class="racing" id="turtle">
+        <img src='./turtle.png' width="200px">
+    </div>
+    <div id="button-holder">
+      <button id="stop" onclick="stopRace()">
+        Stop the animation
+      </button>
+      <button id="start" onclick="location.reload()">
+        Restart the race
+      </button>
+    </div>
+    <script>
+      // Everything Between the Script tags is JavaScript
+      // You do not need to understand the code here
+
+      // Grabbing the elements by their Ids "rabbit" and "turtle"
+      // Assigning these elements a style of left = 0px
+      // the style left = "0px" means they are starting at the far left of the screen
+      document.getElementById("rabbit").style.left = "0px";
+      document.getElementById("turtle").style.left = "0px";
+
+      // Declaring a variable that starts the race with 500 ms intervals
+      var startTheRace = setInterval(startRace, 500);
+
+      // The function that determines the race speed
+      // Fast returns a higher number than slow, and that is used to set the style property left
+      // The higher the style.left property the quicker the image will move across the screen
+      function startRace() {
+        var fast = Math.round(Math.random() * 20);
+        var slow = Math.round(Math.random() * 18);
+        document.getElementById("rabbit").style.left =
+          parseInt(document.getElementById("rabbit").style.left, 10) + fast + "px";
+        document.getElementById("turtle").style.left =
+          parseInt(document.getElementById("turtle").style.left, 10) + slow + "px";
+      }
+
+      // When the "stop" button is clicked, this function is called
+      // it stops the race by clearing the interval
+      // essentially making it so that the startRace function is no longer called
+      function stopRace() {
+        clearInterval(startTheRace);
+      }
+    </script>
+  </body>
+</html>
