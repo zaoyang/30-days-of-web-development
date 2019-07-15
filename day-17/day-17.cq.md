@@ -61,7 +61,7 @@ PHP 0: JavaScript 1.
 
 Again, the point of this blog posts is to introduce you to JavaScript, and show you that the browser can interpret it.  Which, as we saw with PHP, is not the case for other programming languages.
 
-Tomorrow, we'll take a look at some of those other programming languages.  Specifically, we'll identify the top 10 most popular.
+Tomorrow, we'll dive into more detail about what a Programming Language is.
 
 [^majorbrowsers]:https://www.enable-javascript.com/
 [^jsengine]:https://en.wikipedia.org/wiki/JavaScript_engine
