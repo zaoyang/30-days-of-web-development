@@ -40,7 +40,7 @@ Let's start by comparing Python on a US level - [see chart here](https://trends.
 
 You can either click the link I've included or if you'd like, type JavaScript and compare it with Python. Make sure you select the "Programming Language" term though and not just the word "Python." Otherwise, you'd be comparing JavaScript to the snake 🐍.
 
-I am using the default search settings which has me looking at the US in the last 12 months.
+I am using the default search settings, which has me looking at the US in the last 12 months.
 
 **JavaScript vs. Python, US, last 12 months**
 ![](public/assets/js-python-us.png)
@@ -73,7 +73,7 @@ OK, so now we have a sense of what programming languages are "popular", but popu
 
 Our next step is to look at what these top programming languages are used for. And hopefully, through this investigation, I can give you a better sense of what language(s) you'd need based on your interest, future or otherwise.
 
-This will be out task in tomorrow's blog post.  I will cover the top 4 most popular programming languages (according to Github's Octoverse), what type of things they are used for.
+This will be our task in tomorrow's blog post.  I will cover the top 4 most popular programming languages (according to Github's Octoverse), what type of things they are used for.
 
 [^tiobe]: One could also look at the [TIOBE Index](https://www.tiobe.com/tiobe-index/)
 [^insights]: https://insights.stackoverflow.com/survey/2019/#technology-programming-scripting-and-markup-languages[^somethod]: https://insights.stackoverflow.com/survey/2018/
