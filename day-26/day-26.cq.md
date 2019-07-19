@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 26 - File Paths
+# Day 26 - File Paths Part II
 
 ## File Paths
 

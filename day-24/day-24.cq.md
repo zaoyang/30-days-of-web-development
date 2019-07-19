@@ -2,7 +2,9 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 24 - What is a Shell - CLI vs. GUI
+# Day 24 - CLI vs GUI?
+
+##What is Shell?
 
 To understand the terminal, you first need to know what a Shell is.
 
@@ -96,5 +98,3 @@ Though Bash, or PowerShell for Windows users, is the default Shell-CLI you have 
 It's not important that you know the differences between these other types of Shell-CLIs. I only pointed this out so that you were aware that there were other types of Shell-CLIs out there.
 
 T> **Quick Summary**: The Shell is a wrapper around your operating system. There are Shell-GUIs and Shell-CLIs, but typically when people talk about Shell, they are referring to the Shell-CLI. A Shell-CLI accepts only text commands and does things in response to those commands. An example of a Shell-CLI is Bash or PowerShell. A Shell-GUI takes inputs from graphical components like icons, menus, and buttons. Examples of Shell-GUI are the macOS's Finder program or Windows OS's Windows Explorer program.
-
-// NExt how does the terminal fit in.?
