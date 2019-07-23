@@ -12,7 +12,7 @@ Continuing our Operating System discussion from yesterday, we now understand gen
 
 Though you may not know it, you’re very familiar with GUI’s. These are programs designed to make it easy for the everyday computer user to do things with their computer. They use graphics, icons, and menus to make navigation and executing commands easy.
 
-An example of a popular GUI is the Finder program, see the following screenshot.  The equivalent program in Windows is “Finder Explorer.”
+An example of a popular GUI is the Finder program, see the following screenshot.  The equivalent program in Windows is “File Explorer.”
 
 ![](public/assets/finder-example.png)
 

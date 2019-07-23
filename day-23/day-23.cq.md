@@ -34,7 +34,7 @@ Before we start typing commands into the terminal, let's chat briefly about what
 
 ### Commands
 
-As we'll learn more about in tomorrow's article, the terminal works with the Shell of your computer.  If you remember from day 3, Shell wrap around your computers operating system, or more specifically, its Kernal.
+As we'll learn more about in tomorrow's article, the terminal works with the Shell of your computer.  If you remember from day 3, Shell wrap around your computers operating system, or more specifically, your operating system's Kernal.
 
 ![](public/assets/pistachio.png)
 
@@ -63,7 +63,7 @@ When you run the terminal, you are issuing commands directly to the Shell. You m
 4\. From your terminal, we are going to issue our first command called `pwd,` short for "Print Working Directory."  This command tells us in our computer where we are.  The concepts of "where" will be more thoroughly addressed when we talk about File Paths in Day 25 and 26. 
 
 In your terminal type the following:
-```bash
+```
 pwd
 ```
 
@@ -97,8 +97,8 @@ The script will then ask you a couple of questions, go ahead and answer them.
 
 Let's recap what we just did.  
 * We used the terminal to navigate to our computer's downloads folder.
-* We then told the terminal to use the Bash Shell to open the file "shell-script-practice.sh".  If you peaked at the code on this file, you would have seen Bash Scripting language that walks you through those questions.
+* We then told the terminal to use the Bash Shell to open the file "shell-script-practice.sh".  If you peeked at the code on this file, you would have seen Bash Scripting language that walks you through those questions.
 
-Nice work 👏.  You just got your first taste of using the terminal, and running a Shell script.  If this all seems like a lot, that's OK.  It is.  This article is just an introduction.  Learning about Shell Scripting, and most importantly how to use the terminal will be crucial as you learn more about Web Development.
+Nice work 👏.  You just got your first taste of using the terminal and running a Shell script.  If this all seems like a lot, that's OK.  It is.  This article is just an introduction.  Learning about Shell Scripting, and most importantly, how to use the terminal will be crucial as you learn more about Web Development.
 
 Tomorrow we'll look closer at the differences between the terminal program and programs like the Finder program (Macs) and Windows Explorer (Windows).  Hint, one is called a CLI (pronounced "C L I") the other a GUI (pronounced "Gooey").
