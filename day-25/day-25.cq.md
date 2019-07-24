@@ -8,7 +8,7 @@ File paths are grammars equivalent to the words "except" and "accept."  People d
 
 In this article, we'll first define what a file path is and then look at the two types, their syntax, and what they mean.
 
->I **Windows Users**File path syntax is essentially the same for macOS and Windows OS users. The only difference is the use of forward **`/`** vs. backslashes **`\`** slashes in file paths, where Windows uses backslashes. However, you might notice that PowerShell corrects for this. As such, I have not modified my examples to correct for this as it won't affect what we're doing. If you're curious about the history, I recommend [this](https://www.howtogeek.com/181774/why-windows-uses-backslashes-and-everything-else-uses-forward-slashes/) article.
+>I**Windows Users**: File path syntax is essentially the same for macOS and Windows OS users. The only difference is the use of forward **`/`** vs. backslashes **`\`** slashes in file paths, where Windows uses backslashes. However, you might notice that PowerShell corrects for this. As such, I have not modified my examples to correct for this as it won't affect what we're doing. If you're curious about the history, I recommend [this](https://www.howtogeek.com/181774/why-windows-uses-backslashes-and-everything-else-uses-forward-slashes/) article.
 
 ### What are file paths?
 
