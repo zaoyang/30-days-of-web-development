@@ -4,35 +4,42 @@ coverImageBackgroundPosition: "50% 87%;"
 
 # Day 25 - File Paths Part I
 
-File paths are grammars equivalent to the words "except" and "accept."  People don't _really_ know the difference, they guess and hope for the best.  Though I don't have any statistics to back this up, I think a good chunk of developers do the same when it comes to file paths.
+File Paths are grammars equivalent to the words "except" and "accept."  People don't _really_ know the difference, they guess and hope for the best.  Though I don't have any statistics to back this up, I think a good chunk of developers do the same when it comes to File Paths.
 
-In this article, we'll first define what a file path is and then look at the two types, their syntax, and what they mean.
+In this article, we'll first define what a File Path is and then look at the two types, their syntax, and what they mean.
 
->I**Windows Users**: File path syntax is essentially the same for macOS and Windows OS users. The only difference is the use of forward **`/`** vs. backslashes **`\`** slashes in file paths, where Windows uses backslashes. However, you might notice that PowerShell corrects for this. As such, I have not modified my examples to correct for this as it won't affect what we're doing. If you're curious about the history, I recommend [this](https://www.howtogeek.com/181774/why-windows-uses-backslashes-and-everything-else-uses-forward-slashes/) article.
+I> **Windows Users**: File Path syntax is essentially the same for macOS and Windows OS users. The only difference is the use of forward / vs. backslashes \ in File Paths.  Windows uses backslashes. However, Powershell corrects for this difference; if you put a backslash, it will change it to a forward slash. As such, I have not modified my examples to correct for this as it won't affect what we're doing. If you're curious about the history, I recommend [this](https://www.howtogeek.com/181774/why-windows-uses-backslashes-and-everything-else-uses-forward-slashes/) article.
 
-### What are file paths?
+![](public/assets/back-forward.png)
 
-File paths are how you indicate to a computer, where'd you like to go.  For example, in our terminal article, we wanted to navigate to our Downloads folder, so I had you type the following command:
+
+### What are File Paths?
+
+File Paths are how you indicate to a computer, where'd you like to go.  For example, in our terminal article, we wanted to navigate to our Downloads folder, so I had you type the following command:
 
 ```
 cd ~/Downloads
 ```
 
-In English, you told your computer, "Change Directories to my computer's home directly and then go to the Downloads folder.  The `~/Downloads` was a file path.
+In English, you told your computer:
 
-You end up using file paths a lot as a developer because you often need to tell a computer where you'd like to either go or where the computer can find something. For example, below is the HTML `img` element with a `src` attribute.  The src attribute is using a file path to tell the browser in this case where to find the image.
+>"Change Directories to my computer's home directory and then go to the Downloads folder."
+
+![](public/assets/english.png)
+
+You end up using File Paths a lot as a developer because you often need to tell a computer where you'd like to either go or where the computer can find something. For example, below is the HTML `img` element with a `src` attribute.  The src attribute is using a File Path to tell the browser where to find the image.
 
 ```html
 <img src="../../images/porcupine.png">
 ```
 
-There two types of file paths you can use: **absolute path** and **relative path**.
+There two types of File Paths you can use: **absolute path** and **relative path**.
 
 #### Relative File Paths
 
-We will start by defining a **relative file path**. The key to understanding relative file paths is in the name; it means **relative to where you are**.
+We will start by defining a **Relative File Path**. The key to understanding Relative File Paths is in the name; it means **relative to where you are**.
 
-If a file path starts with a dot **`.`** the same keyboard symbol for a period, then it's a relative file path.
+If a File Path starts with a dot **`.`** the same keyboard symbol for a period, then it's a Relative File Path.
 
 A single dot means you want to look in the same folder you are currently in. In the following example, I'm in my Desktop folder.  My command is telling the computer to Change Directories into the notes folder.  And the notes folder is on my Desktop. 
 
@@ -51,6 +58,7 @@ You might be asking yourself what exactly does "up" mean? Up is easier to show t
 ![](public/assets/up-one-folder.png)
 
 4\. One more quick command to help bring this home. You can chain double-dots together to move up several folders at a time.
+
 In the following screenshot, I moved from my _notes_ folder on my Desktop to my `angel` directory - two folders up.
 
 ![](public/assets/move-two-folders-up.png)
@@ -59,5 +67,6 @@ Here's what it looks like in my finder. The first `..` moves me into my Desktop.
 
 ![](public/assets/finder-double-dot-chain.png)
 
-T> Let's review. Relative file paths start from where you _currently_ are. You must start the file path out with a dot **`.`** to indicate you are using a relative file path. If you use one dot, that means you are looking in your current folder. If you use two dots **`..`** that means you are moving up a folder. You can chain double-dots to move several folders at once.
+Let's review. Relative File Paths start from where you _currently_ are. You must start the File Path out with a dot **`.`** to indicate you are using a relative File Path. If you use one dot, that means you are looking in your current folder. If you use two dots **`..`** that means you are moving up a folder. You can chain double-dots to move several folders at once.
 
+File Path syntax can't hurt the brain a bit.  So we'll stop here for today.  Tomorrow we'll continue to talk about the second kind of File Path: the Absolute File Path.
