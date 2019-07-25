@@ -20,21 +20,21 @@ The File System is made up of two types of files:
 
 1\. **Data files**. Think anything that contains data, text files, word docs, images, mp3, etc.
 
-For example, the ["shell-script-practice.sh](src/shell-script-practice.sh) file that we played with on Day 23 is a data file.  Another example, is the ["html-practice.html"](src/html-practice.html) file we played with on Day 8, while learning about HTML. One's an HTML file, the other a Shell Scripting file, but they are both data files.
+For example, the ["shell-script-practice.sh](src/shell-script-practice.sh) file that we played with on Day 23 is a data file.  Another example is the ["html-practice.html"](src/html-practice.html) file we played with on Day 8 while learning about HTML. One's an HTML file, the other a Shell Scripting file, but they are both data files.
 
 2\. **Executable files**. These are files that when you open them, they execute something. It's a good bet that any file in your Applications folder is an executable file.
 
 ![](public/assets/executable-files.png)
 
-All of these files run a program on your computer. When you open _Adobe Illustrator_ or the _Calculator_ application you are running executable files[^appexe].
+All of these files run a program on your computer. When you open _Adobe Illustrator_ or the _Calculator_ application, you are running executable files[^appexe].
 
-Another, less obvious, example of an executable file are the commands we've been running in terminal. Think about it; every time we executed a command in the terminal, the commands _do_ something. Behind the scenes, these commands are linked to executable files.
+Another, less obvious, example of an executable file are the commands we've been running in the terminal. Think about it; every time we executed a command in the terminal, the commands _do_ something. Behind the scenes, these commands are linked to executable files.
 
 ### Pop-Quiz! 🤨
 
-Let's see how well you know your File Types.  We'll be using the terminal and a Shell Script file to take our "quiz". Because, practice 🤓.
+Let's see how well you know your File Types.  We'll be using the terminal and a Shell Script file to take our "quiz." Because practice 🤓.
 
-1\. Download the following Shell Script file, and then, like we did in Day 23, navigate to your Downloads folder, and open the file using the `bash` command.
+1\. Download the following Shell Script file, and then, as we did in Day 23, navigate to your Downloads folder, and open the file using the `bash` command.
 
 Download: [quiz](src/quiz.sh)
 
