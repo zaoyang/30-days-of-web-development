@@ -72,7 +72,7 @@ The standard Shell-CLI shipped with macOS is **Bash**. Bash has been the standar
 
 I>**Windows Users**: PowerShell is not just a Shell; it is also the application that allows the user to interact with the Shell. Compare this to macOS, which has both the default Shell-CLI called Bash, as well as the Terminal application (with a capital "T") that allows the user to interact with Bash. PowerShell is a complete environment, acting as both the Shell-CLI and the terminal application.  Whereas, the macOS Terminal application is just an application that works with the Bash Shell[^other].
 
-### Where does the terminal fit it?
+### Where does the terminal fit in?
 
 Bash and PowerShell are Shell-CLIs; they take in typed commands and interact with your computer's Operating System.
 
