@@ -40,8 +40,8 @@ Download: [quiz](src/quiz.sh)
 
 ![](public/assets/quiz.gif)
 
-Tomorrow, I'll be introducing you to one of your soon-to-be favorite websites: (GitHub)[https://github.com/].  
+Tomorrow, I'll be introducing you to one of your soon-to-be favorite tools: Git
 
-Simple put GitHub hosts code; think of it like a HUGE library of code, with some extra-special features. If that doesn't sound like a site that will be a "soon-to-be favorite" give me by the end of tomorrow's article to convince you otherwise. 
+Simple put Git helps you keep track of code changes. If that doesn't sound like a tool that will be a "soon-to-be favorite" give me by the end of tomorrow's article to convince you otherwise. 
 
 [^appexe]: https://medium.com/@jalendport/what-exactly-is-your-shell-path-2f076f02deb4
