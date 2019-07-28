@@ -6,11 +6,11 @@ coverImageBackgroundPosition: "50% 87%;"
 
 Web development, especially in the last 5+ years, has blown up and the content along with it.  There is a lot to learn, and honestly, you can't learn it all.  So that begs the question, what do you do next, and where do you go from here; how can you get a job as a Web Developer?
 
-Having made it through to the past 29 blog posts, you now have a better sense of what topics, and skills you'll need to grow to start the path of becoming a Web Developer.
+Having made it through to the past 29 blog posts, you now have a better sense of what topics and skills you'll need to become a Web Developer.
 
 In this last article, I will not be introducing any new content or Exercises.  Instead, I have created a [**How to become a Web Developer Field Guide**](assets/public/map.png) (called "Field Guide 🗒" from here out).  The link is a printable 11X17 PDF that I would encourage you to either bookmark or print if you're the poster sorts.
 
-The "Field Guide" comes from the book "How to Become a Web Developer: A Field Guide".  This book covers in much more detail and with additional exercises the topics covered in the last 29 days.  The 29 days are snapshots 📸 from the chapters of that book, which culminate into a final chapter that reviews the "Field Guide".  The PDF version of the field guide is a printable, bookmark intended resource, but it is missing some key discussion about time spent, and recommended skill level for each trail post; things included in the final chapter of the book.
+The "Field Guide" comes from the book "How to Become a Web Developer: A Field Guide."  This book covers in much more detail and with additional exercises, the topics covered in the last 29 days.  The 29 days are snapshots 📸 from the chapters of that book, which culminate into a final chapter that reviews the "Field Guide."  The PDF version of the field guide is a printable resource.  But it is missing some fundamental discussions about time spent, and recommended skill level for each trail post; things included in the final chapter of the book.
 
 Here is an example of the expanded content found in the book on the CSS trail post. 
 
