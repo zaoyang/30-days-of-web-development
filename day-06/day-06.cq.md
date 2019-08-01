@@ -2,9 +2,9 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 06 - HTML is a Markup Language - HTML
+# Day 06 - HTML is a Markup Language
 
-HyperText Markup Language, better known as HTML, is  the foundational language of all content on the web.
+HyperText Markup Language, better known as HTML, is the foundational language of all content on the web.
 
 To better understand what HTML is, let's break down the acronym.  
 
@@ -37,7 +37,7 @@ To help demonstrate what markup does, we are going to look at what the first web
 
 3\. Open the [My Text Area](http://www.mytextarea.com/) website in another browser window.
 
-4\. Paste the copied first website content onto the My Text Area web page.[^My-Text-Area] 
+4\. Paste the copied first website content onto the My Text Area web page.
 
 You should see the following:
 
@@ -47,4 +47,4 @@ That is what plain text looks like.  Without markup, there are no links, and all
 
 T>HTML is a markup language, not a programming language.  Programming languages allow you to run a process or execute an action, which HTML does not do.
 
-Now that we have acquainted ourselves with HTML, tomorrow we'll get into HTML's syntax, i.e., how to write it.
+Now that we have acquainted ourselves with HTML, tomorrow we'll get into HTML's syntax.
