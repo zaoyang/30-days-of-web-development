@@ -4,7 +4,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 05 - GUIs and Shells
+# Day 04 - GUIs and Shells
 
 Continuing our Operating System discussion from yesterday, we now understand generally what Operating Systems do.  There are some more convoluted differences between the different types of Operating System, but the one we are concerned with is the GUI and Shell.  Two terms we will introduce and talk about today.
 
