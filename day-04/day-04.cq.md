@@ -16,15 +16,15 @@ An example of a popular GUI is the Finder program, see the following screenshot.
 
 ![](public/assets/finder-example.png)
 
-MacOS and Windows OS have slightly different ways of organizing and presenting files. Functionally, these differences will not matter to us. However, if you find any of the examples difficult because you are using a different operating system, please reach out to us for assistance.
+MacOS and Windows OS have slightly different ways of organizing and presenting files. Functionally, these differences will not matter to us. However, if you find any of the examples difficult because you are using a different Operating System, please reach out to us for assistance.
 
 ## Shell and the Kernel
 
-Shell and Kernels are about as deep as we need our learning of Operating Systems to go for now.  However, understanding even on a surface level, these two terms will clarify _how_ you can work with an Operating System; something you'll be doing as a web developer.
+Shell and Kernels are about as deep as we need our learning of Operating Systems to go for now.  However, understanding even on a basic level, these two terms will clarify _how_ you can work with an Operating System; something you'll be doing as a Web Developer.
 
 A **Shell** is an interface that gives you access to your computer’s Operating System. Think of it as a wrapper around your Operating System - technically it wraps around your Operating System’s Kernel. Hence the name Shell - a shell/protective barrier - around the brain/core of your computer.
 
-The **Kernel** is a computer program, that is the core of your computer's Operating System.  For our purposes, it's enough to know that it connects all your computers application software to the hardware of your computer.  Most like to think the Kernel is the Operating System.  This is not accurate, however, as it's only a part of the Operating System, not the whole thing.
+The **Kernel** is a computer program, that is the core of your computer's Operating System.  For our purposes, it's enough to know that it connects all your computers application software to the hardware of your computer.  Sometimes people want to think that the Kernel _is_ the Operating System.  This is not accurate, however, as it's only a part of the Operating System, not the whole thing.
 
 ![](public/assets/pistachio.png)
 
@@ -38,8 +38,8 @@ Remember a moment ago when I said that your Finder program was a GUI?  Well a GU
 
 You don't need to be an Operating System expert to be a Web Developer.  You should, however, as a developer, understand some of the fundamentals.  
 
-Code doesn't just run on its own.  When you write programs or applications for other people to use, they will be using computers.  And guess what those computers will be using to run your programs or application?  An operating system.
+Code doesn't just run on its own.  When you write programs or applications for other people to use, they will be using computers.  And guess what those computers will be using to run your programs or application?  An Operating System.
 
-What if you write a fantastic web application, but it zaps all of your users' RAM? Your users probably won't be that happy.  If you've ever had the pleasure of using Microsoft Excel, you'll know that once you make anything slightly North of complicated on that program, your computer comes to a screeching halt, because it has taken all your computer's RAM trying to run. 
+What if you write a fantastic web application, but it zaps all of your users' RAM? Your users probably won't be that happy.  If you've ever had the pleasure of using Microsoft Excel, you'll know that once you make anything slightly North of complicated on that program, your computer comes to a screeching halt.  Why? Because Microsoft Excel uses a lot of your computer's RAM trying to run. 
 
-In our next blog post, we'll setup one last web developer tool by installing a text editor.
+In our next blog post, we'll set up one last Web Developer tool by installing a text editor.
