@@ -76,7 +76,7 @@ Here are the HTML and CSS I added.  Feel free to copy-paste this snippet into th
   </head>
 ```
 
-The benefit of an Internal stylesheet is that it allows you to add a bunch of style to the various HTML element in the document you're working on.  However, this again is not the preferred method as it takes up space and doesn't make sense for larger projects with multiple pages of HTML.
+The benefit of an Internal stylesheet is that it allows you to add a bunch of style to the various HTML elements in the document you're working on.  However, th  is again is not the preferred method as it takes up space and doesn't make sense for larger projects with multiple pages of HTML.
 
 ### 3. External stylesheet
 
