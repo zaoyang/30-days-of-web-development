@@ -6,8 +6,6 @@ coverImageBackgroundPosition: "50% 87%;"
 
 Yesterday we played with changing the color of an HTML element via the DevTools.
 
-W>Because this is not a course on CSS, I'm not going to spend much time on the different styles you can add to HTML elements, nor will I touch on how CSS effects HTML elements' position and layout.
-
 Today we're going to look at how you add CSS to a web page.
 
 ## How do you add CSS to a web page?
@@ -20,9 +18,9 @@ There are three basic ways of adding CSS to a web page.
 
 ### 1. Inline style
 
-One way to add CSS to HTML is via **Inline style**. Inline style adds CSS directly inside any HTML element[^anyhtmlelement]. To do this, you use the `style` attribute[^attr] on the HTML element you want to add style to.
+One way to add CSS to HTML is via **Inline style**. Inline style adds CSS directly inside any HTML element. To do this, you use the `style` attribute[^attr] on the HTML element you want to add style to.
 
-For example, here is our Heading element with the color <span style="color:blue">blue</span> added via inline style.
+For example, here is our Heading element with the color <span style="color:blue">blue</span> added via Inline style.
 
 ```css
 <h1 style="color: blue">Heading Size 1</h1>
@@ -30,13 +28,13 @@ For example, here is our Heading element with the color <span style="color:blue"
 
 **Inline** here means what it sounds like: the style is applied _in-line_ with the element.
 
-You can apply CSS this way to any element.  However, because of the way CSS rules sort themselves out (hint: sorting has everything to do with the C in CSS, "Cascading") inline styles are generally avoided, especially in more complex projects.
+You can apply CSS this way to any element.  However, because of the way CSS rules sort themselves out, inline styles are generally avoided, especially in more complex projects.
 
 #### Exercise: Inline Styles
 
-1\. Open up your previous "css-practice.html" file from yesterday.  If you don't have it open, here's a [quick link](public/src/css-practice.html)
+1\. Open up the "css-practice.html" file from yesterday.  If you don't have it open, here's a [quick link.](public/src/css-practice.html)
 
-On row 3, add the inline style to the heading element, such that it reads like the following:
+On row 3, add the Inline style to the heading element, such that it reads like the following:
 ```html
 <html>
   <body>
@@ -47,14 +45,14 @@ Save your changes.  Open the HTML document in your Chrome browser and see the he
 
 Additionally, if you open your Chrome DevTools, you'll see that the `color:blue` is now added the `h1` styles.
 
-![](public/assets/blue-h1.)
+![](public/assets/blue-h1.png)
 
 
 ### 2. Internal stylesheet
 
-The second way to add CSS to an HTML file is within an HTML element called the **style** `<style></style>` element.
+The second way to add CSS to an HTML file is within an HTML element called the **style** `<style></style>` element.  Not to be confused with the "style" attribute used in Inline styles.  They are very similar, but one is an attribute, and the one here is an element.
 
-This approach adds the style element goes inside something called the head element of an HTML document.  You'll learn more about this element along with the other boilerplate HTML elements as you continue your studies.  I recommend the [W3School's page](https://www.w3schools.com/tags/tag_style.asp) on the style tag if you're interested in learning more.
+This approach requires that you add the style element _inside_ something called the head element.  You'll learn more about the head element along with the other boilerplate HTML elements as you continue your studies.  I recommend the [W3School's page](https://www.w3schools.com/tags/tag_style.asp) on the style tag if you're interested in learning more.
 
 To use an Internal stylesheet on our "css-practice.html" file we need to both add a `<head></head>` element and the `<style></style>` element. 
 
@@ -86,7 +84,9 @@ The preferred method for most projects is to add CSS via the External Stylesheet
 
 I>In practice, you often find a combination of these three methods being used.
 
-If you add CSS via an External Stylesheet you are telling the browser to find another file and use that for style; hence "external".  You do this by adding a `<link>` element with an `href` attribute pointing to the CSS file. 
+If you add CSS via an External Stylesheet you are telling the browser to go download another file that has all the style rules; hence "external."  You do this by adding a `<link>` element with an `href` attribute pointing to the CSS file.
+
+And just like how the `<style></style>` element was nested or _inside_ the `<head></head>` element, our `<link>` element also goes inside the head element.
 
 In the following example, the `<link>` element is telling the browser: use the file called "external-stylesheet.css".
 
@@ -96,12 +96,12 @@ In the following example, the `<link>` element is telling the browser: use the f
 </head>
 ```
 
-To keep things brief, we will not be making an External stylesheet, but I have included one that you can practice with - [see here](public/src/external-stylesheet.css). To use this External stylesheet make sure it's in the same folder as your "css-practice.html".  On the External stylesheet, I have added a couple of basic CSS styles to play with.  Amend, break, and play with as you see fit.
+To keep things brief, we will not be making an External stylesheet, but I have included one that you can practice with - [see here](public/src/external-stylesheet.css). To use this External stylesheet make sure it's in the same folder as your "css-practice.html."  On the External stylesheet, I have added a couple of basic CSS styles to play with.  Amend, break, and play with this external-stylesheet.css as you see fit.
 
 Here is the [css-practice-final.html](public/src/css-practice-final.html) with the internal, and external stylesheets added if you'd like to look.
 
-Whew 🤯 - that was a lot.  If it all still seems a little foggy, don't worry it will get easier.  CSS is not something you get in one day, or from a couple blog posts.
+Whew 🤯 - that was a lot.  If it all still seems a little foggy, don't worry, it will get easier.  CSS is not something you get in one day, or from a couple of blog posts.
 
 Tomorrow, we'll look more at CSS syntax.
 
-[^attr]: We won't cover attributes here, but I cover them in How to Become a Web Developer: A Field Guide, or you can read [this resource](https://www.w3schools.com/html/html_attributes.asp) by W3Schools.
+[^attr]: We won't cover attributes here, but I cover them in 📗 How to Become a Web Developer: A Field Guide, or you can read [this resource](https://www.w3schools.com/html/html_attributes.asp) by W3Schools.
