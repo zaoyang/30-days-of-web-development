@@ -39,6 +39,7 @@ A couple of things to note:
 ![](public/assets/devtools-2.png)
 
 The Elements panel shows the web page as "code."  A good way to visualize what the Elements panel does is to think of the web page as a stitching.  The Elements panel would then be the backside of the stitches; they're the same, one is just prettier.
+{#stitching}
 
 ![](public/assets/stitching.png)
 
