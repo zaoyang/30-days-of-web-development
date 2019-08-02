@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 08 - Playing with Elements and Tags - HTML
+# Day 08 - Playing with Elements and Tags
 
 We should now be comfortable understanding the basic syntax of HTML. Today we'll start using what we learned yesterday to change the look of a web page.
 
@@ -10,7 +10,7 @@ We should now be comfortable understanding the basic syntax of HTML. Today we'll
 
 In this exercise, we will be "uncommenting" out HTML.  A comment is effectively a way to hide HTML.  What I mean by "hide" will become clear as we work through this exercise.
 
-To use comments, you wrap the HTML with an opening and closing comment tag. To open an HTML comment you use the less than character <, plus an open exclamation point ! followed by two dashes --.  To close the comment, you use two dashes -- followed by a greater than character >.  Here’s an example:
+To use comments, you wrap the HTML with an opening and closing comment tag. To open/start an HTML comment you use the less than character <, plus an open exclamation point ! followed by two dashes --.  To close/end the comment, you use two dashes -- followed by a greater than character >.  Here’s an example:
 
 ```HTML
 <!-- to my left is open, to my right is close -->
@@ -18,9 +18,9 @@ To use comments, you wrap the HTML with an opening and closing comment tag. To o
 
 The text in-between the opening and closing set of characters is what is commented out.
 
-1\. Download and open in VSCode the following HTML document [`html-practice.html`](public/src/html-practice.html).
+1\. In your text editor download and then open the following HTML document [`html-practice.html`](public/src/html-practice.html).
 
-2\. Because of the theme I am using with VSCode, my comments in the following screenshot show as <span style="color: grey">greyed-out</span>.  Depending on your VSCode's theme a similar style will be applied to your commented out HTML.  Regardless of what color the theme applies, VSCode is trying to show you that this HTML is not displaying.
+2\. Because of the theme I am using with VSCode, my comments in the following screenshot show as <span style="color: grey">greyed-out</span>.  Depending on your text editor's theme, a similar style will be applied to your commented out HTML.  Regardless of what color the theme applies, your text editor is trying to show you that this HTML is not displaying.
 
 The "Uncomment #1" indicates the HTML snippet I want to uncomment here for practice.
 
@@ -46,9 +46,9 @@ Next, on your computer, go to where the "html-practice.html" file lives.  Right-
 
 Nice work! 👏
 
-5\. Now that we're familiar with how to uncomment an  HTML snippet, let's uncomment the other snippets which hold examples of the HTML elements we introduced in yesterday's article.
+5\. Now that we're familiar with how to uncomment an  HTML snippet let's uncomment the other snippets.  These other snippets are each examples of the HTML elements we introduced in yesterday's article.
 
-In VSCode, go ahead and uncomment snippets #2, #3, #4, and #5. In order, the snippets show examples of:
+In your text editor, go ahead and uncomment snippets #2, #3, #4, and #5. In order, the snippets show examples of:
 
 |       HTML element       |                    What the HTML looks like in the browser                    |
 | :----------------------: | :-------------------------------------------: |
@@ -62,19 +62,19 @@ As a reminder, you use HTML tags to wrap what it is you want to apply that HTML 
 
 ![](public/assets/tag-element-text.gif)
 
-Hopefully, by uncommenting the HTML, you can see how the various HTML tags work and effect what you see on the browser.
+Hopefully, by uncommenting the HTML, you can see how the various HTML tags work and affect what you see on the browser.
 
 6\. For our last step, let's make it so the **bold word** and *italic word* are on two separate lines.
 
 ![](public/assets/break-up.png)
 
-To do this in HTML, we are going to use the HTML line break tag `<br>`.  It does what it sounds like it does, adds a line break.
+To break up these lines in HTML, we are going to use the HTML line break element `<br>`.  This element is effectively a carriage-return, adding a line break where you insert it.
 
-Back in VSCode, add the `<br>` tag in between the `<b></b>` element and the `<em></em>` element.
+Back in your text editor, add the `<br>` element in-between the `<b></b>` element and the `<em></em>` element.
 
 ![](public/assets/break-up.gif)
 
-After saving your changes in VSCode, refresh the browser to see the changes take effect.
+Save your changes, and then refresh the browser to see the changes take effect.
 
 ![](public/assets/broken-up.png)
 
@@ -82,6 +82,6 @@ That looks a little better.  And hopefully, you're starting to see how HTML uses
 
 Keep playing around with different HTML elements and tags.  I recommend checking out W3Schools list of HTML tags and elements [here](https://www.w3schools.com/tags/).  There's a lot we didn't cover, so have at it!
 
-Tomorrow we I will introduce CSS - another markup language - that adds style to HTML.  We _are_ moving away from HTML, but do not take that to mean there is nothing more regarding HTML you need to learn.  We skipped **a lot**.
+T>I cover crucial HTML topics in 📗 "How to Become a Web Developer: A Field Guide," including such subjects as attributes, nesting, child/parent relationships, indentations, rending and the Document Object Model.
 
-T>I cover crucial HTML topics in "How to Become a Web Developer: A Field Guide," including such topics as attributes, nesting, child/parent relationships, indentations, rending and the Document Object Model.  These last couple of blog posts on HTML should be considered a sneak peek.
+Tomorrow I will introduce CSS - another markup language - that adds style to HTML.  We _are_ moving away from HTML but do not take that to mean there is nothing more regarding HTML you need to learn.  We skipped **a lot**.
