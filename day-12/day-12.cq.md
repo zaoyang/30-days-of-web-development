@@ -28,9 +28,8 @@ Specificity comes into play because there is a pecking order between the 3 selec
 
 The reason it's important to know what selector is relatively more specific is that the more specific selector trumps the less specific selectors.
 
-Thus, if I set a paragraph to <span style="color:blue">blue</span> using the tag selector, but also set the same paragraph to <span style="color:hotpink">hotpink</span> using the Id selector, the paragraph will be hotpink, not blue.
+If I set a paragraph to <span style="color:blueviolet">blueviolet</span> using the tag selector, but also set the same paragraph to <span style="color:hotpink">hotpink</span> using the Id selector, the paragraph will be hotpink, not blueviolet.
 
-// ARG: probably need a different screenshot
 ![](public/assets/pink-vs-blue.png)
 
 To better understand the selector hierarchy, I am going to use an analogy and refer back to it as I walk through each selector's definition.
@@ -46,8 +45,7 @@ To better understand the selector hierarchy, I am going to use an analogy and re
 
 When you assign CSS by a Tag selector, you are assigning CSS to _any_ HTML tag of that type. For example, we used the paragraph tag to apply a color to it.
 
-// ARG need new screenshot
-![](public/assets/tag-selector-p.png)
+![](public/assets/tag-selector.png)
 
 > Referring back to the friends' analogy, a Tag selector would be like saying, OK all my "friends," raise your hands. It's not very specific, so everyone in the room raises their hands.  
 > ![](public/assets/Four_Friends_Arms_Up.png)
@@ -60,11 +58,10 @@ A Class Selector is when you use an HTML element's **class** name to select it.
 
 A class is another type of **attribute**.  Attributes live inside the element tag and provide additional information about that element.
 
-The great thing about the `class` attribute is we can use it to give a class name to multiple elements.  Say, for example, we wanted a paragraph _and_ header element to both have a <span style="color:coral">coral</span> color.  Using the class attribute, we would give both elements the same class name. 
+The great thing about the `class` attribute is we can use it to give a class name to multiple elements.  Say, for example, we wanted a paragraph _and_ header element to both have a <span style="color:darkgreen">darkgreen</span> color.  Using the class attribute, we would give both elements the same class name. 
 
-In the following example, I have given the `h1` and `p` elements the same class name: “some-className.”  I then under styles, assigned the “some-className” a color of coral.
+In the following example, I have given the `h1` and `p` elements the same class name: “some-className.”  Then, under styles, I assigned the “some-className” a color of darkgreen.
 
-//ARG new screenshot
 ![](public/assets/some-className.png)
 
 By using the class selector, we avoided having to assign a color value to both the `h1` and `p` tag.  Instead, we were able to do it with one CSS selector.
@@ -73,7 +70,7 @@ To use a class selector, you use a dot `.` + `className`.
 
 ![](public/assets/class-selector.png) 
 
-> Referring back to the friends' analogy, a class selector is a little more specific than "friends," so it would be like saying, OK everyone who identifies as female jump up and down. Now you have everyone raising their hands, but only the females jumping up and down while also raising their hands.
+> Referring back to the friends' analogy, a class selector is a little more specific than "friends," so it would be like saying, OK everyone who identifies as female jump up and down. Now you have everyone raising their hands.  But only the females jumping up and down while also raising their hands.
 
 ![](public/assets/Four_Friends_Girls_Jumping.png)
 
@@ -81,22 +78,19 @@ To use a class selector, you use a dot `.` + `className`.
 
 ![](public/assets/first-place.png)
 
-Ids are also another type of HTML attribute.  However, Id attributes unlike class attributes, have to have a unique value.  
+Ids are another type of HTML attribute.  However, Id attributes, unlike class attributes, have to have a unique value.  
 
 You can give multiple HTML tags the same class name, but if you use an Id CSS Selector, the Id's value can only be used once on the HTML document.
 
-![](public/assets/no-yes.png)
+![](public/assets/unique-id.png)
 
-To select an element by its Id, you use the pound `#` + `idName` syntax.  See the following example.
+To select an element by its Id, you use the pound (a.k.a hashtag) `#` + `idName` syntax.  See the following example:
 
 ![](public/assets/id-selector.png)
 
-{#max}
 > Referring back to the friends' analogy, an Id selector is the most specific selector, and it has to be unique, much like a person's name is unique.  Assigning style based on an Id selector would be like saying, "Hey Max, just _you_, I want you to sing while you jump." Now you have everyone raising their hands, but only the females jumping, and poor Max jumping and singing.
 
 ![](public/assets/Four_Friends_Girls_Jumping_Singing.png)
 
-//Fix
-
-Today was all about absorbing the information.  Tomorrow, we'll put that information into practice, and start playing with Selectors via our favorite; the DevTools.
+Today was all about absorbing the information.  Tomorrow, we'll put that information into practice, and start playing with Selectors via our favorite: the DevTools.
 
