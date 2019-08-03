@@ -42,4 +42,6 @@ Code doesn't just run on its own.  When you write programs or applications for o
 
 What if you write a fantastic web application, but it zaps all of your users' RAM? Your users probably won't be that happy.  If you've ever had the pleasure of using Microsoft Excel, you'll know that once you make anything slightly North of complicated on that program, your computer comes to a screeching halt.  Why? Because Microsoft Excel uses a lot of your computer's RAM trying to run. 
 
+### What's next?
+
 In our next blog post, we'll set up one last Web Developer tool by installing a text editor.

@@ -92,5 +92,7 @@ To select an element by its Id, you use the pound (a.k.a hashtag) `#` + `idName`
 
 ![](public/assets/Four_Friends_Girls_Jumping_Singing.png)
 
+### What's next?
+
 Today was all about absorbing the information.  Tomorrow, we'll put that information into practice, and start playing with Selectors via our favorite: the DevTools.
 

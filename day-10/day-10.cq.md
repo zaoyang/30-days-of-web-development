@@ -100,6 +100,8 @@ To keep things brief, we will not be making an External stylesheet, but I have i
 
 Here is the [css-practice-final.html](public/src/css-practice-final.html) with the internal, and external stylesheets added if you'd like to look.
 
+### What's next?
+
 Whew 🤯 - that was a lot.  If it all still seems a little foggy, don't worry, it will get easier.  CSS is not something you get in one day, or from a couple of blog posts.
 
 Tomorrow, we'll look more at CSS syntax.

@@ -63,9 +63,13 @@ Now look at the web page and see that the text inside the `<h1></h1>` element ha
 
 ![](public/assets/change-h1.png)
 
-It's worth stopping for a moment to appreciate what you just did: you modified a web page!  Nicely done.   
+It's worth stopping for a moment to appreciate what you just did: you modified a web page!  Nicely done.
+
+### Summary
 
 A browser's developer tools do way more than allow you to make text changes.  You can modify colors, layout, run code, and see details of how the web page is loading.  Learning how to navigate and use the DevTools will be an essential skill that you will pick up on your way to becoming a Web Developer.
+
+### What's next?
 
 Tomorrow we'll learn more about Operating Systems, and why understanding some of their key concepts will help you understand the foundations of Web Development.
 

@@ -66,6 +66,8 @@ Where tags are used to define the start and stop of an element, elements refer t
 T> **Elements vs. Tag**
 T> Elements are made up of tags, tags are not made up of elements.  Elements are the building blocks of HTML.   Example of an element: `<p>Paragraph Element</p>`, example of a tag `<p>` 
 
+### What's next?
+
 Today was all reading and no doing.  Tomorrow, we'll change that and get our start playing with tags and elements using VSCode.
 
 [^html-tags]: In total, there are around 100 different Markup Tags available.  A list of them can be found [here](https://www.w3schools.com/tags/ref_byfunc.asp).

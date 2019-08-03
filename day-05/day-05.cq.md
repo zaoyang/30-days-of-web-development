@@ -54,4 +54,6 @@ You don't have to use this command, but it's helpful if you have a big file and 
 
 By the end of these 30 days, you'll have more practice using VSCode and therefore get more comfortable using it. VSCode has a lot of bells and whistles, and if you'd like to learn more about them, I recommend VSCode's ["Getting Started" videos](https://code.visualstudio.com/docs/introvideos/basics).
 
+### What's next?
+
 That's it for Setup & Tooling.  Tomorrow, we'll start looking at the foundational language of the web, HTML.

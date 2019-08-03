@@ -67,7 +67,9 @@ Click on the "blue" square in the Styles pane (you need to click on the square, 
 
 Play around with the color-picker and experiment with the different colors and color types.
 
-There is a lot you can do with the Styles pane and CSS.  When you eventually find yourself problem-solving or trying to modify CSS for a project, the Styles pane will become one of your most powerful tools. 
+There is a lot you can do with the Styles pane and CSS.  When you eventually find yourself problem-solving or trying to modify CSS for a project, the Styles pane will become one of your most powerful tools.
+
+### What's next?
 
 Tomorrow, we'll look at how to add CSS to an HTML file.
 

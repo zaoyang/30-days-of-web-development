@@ -94,4 +94,6 @@ Here, for example, is my rendition of Google's landing page if I were in charge 
 
 ![](public/assets/google.png)
 
+### What's next?
+
 In the next article, we'll look at a concept in CSS called **Selector Specificity** - say that three times fast 😬.

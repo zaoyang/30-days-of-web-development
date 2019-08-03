@@ -48,4 +48,6 @@ T>All Macs, Windows, and Linuxes are Personal Computers (PCs).  You can, in fact
 
 All the other Operating System differences: specifics about file system encryption, or third-party hardware compatibility are topics outside the scope of our concern.  The only real difference we're concerned with is the General User Interface; **GUI** for short, pronounced “gooey.”
 
+### What's next?
+
 We will look more closely at GUI's and introduce a new term, Shell, in tomorrow's blog post. 
