@@ -4,7 +4,7 @@ coverImageBackgroundPosition: "50% 87%;"
 
 # Day 25 - File Paths Part I
 
-File Paths are grammars equivalent to the words "except" and "accept."  People don't _really_ know the difference, they guess and hope for the best.  Though I don't have any statistics to back this up, I think a good chunk of developers do the same when it comes to File Paths.
+File Paths are grammar's equivalent to the words "except" and "accept."  People don't _really_ know the difference, they guess and hope for the best.  Though I don't have any statistics to back this up, I think a good chunk of developers do the same when it comes to File Paths.
 
 In this article, we'll first define what a File Path is and then look at the two types, their syntax, and what they mean.
 
@@ -33,7 +33,7 @@ You end up using File Paths a lot as a developer because you often need to tell 
 <img src="../../images/porcupine.png">
 ```
 
-There two types of File Paths you can use: **absolute path** and **relative path**.
+There are two types of File Paths you can use: **absolute path** and **relative path**.
 
 #### Relative File Paths
 
@@ -67,6 +67,10 @@ Here's what it looks like in my finder. The first `..` moves me into my Desktop.
 
 ![](public/assets/finder-double-dot-chain.png)
 
-Let's review. Relative File Paths start from where you _currently_ are. You must start the File Path out with a dot **`.`** to indicate you are using a relative File Path. If you use one dot, that means you are looking in your current folder. If you use two dots **`..`** that means you are moving up a folder. You can chain double-dots to move several folders at once.
+### Summary
+
+Let's review. Relative File Paths start from where you _currently_ are. You must start the File Path with a dot **`.`** to indicate you are using a relative File Path. If you use one dot, that means you are looking in your current folder. If you use two dots **`..`** that means you are moving up a folder. You can chain double-dots to move several folders at once.
+
+### What's next?
 
 File Path syntax can't hurt the brain a bit.  So we'll stop here for today.  Tomorrow we'll continue to talk about the second kind of File Path: the Absolute File Path.
