@@ -14,11 +14,11 @@ Web Developers are especially demanding when it comes to version control.  They 
 
 Git is open-source, meaning that it is free to use and may be redistributed or modified[^open-source].  Released in 2005, Git become popular very quickly and had wide-sweeping impacts on the programming community.  There were Version Control Systems before Git came along, but Git's unique approach to tracking changes was an industry game-changer.
 
-There has been and still is no real competitor to Git[^competitor].  As a future Web Developer, you will need to know how to use it.
+There has been and still is no real competitor to Git.  As a future Web Developer, you will need to know how to use it.
 
 In this article, I will briefly look at the history of version control systems, highlighting what makes Git special.  This will be followed by a "speed-dating" type introduction to a simple Git workflow.
 
-I>I go into much more detail on Git and GitHub with both diagrams, images, and exercises in the book "How to Become a Web Developer: A Field Guide."  Just like speed-dating, you'll get a sense for Git, but it's not comprehensive.
+I>I go into much more detail on Git and GitHub in the book 📗"How to Become a Web Developer: A Field Guide."
 
 ## Version Control
 
@@ -40,11 +40,11 @@ Local VCS also didn't come close to solving the issue of different developers co
 
 > Meet Bob.  He's a programmer in the 1980s.  
 
->Co-worker: "Hey Bob can you email that file version again? I think it's from the change you made on Friday, but I can't be certain.  I know you already sent it, but I'm too lazy to look.  Thanks!"
+>Co-worker: "Hey, Bob, can you email that file version again? I think it's from the change you made on Friday, but I can't be certain.  I know you already sent it, but I'm too lazy to look.  Thanks!"
 
 >Bob: "I quit."
 
->I would too Bob.
+>I would too, Bob.
 
 #### Centralized  Version Control Systems (CVCS)
 Next came Centralized Version Control Systems (CVCS). CVCS improved upon the process enough that they were the industry standard through the 90s up until Git was released[^cvcs]. 
@@ -57,16 +57,16 @@ Unlike VCS, CVCS stored the codebase in a single place, not on individual comput
 
 >Kat: "I quit."
 
->I would too Kat.
+>I would too, Kat.
 
 #### Distributed Version Control System (DVCS)
 The third times a charm.  Building off of VCS and CVCS, developers created Distributed Version Control Systems (DVCS).  **Git is a DVCS**[^DVCS].   
 
-In DVCS, programmers check out a fully mirrored version of the codebase.  If this were a library, instead of checking out a book, you'd be checking out a mirrored image of the library, book included.  Thus, if the library burned to the ground, anyone who checked out a mirrored version of the library could restore it with their version.  
+In DVCS, programmers check out a fully mirrored version of the codebase.  If this were a library, instead of checking out a book, you'd be checking out a mirrored image of the library, the book included.  Thus, if the library burned to the ground, anyone who checked out a mirrored version of the library could restore it with their version.  
 
 ![](public/assets/mirrored.png)
 
-DVCS also allow for branching and merging.  Branching here means to duplicate.  With Git, this often means you are duplicating the codebase you are looking at.  You make branch - a duplicate of the codebase - then you make changes on that branch.  Merging comes in when you want to _merge_ the changes on your branch back to the original codebase.
+DVCS also allow for branching and merging.  Branching here means to duplicate.  With Git, this often means you are duplicating the codebase you are looking at.  You make a branch - a duplicate of the codebase - then you make changes on that branch.  Merging comes in when you want to _merge_ the changes on your branch back to the original codebase.
 
 >Meet Ivan. Ivan is a programmer from 2006.
 
@@ -80,7 +80,7 @@ DVCS also allow for branching and merging.  Branching here means to duplicate.  
 
 There are two main ways to use Git.  Through your terminal, or a [Git GUI](https://git-scm.com/downloads/guis/). I will encourage you to use the terminal.
 
-Before I have you download Git, I am going to jump ahead a step and have you set up a **GitHub** account and _then_ install Git.
+Before I have you download Git, I am going to jump ahead a step and have you set up a **GitHub** account.  After you set up your GitHub account, I'll _then_ have you install Git.
 
 I>We will cover GitHub in tomorrow's article.  I am having you set up an account now so that you can enter your GitHub credentials during the installation process of Git.
 
@@ -92,31 +92,29 @@ When you set up your GitHub account, take note of your GitHub username and email
 
 2\. Next, let's **install Git**.
 
-Git itself has a wonderful installation guide, which you can [find here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+Git itself has a wonderful installation guide, which you can [find here.](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
 **Windows Users**: You will be downloading Git for Windows.  Click [here](https://gitforwindows.org/) to begin the download process.
 
 I> ⚠️ PAY ATTENTION: During the installation process, Git will ask you for your GitHub username and email. By giving Git your GitHub username and email, you're connecting your local Git with your GitHub account.
 
-// ARG: image of above.
-
-3\. Next, download the folder ["git-pracitce"](src/git-practice) into your Downloads folder.  
+3\. Next, download the folder ["git-practice"](src/git-practice) into your Downloads folder.  
 
 From your terminal, navigate to your Downloads folder, and `cd` into this folder.
 
 ![](public/assets/git-1.png)
 
-4\. Next, we are going to "initialize" a Git repository, e.g., a project that is now being watched by Git.  To do this enter the command `git init`.
+4\. Next, we are going to "initialize" a Git repository, e.g., a project that is now being watched by Git.  To do this, enter the command `git init`.
 
 ![](public/assets/git-2.png)
 
-5\. Git has initialized this folder, meaning that Git now knows you want to have it manage version control for _this_ folder and everything inside it. But Git does not know what files and changes you want to save, but we'll change that with the `git add` and `git commit` commands.
+5\. Git has initialized this folder, meaning that Git now knows you want to have it manage version control for _this_ folder and everything inside it. But Git does not know what files and changes you want to save.  We'll change that with the `git add` and `git commit` commands.
 
-To keep with the "speed-dating" theme, I won't go into details about adding, staging and committing in this article.  Instead, know that Git is watching 👀 the "git-practice" folder, but **to save a change to Git, we need to add the file to staging, and then commit it**.
+To keep with the "speed-dating" theme, I won't go into details about adding, staging, and committing in this article.  Instead, know that Git is watching 👀 the "git-practice" folder, but **to save a change to Git, we need to add the file to staging, and then commit it**.
 
 The file we want to add to staging is the  "animal-facts.txt" file that is in the "git-practice" folder.
 
-To add this file, we will use the following command: `git add animal-facts.txt"`.  In Git this is called "staging" a file.  Go ahead and run this command.
+To add this file, we will use the following command: `git add animal-facts.txt"`.  In Git, this is called "staging" a file.  Go ahead and run this command.
 
 ![](public/assets/git-2a.png)
 
@@ -146,7 +144,7 @@ To see this log, type: `git log`.
 
 Nice work, you made it through your first Git workflow 🍻.  The purpose of this exercise was to get you set up with Git and introduce you into the ways Git records changes.
 
-### Git Summary 
+### What's next? 
 
 There is a heck-of-a-lot that I did not cover here.  And it pains me a little to leave you here, in this unfinished state, but I'll sleep at night if you remember this is *just an introduction*.  
 
