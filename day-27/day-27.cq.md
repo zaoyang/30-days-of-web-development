@@ -34,14 +34,18 @@ Another, less obvious, example of an executable file are the commands we've been
 
 Let's see how well you know your File Types.  We'll be using the terminal and a Shell Script file to take our "quiz." Because practice 🤓.
 
-1\. Download the following Shell Script file, and then, as we did in Day 23, navigate to your Downloads folder, and open the file using the `bash` command.
+1\. Download the following [Shell Script file](src/quiz.sh), and then, as we did in Day 23, navigate to your Downloads folder, and open the file using the `bash` command.
 
-Download: [quiz](src/quiz.sh)
+```bash quiz.sh```
 
 ![](public/assets/quiz.gif)
 
-Tomorrow, I'll be introducing you to one of your soon-to-be favorite tools: Git
+Go through the quiz, and do your best.  I by no means have any way of  knowing how you did, but if it makes you feel better, you got an A ⭐️.  Nice work 👏!
 
-Simple put Git helps you keep track of code changes. If that doesn't sound like a tool that will be a "soon-to-be favorite" give me by the end of tomorrow's article to convince you otherwise. 
+### What's next?
+
+Tomorrow, I'll be introducing you to one of your soon-to-be favorite tools: **Git**
+
+Simply put, Git helps you keep track of file changes. If that doesn't sound like a tool that will be a "soon-to-be favorite" give me by the end of tomorrow's article to convince you otherwise. 
 
 [^appexe]: https://medium.com/@jalendport/what-exactly-is-your-shell-path-2f076f02deb4
