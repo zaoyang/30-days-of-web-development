@@ -26,7 +26,7 @@ Let's start things off by opening your terminal; every major computer comes pack
 
 I>When talking about the actual Terminal application that comes packaged with macOS I'll capitalize the "T."  Otherwise, terminal with a lowercase "t" will refer to _any_ terminal program that interfaces with your Shell.  Thus, I can use the lower case terminal to generically talk about both the macOS Terminal application and the Windows OS Powershell.
 
-1\. **Windows OS Users**: The dominant Shell-CLI environment for Windows 10 users is PowerShell[^powershell]. To navigate to PowerShell, search for the "PowerShell" in the File Explorer and open it up.
+1\. **Windows OS Users**: The dominant Shell-CLI environment for Windows 10 users is PowerShell. To navigate to PowerShell, search for the "PowerShell" in the File Explorer and open it up.
 
 Before we start typing commands into the terminal, let's chat briefly about what commands are.
 
@@ -56,13 +56,15 @@ Now, if I look at my Desktop using my Finder program, I'll see the folder called
 
 ![](public/assets/mkdir-2.png)
 
-I>**Folder and Directory essentially mean the same thing**.  "Directory" is a classical term used when Shells and terminal programs were being developed. "Folder" is a more visual word that came about as Finder and File Explorer programs came into existence. Technically, a Directory maps to a file system, whereas Folder is a more nonspecific term. This is why in Shell commands use Directory instead of Folder, e.g., *`mkdir` make directory*.
+I>**Folder and Directory essentially mean the same thing**.  "Directory" is a classical term used when Shells and terminal programs were being developed. "Folder" is a more visual word that came about as Finder and File Explorer programs came into existence. Technically, a Directory maps to a file system, whereas Folder is a less specific term. Because the Shell programs are older, they tend to always use Directory instead of Folder, e.g., *`mkdir` make directory*.
 
 #### Exercise: Shell command practice
 
 1\. Download the [shell-script-practice.sh](src/shell-script-practice.sh) file to your downloads folder on your computer.
 
-2\. If you'd like to peak, go ahead and open this file with your text editor.  The code you see is written in Bash Scripting language; a programming language that works with the Bash Shell.  The Bash Shell is the default Shell that comes with your computer.  We'll learn more about this in tomorrow's article.
+2\. If you'd like to peak, go ahead and open this file with your text editor.  The code you see is written in the Bash Scripting language; a programming language that works with the Bash Shell.  The Bash Shell is the default Shell that comes with macOS.
+
+W> **Windows Users**, I am going to stop ✋ you and ask you to download the Bash Shell. You will need to do this before proceeding to the rest of the exercise.  My preference would be not to have you download any additional software.  However, the reality is Bash is so common that you'll eventually need it.  [Here are the instructions](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/). Installing Bash on Windows is now common, so if you run into any issues, hit up Google.
 
 3\. Next, open your terminal as we practiced earlier.
 
@@ -88,13 +90,13 @@ Type the following command in your terminal:
 cd ~/Downloads
 ```
 
-You can see the "Change Directories" command used in the following screenshot. I also followed that command with another `pwd` to confirm, that yes, I am now in the Downloads Folder.
+You can see the "Change Directories" command used in the following screenshot. I also followed that command with another `pwd` to confirm that yes, I am now in the Downloads Folder.
 
 ![](public/assets/terminal-2.png)
 
-Now that we're in our Downloads folder, we can run the "shell-script-practice.sh" file we downloaded step #1.
+Now that we're in our Downloads folder, we can run the "shell-script-practice.sh" file we downloaded in Step #1.
 
-To do this, run the following command:
+To run the "shell-script-practice.sh" file, run the following command:
 ```
 bash shell-script-practice.sh
 ```
@@ -110,5 +112,7 @@ Let's recap what we just did.
   * We then told the terminal to use the Bash Shell to open the file "shell-script-practice.sh".  If you peeked at the code in this file, you would have seen Bash Scripting language that walks you through those questions.
 
 Nice work 👏.  You just got your first taste of using the terminal and running a Shell script.  If this all seems like a lot, that's OK.  It is.  This article is just an introduction.  Learning about Shell Scripting, and most importantly, how to use the terminal will be crucial as you learn more about Web Development.
+
+### What's next?
 
 Tomorrow we'll be talking about CLIs (pronounced "C L I") and GUIs (pronounced "Gooey"), and their relationship with the terminal program and your computer's Shell.
