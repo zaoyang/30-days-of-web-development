@@ -37,7 +37,6 @@ Having added styles, try your hand at adding a CSS animation.  You don't need to
 * Time studying 10hrs
 * Time working on project 25hrs
 
-
 ### What's next?
 
 >>>Yesterday brought the beginning, tomorrow brings the end, though somewhere in the middle we became best friends.  #BFF 💙
