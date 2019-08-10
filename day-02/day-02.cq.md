@@ -22,7 +22,7 @@ With a web page open, hold `command + alt + j`.  Windows Users, use `ctrl + shif
 
 ![](public/assets/4-keyboard.png)
 
-Once you have the DevTools open, you should see the following window pop-up. Depending on your settings, DevTools may show up at the bottom of the screen or on the right-hand side.
+Once you have the DevTools open, you should see the following window pop-up. Depending on your settings, the DevTools may show up at the bottom of the screen or on the right-hand side.
 
 ![](public/assets/devtools-1.png)
 
