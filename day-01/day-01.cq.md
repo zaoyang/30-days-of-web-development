@@ -2,13 +2,15 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 01 - Can I become a Web Developer?
+# Can I become a Web Developer?
+
+> I want to stress - because I was unsure when I first started my journey - you can learn how to become a Web Developer and find a job in the field on your own.
 
 Let's look at what Web Development is and why you might be interested in learning more about it.
 
 Web Developers are also often referred to as Programmers, Developers, and Software Engineers. The key to all of these nouns is that they describe someone **who makes or builds web programs, web applications, and/or web pages**.
 
-##Can you become a Web Developer?
+## Can you become a Web Developer?
 
 Assuming you have access to a computer, the internet, and the self-motivation to take learning into your own hands, I can confidently answer **Yes**. Yes, you can become a Web Developer.
 
@@ -26,7 +28,7 @@ Learning the basics of Web Development is valuable to those working on the perip
 
 This is a personal question I can't answer, but I can give you potentially persuasive statistics.
 
-T>A personal story`:` Post-graduate, I have worked as an Economist, a Barista, a Bartender, Personal Trainer, Event Manager, and now as Frontend Developer. In my current position, I work remotely - from home 🏡 - and I love my job. I solve problems, I am challenged, and work with a diverse, smart group of co-workers. Additionally, I know that as I grow my skills, my job prospects and job security rise correspondingly.
+T> A personal story: Post-graduate, I have worked as an Economist, a Barista, a Bartender, Personal Trainer, Event Manager, and now as Frontend Developer. In my current position, I work remotely - from home 🏡 - and I love my job. I solve problems, I am challenged, and work with a diverse, smart group of co-workers. Additionally, I know that as I grow my skills, my job prospects and job security rise correspondingly.
 
 The field of Web Development is growing, and the demand is high. According to the Bureau of Labor Statistics, Computer and IT occupations are the fastest-growing of all US occupations[^bls].
 
