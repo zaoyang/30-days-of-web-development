@@ -4,7 +4,9 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 03 - Operating System - Setup & Tooling
+# Operating System - Setup & Tooling
+
+> Whether you're a Windows or Mac user, you can participate in all the exercises.  But, let's make sure we understand why an Operating System is important for our work as future Web Developers.
 
 Most folks know that an "Operating System" (OS) has something to do with their computers; _maybe_ they even connect it to Steve Jobs, and Bill Gates, or was it was Mark Zuckerberg...
 

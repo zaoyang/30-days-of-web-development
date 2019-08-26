@@ -4,7 +4,9 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 04 - GUIs and Shells
+# GUIs and Shells
+
+> GUIs and Shells are two important terms we are going to explore.  Understanding how they relate to our Operating System will clarify potential points of confusion later on.
 
 Continuing our Operating System discussion from yesterday, we now understand generally what Operating Systems do.  There are some more convoluted differences between the different types of Operating System, but the one we are concerned with is the GUI and Shell.  Two terms we will introduce and talk about today.
 
