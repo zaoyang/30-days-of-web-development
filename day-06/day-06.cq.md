@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 06 - HTML is a Markup Language
+# HTML is a Markup Language
 
 HyperText Markup Language, better known as HTML, is the foundational language of all content on the web.
 

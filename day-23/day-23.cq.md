@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 23 - What is a terminal, and why should I care?
+# What is a terminal, and why should I care?
 
 The terminal is a program that you use to type in commands. It is a text input/output environment.  Not knowing how to use a terminal as a Web Developer would be like a writer not knowing how to use a computer; sure they could use a typewriter or good-old pen and paper, but how effective would they be?
 

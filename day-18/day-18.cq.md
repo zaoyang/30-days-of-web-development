@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 18 - What is a Programming Language?
+# What is a Programming Language?
 
 W>I get a little Computer Science 101 in this article.  If you're more of a hands-on, non-theoretical type, feel free to skip today.  If having some background helps you more easily grasp concepts, read on.  Also, note today is the longest of all the blog articles, about a 6 min read.
 

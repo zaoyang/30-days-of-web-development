@@ -3,7 +3,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 07 - Tags and Elements - HTML
+# Tags and Elements - HTML
 
 Yesterday we learned that HTML is a kind of Markup Language.  HTML, however, is not the only type of Markup Language. This blog post, for example, is written in [Markdown](https://daringfireball.net/projects/markdown/), another type of Markup Language. 
 

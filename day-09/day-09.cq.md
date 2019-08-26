@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 09 - Giving HTML some style 😎
+# Giving HTML some style 😎
 
 In the last several blog posts, we looked at HTML.  We learned what it was, what it's used for, and played with some basic syntax.
 

@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 15 - Adding Interactivity
+# Adding Interactivity
 
 HTML gives the web structure. CSS provides that structure with style.  **JavaScript makes that structure *interactive***.
 

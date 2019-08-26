@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 14 - CSS Units
+# CSS Units
 
 We've been using CSS Units throughout our examples (ex: `10px`), but I have yet to stop and address what they mean.  Today we'll be focusing on the different CSS units, which indicate a size. We will use the DevTools to play with different variations.
 

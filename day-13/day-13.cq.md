@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 13 - Playing with CSS Selectors
+# Playing with CSS Selectors
 
 To get more comfortable with Selector Specificity, let's revisit our "css-practice.html" document.  
 

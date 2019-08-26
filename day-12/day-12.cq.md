@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 12 - Selector Specificity - CSS
+# Selector Specificity - CSS
 
 ### Selector Specificity
 

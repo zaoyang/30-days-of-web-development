@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 29 - Introduction to GitHub
+# Introduction to GitHub
 
 GitHub is the single largest host for Git repositories.  Git repositories, if you remember, are projects (e.g., folders, directories) that are managed by Git's version control.  You created a Git repository in yesterday's blog post.
 

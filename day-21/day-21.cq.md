@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 21 - Frameworks and Libraries
+# Frameworks and Libraries
 
 To get in front of what might later become confusing, I want to stop and quickly talk about **Frameworks and Libraries**.
 

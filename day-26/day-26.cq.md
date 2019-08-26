@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 26 - File Paths Part II
+# File Paths Part II
 
 Now that we have a better understanding of what file paths are, and specifically what **Relative File Paths** are, today we'll finish up our conversation by looking at the second type of file path: Absolute File Paths.
 

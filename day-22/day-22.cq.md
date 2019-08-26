@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 22 - Navigating Job Postings
+# Navigating Job Postings
 
 By the end of this article, I hope you'll have a better understanding of how to read Web Developer job descriptions.  As well as how to decipher what kind of skills they're asking for.
 

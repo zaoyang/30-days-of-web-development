@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 17 - JavaScript in the DevTools
+# JavaScript in the DevTools
 
 There is no way I could reasonably teach you all you need to know about JavaScript in a couple of blog posts. Instead, I am going to show you some JavaScript code snippets, and show you that they can be executed in the DevTools' Console.
 

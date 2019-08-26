@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 27 - File Systems and Types
+# File Systems and Types
 
 ### File System
 

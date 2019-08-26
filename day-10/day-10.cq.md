@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 10 - CSS and HTML together
+# CSS and HTML together
 
 Yesterday we played with changing the color of an HTML element via the DevTools.
 

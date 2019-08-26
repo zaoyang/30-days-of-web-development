@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 25 - File Paths Part I
+# File Paths Part I
 
 File Paths are grammar's equivalent to the words "except" and "accept."  People don't _really_ know the difference, they guess and hope for the best.  Though I don't have any statistics to back this up, I think a good chunk of developers do the same when it comes to File Paths.
 

@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 19 - Top 10 Programming Languages
+# Top 10 Programming Languages
 
 How do you know what Programming Language to learn? Do you need to learn more than one Programming Language, and if so in what order should you learn them?
 

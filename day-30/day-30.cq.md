@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 30 - Web Developer Field Guide
+# Web Developer Field Guide
 
 Web development, especially in the last 5+ years, has blown up and the content along with it.  There is a lot to learn, and honestly, you can't learn it all.  So that begs the question, what do you do next, and where do you go from here; how can you get a job as a Web Developer?
 

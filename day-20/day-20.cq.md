@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 20 - A closer look at the top 4 Programming Languages
+# A closer look at the top 4 Programming Languages
 
 Now that we have a sense of what the top Programming Languages are, we should investigate what these Programming Languages are used for.
 

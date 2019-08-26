@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 24 - CLI vs. GUI?
+# CLI vs. GUI?
 
 Today we'll get more familiar with the differences between a CLI and a GUI.  These terms are thrown around a lot.  And honestly, their definitions are pretty easy to understand.  Just defining them wouldn't justify a blog article.
 

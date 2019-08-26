@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Day 16 - Why is JavaScript important?
+# Why is JavaScript important?
 
 No matter what kind of programmer you decide to become, JavaScript is a language that you will need to know.  The most recent statistics show that JavaScript is used by about **95% of all websites**[^percent].
 
