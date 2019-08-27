@@ -7,8 +7,8 @@ module.exports = ({ dedent }) => ({
   gitRepoHttpUrl:
     "https://github.com/fullstackio/30-days-of-webdev/blob/master",
   heroLogoUrl: "./images/day1-welcome-pink.png",
-  heroPhotoUrl: "./images/cover-image-sebastian-unrau-47679-unsplash.jpg",
-  paperBookPhotoUrl: "./images/30-days-of-webdev-hardcover.jpg",
+  heroPhotoUrl: "./images/fox-pattern-bw.jpg",
+  paperBookPhotoUrl: "./images/30-days-of-webdev-hardcover.png",
   paperBookPhotoUrlPng: "./images/30-days-of-webdev-hardcover.png",
   publicLessonCount: 15,
   previewPercent: 60,
