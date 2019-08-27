@@ -5,7 +5,7 @@
   ✨ Your First 30 Days of Web Development ✨
 </h3>
 <p align="center">
-  An Introduction to Web Development - in 30 Bite-Size Morsels. Written by the authors of <a href="https://fullstack.io/web-developers-field-guide">How to Become A Web Developer: A Field Guide</a></a>
+  A Free Introduction to Making Heads or Tails of Web Development in 30 Delightful Lessons. Written by the authors of <a href="https://fullstack.io/web-developers-field-guide">How to Become A Web Developer: A Field Guide</a></a>
 </p>
 <p align="center">
   <a href="https://fullstack.io/30-days-of-webdev">
