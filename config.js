@@ -5,7 +5,7 @@ module.exports = ({ dedent }) => ({
   permalink: "/30-days-of-webdev",
   subtitle: `A free introduction to making heads or tails of web development in 30 delightful lessons`,
   gitRepoHttpUrl:
-    "https://github.com/fullstackio/30-days-of-webdev/blob/master",
+    "https://github.com/fullstackio/30-days-of-web-development/blob/master",
   heroLogoUrl: "./images/day1-welcome-pink.png",
   heroPhotoUrl: "./images/fox-pattern-bw.jpg",
   paperBookPhotoUrl: "./images/30-days-of-webdev-hardcover.png",
@@ -50,11 +50,11 @@ module.exports = ({ dedent }) => ({
   faqCta: "Enroll in this free course",
 
   afterword: dedent`
-  The entire source code for this tutorial series can be found in [the GitHub repo](https://github.com/fullstackio/30-days-of-webdev), which includes all the styles and code samples.
+  The entire source code for this tutorial series can be found in [the GitHub repo](https://github.com/fullstackio/30-days-of-web-development), which includes all the styles and code samples.
 
   If at any point you feel stuck, have further questions, feel free to reach out to us by:
 
-  * Creating an issue at the [Github repo](https://github.com/fullstackio/30-days-of-webdev).
+  * Creating an issue at the [Github repo](https://github.com/fullstackio/30-days-of-web-development).
   * Tweeting at us at [@fullstackio](https://twitter.com/fullstackio).
 `,
   authorSlugs: ["angel"],
