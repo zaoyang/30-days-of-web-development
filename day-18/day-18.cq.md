@@ -4,7 +4,9 @@ coverImageBackgroundPosition: "50% 87%;"
 
 # What is a Programming Language?
 
-W>I get a little Computer Science 101 in this article.  If you're more of a hands-on, non-theoretical type, feel free to skip today.  If having some background helps you more easily grasp concepts, read on.  Also, note today is the longest of all the blog articles, about a 6 min read.
+> I get a little Computer Science 101 👩‍🏫 in this article.  But, I promise you'll appreciate the background information. 
+
+W> Today is the longest of all the blog articles, about a 6 min read. It's all reading, no exercises.  It also happens to be one of my favorite 😁. 
 
 Before we begin, I want to define what a Programming Language is. So far the only Programming Language we've introduced is JavaScript; HTML and CSS are both markup languages.
 

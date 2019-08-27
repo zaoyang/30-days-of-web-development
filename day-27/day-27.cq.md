@@ -6,7 +6,9 @@ coverImageBackgroundPosition: "50% 87%;"
 
 ### File System
 
-We now have a better understanding of how to navigate around our computer, but what exactly are you navigating _in_? If you were the captain of a ship, I basically just showed you how to sail a ship, but did not tell you if you'd be in the Atlantic, Bering Strait, or a bathtub.
+> If you were the captain of a ship, I basically just showed you how to sail a ship, but did not tell you if you'd be in the Atlantic, Bering Strait, or a bathtub 🛀.
+
+We now have a better understanding of how to navigate around our computer, but what exactly are you navigating _in_?
 
 ![](public/assets/ship.png)
 

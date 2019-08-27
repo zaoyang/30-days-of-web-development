@@ -4,6 +4,8 @@ coverImageBackgroundPosition: "50% 87%;"
 
 # Selector Specificity - CSS
 
+> What's easier to say, "toy boat ⛵️" or "selector specificity" three times fast?  Try it out. I can say neither.
+
 ### Selector Specificity
 
 We learned in the last article that a **Selector** is what points to the HTML element.  For example, in the following code snippet the selector is the `p` tag:
@@ -13,8 +15,6 @@ p {color: blue}
 ``` 
 
 **Specificity** is just a fancy way of saying _specific_. The more specific a selector is the higher its priority.  You use different types of selectors to indicate how specific you want to be.
-
-Q>What's easier to say, "toy boat" or "selector specificity" three times fast?  Try it out. I can say neither.
 
 #### Different types of Selectors
 

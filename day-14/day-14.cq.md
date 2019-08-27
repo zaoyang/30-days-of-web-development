@@ -4,7 +4,9 @@ coverImageBackgroundPosition: "50% 87%;"
 
 # CSS Units
 
-We've been using CSS Units throughout our examples (ex: `10px`), but I have yet to stop and address what they mean.  Today we'll be focusing on the different CSS units, which indicate a size. We will use the DevTools to play with different variations.
+> Today we'll be focusing on the different CSS units, which indicate a size. We will use the DevTools to play with different variations.
+
+We've been using CSS Units throughout our examples (ex: `10px`), but I have yet to stop and address what they mean.
 
 Before we dive in, a quick refresher, when using CSS, you have to define a property and a value.  It's the value part that we'll be discussing.
 
@@ -22,32 +24,16 @@ A `px`, short for pixel, is one of many CSS units.  It's very common, and the on
 
 Read through the descriptions, and think about under which circumstances you might use one unit type over the other.  Hint: some are better for dealing with changing screen sizes, and others are better at dealing with adjusting their size relative to other elements.
 
-| Unit |                                                                                                                   Description                                                                                                                    |
-| :--: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|  px  |                                                                      Pixels are relative to the view device. In general, pixels measure out to be 1 px = 1/96th of an inch.                                                                      |
-|  pt  |                                                                                        Points are traditionally used in print media. 1 pt = 1/72 of an inch.                                                                                        |
-|  em  | em is a scalable unit. You define a base, and then use that as a reference point. Say 1em is equal to the current font size then 2em would be double the current font size. They are popular on the web because they are "mobile-friendly." |
-|  %   |                                                                                Percent. An example might be 50%. These are also scalable and relative to a base.                                                                                 |
+![](public/assets/table-7.png)
 
 In most cases, these units are set to be equal to each other such that:
 16px = 12pt = 1em = 100%. In the following table, I am using these sizes on each line item. You can see that the "Howdy!" on each line is the same size, even though each value is different.
 
-| font-size: value |               Example                |
-| :--------------: | :----------------------------------: |
-| font-size: 16px  | <p style="font-size:16px">Howdy!</p> |
-| font-size: 12pt  | <p style="font-size:12pt">Howdy!</p> |
-|  font-size: 1em  | <p style="font-size:1em">Howdy!</p>  |
-| font-size: 100%  | <p style="font-size:100%">Howdy!</p> |
+![](public/assets/table-8.png)
 
 Now let's see what happens when we use the same value for each unit type (5 is the value we'll be using). Notice how much larger em is than 5%? You can't even see 5%, and 5em is huge.
 
-| font-size: value |               Example               |
-| :--------------: | :---------------------------------: |
-|  font-size: 5px  | <p style="font-size:5px">Howdy!</p> |
-|  font-size: 5pt  | <p style="font-size:5pt">Howdy!</p> |
-|  font-size: 5em  | <p style="font-size:5em">Howdy!</p> |
-|  font-size: 5%   | <p style="font-size:5%">Howdy!</p>  |
-
+![](public/assets/table-9.png)
 
 #### Exercise: Using the DevTools to Play with Units
 

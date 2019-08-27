@@ -4,7 +4,7 @@ coverImageBackgroundPosition: "50% 87%;"
 
 # Top 10 Programming Languages
 
-How do you know what Programming Language to learn? Do you need to learn more than one Programming Language, and if so in what order should you learn them?
+> How do you know what Programming Language to learn? Do you need to learn more than one Programming Language, and if so in what order should you learn them?
 
 While I can't answer these questions for you, I _can_ give you the resources and some guidance so you can answer those questions for yourself.
 

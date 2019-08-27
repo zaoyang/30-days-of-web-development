@@ -4,6 +4,8 @@ coverImageBackgroundPosition: "50% 87%;"
 
 # CSS and HTML together
 
+> But how do we get CSS onto a web page?  There are three basic ways of adding CSS to a web page: Inline style, Internal and External stylesheets. 
+
 Yesterday we played with changing the color of an HTML element via the DevTools.
 
 Today we're going to look at how you add CSS to a web page.

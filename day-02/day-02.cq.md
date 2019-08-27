@@ -4,7 +4,7 @@ coverImageBackgroundPosition: "50% 87%;"
 
 # Developer Tools - Setup & Tooling
 
-> Before we can being, we need to get some essential tools setup.  The first of which is the DevTools.
+> Before we can being, we need to get familiar with some essential tools.  The first of which is the DevTools.
 
 Now that we know what Web Development *is* and *why* we want to learn more let's get set up with some essential tooling.
 

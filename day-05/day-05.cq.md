@@ -4,7 +4,7 @@ coverImageBackgroundPosition: "50% 87%;"
 
 # Text Editor - Setup & Tooling
 
-> Today, you will meet your soon to be best friend: your text editor.  Your text editor is a fancy tool that developers use to write code.
+> Today, you will meet your soon to be best friend: the text editor.  A text editor is a fancy tool that developers use to write code.
 
 Every mainstream computer comes with what is called a **text editor**.  A text editor is a program that edits text without adding markup, i.e., in plain text.  Developers use text editors to assist in writing "code".
 

@@ -4,7 +4,7 @@ coverImageBackgroundPosition: "50% 87%;"
 
 # Adding Interactivity
 
-HTML gives the web structure. CSS provides that structure with style.  **JavaScript makes that structure *interactive***.
+> HTML gives the web structure. CSS provides that structure with style.  **JavaScript makes that structure *interactive***.
 
 ![](public/assets/flying.png)
 

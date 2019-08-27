@@ -4,7 +4,9 @@ coverImageBackgroundPosition: "50% 87%;"
 
 # CSS Syntax
 
-CSS syntax is relatively straightforward, and you may have even picked up on the syntax basics through some of the previous examples. The three key components of writing CSS are **Selector**, **Property**, and **Value**.
+> CSS syntax is relatively straightforward, and you may have even picked up on the syntax basics through some of the previous examples.
+
+The three key components of writing CSS are **Selector**, **Property**, and **Value**.
 
 ![](public/assets/selector-property-value.png)
 
