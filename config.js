@@ -17,21 +17,23 @@ module.exports = ({ dedent }) => ({
   summary: dedent`
     Interested in learning Web Development but having trouble getting started?
 
-    We'll teach you how it all works - _for free_.
+    I wrote this book for the "me" of five years ago: the person who wants to know _how_ to become web developer. My path was convoluted, and inefficient: but yours does not have to be.
 
-    Over the next 30 days, we'll walk through everything you need to know to work with Web Development. From the **very beginning** through topics like the **Web Development Instance**, **Components**, and even **Testing**.
+    Over the next 30 days, I show you how to navigate the sometimes confusing world of web development (_for free_). We'll walk all of the key ideas in web development, starting with the **very basics** and defining terms that are often skipped.
+
+    By the end of this book, you will be able to make an educated decision about your future and understand the steps and commitment it will take to get there.
   `,
   whatIsThis: dedent`
   This post is part of the series [**30 Days of Web Development**](/30-days-of-webdev).
 
-  In this series, we're starting from the very basics and walk through everything you need to know to get started with Web Development. If you've ever wanted to learn Web Development, this is the place to start!
+  In this series, we start from the basics and walk through everything you need to know to get started with Web Development.
     `,
   pdfLength: "330+",
   faq: [
     {
       q: "What is this?",
       a:
-        "This course is a series of articles which teach you how to use Web Development from the ground up. The series provides a step-by-step process you can use to learn Web Development from an empty folder to a Webpack-bundled Web Development app."
+        "In this series, we start from the basics and walk through everything you need to know to get started with Web Development."
     },
     {
       q: "What if I get stuck?",
@@ -41,7 +43,7 @@ module.exports = ({ dedent }) => ({
     {
       q: "Who wrote this?",
       a:
-        "We're the authors of the [Fullstack Web Development Book](https://fullstack.io/vue)."
+        "We're the authors of the [How to Become a Web Developer: A Field Guide](https://fullstack.io/web-developers-field-guide)."
     }
   ],
   faqImageUrl: "todo.jpg",
@@ -57,9 +59,9 @@ module.exports = ({ dedent }) => ({
 `,
   authorSlugs: ["angel"],
   closingCtaH1: "Get started now",
-  closingCtaCopy: `Join us on our 30-day journey in Web Development. Join thousands of other professional Web Development developers and learn one of the most powerful web application development frameworks available today.`,
-  closingCtaButton: "Download 30 Days of Web Development PDF (FREE)",
-  publishedOn: "2019-08-23",
+  closingCtaCopy: `Join us on our 30-day journey in Web Development. Learn the basics of HTML, JavaScript, the Terminal and start your journey to becoming a web developer`,
+  closingCtaButton: "Download Your First 30 Days of Web Development PDF (FREE)",
+  publishedOn: "2019-08-27",
   lessonLanguage: "Day",
   ctaFormAction:
     "https://fd338.infusionsoft.com/app/form/process/8c1ddc4f62b89862cde6aa74850295b0",
