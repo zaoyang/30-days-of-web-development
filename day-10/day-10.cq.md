@@ -34,7 +34,7 @@ You can apply CSS this way to any element. However, because of the way CSS rules
 
 #### Exercise: Inline Styles
 
-1\. Open up the "css-practice.html" file from yesterday. If you don't have it open, here's a [quick link.](public/src/css-practice.html)
+1\. Open up the "css-practice.html" file from yesterday. If you don't have it open, here's a [quick link.](https://github.com/fullstackio/30-days-of-web-development/blob/master/day-10/src/css-practice.html)
 
 On row 3, add the Inline style to the heading element, such that it reads like the following:
 
@@ -100,9 +100,9 @@ In the following example, the `<link>` element is telling the browser: use the f
 </head>
 ```
 
-To keep things brief, we will not be making an External stylesheet, but I have included one that you can practice with - [see here](public/src/external-stylesheet.css). To use this External stylesheet make sure it's in the same folder as your "css-practice.html." On the External stylesheet, I have added a couple of basic CSS styles to play with. Amend, break, and play with this external-stylesheet.css as you see fit.
+To keep things brief, we will not be making an External stylesheet, but I have included one that you can practice with - [see here](https://github.com/fullstackio/30-days-of-web-development/blob/master/day-10/src/external-stylesheet.css). To use this External stylesheet make sure it's in the same folder as your "css-practice.html." On the External stylesheet, I have added a couple of basic CSS styles to play with. Amend, break, and play with this external-stylesheet.css as you see fit.
 
-Here is the [css-practice-final.html](public/src/css-practice-final.html) with the internal, and external stylesheets added if you'd like to look.
+Here is the [css-practice-final.html](https://github.com/fullstackio/30-days-of-web-development/blob/master/day-10/src/css-practice-final.html) with the internal, and external stylesheets added if you'd like to look.
 
 ### What's next?
 
