@@ -8,7 +8,7 @@ coverImageBackgroundPosition: "50% 87%;"
 
 Yesterday we learned that HTML is a kind of Markup Language. HTML, however, is not the only type of Markup Language. This blog post, for example, is written in [Markdown](https://daringfireball.net/projects/markdown/), another type of Markup Language.
 
-T>I hate when words like this are used in the same paragraph, Markdown 👇 vs. Markup 👆. Markdown - with the _down_ at the end, is a type of Markup Language - with the _up_ at the end. I would apologize for this unnecessary confusion, but it is not my apology to make 😕.
+T>I hate when words like this are used in the same paragraph, Markdown 👇 vs. Markup 👆. Markdown - with the _down_ at the end, is a specific type of Markup Language - with the _up_ at the end. The particulars of the format aren't important, just know that there are _multiple_ kinds of Markup Languages (not just HTML).
 
 If I wanted to write a **bold word** in this blog post, using the Markdown Language, I start and end the word with double asterisks. Like this: `**bold word**`. In HTML, I would write **bold word** like this: `<b>bold word</b>`.
 
