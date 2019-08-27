@@ -4,6 +4,8 @@ coverImageBackgroundPosition: "50% 87%;"
 
 # Giving HTML some style 😎
 
+> That HTML was rather boring.  Let's use CSS to give it some style 😎.
+
 In the last several blog posts, we looked at HTML.  We learned what it was, what it's used for, and played with some basic syntax.
 
 Admittedly, all the examples in the HTML articles didn't look very good. They were rather dull, with no color or unique <span style="font-family:cursive">font</span>. We're going to change that by introducing **CSS**.

@@ -4,6 +4,8 @@ coverImageBackgroundPosition: "50% 87%;"
 
 # HTML is a Markup Language
 
+> HTML is the foundational language of all content on the web.  Let's get familiar with it.
+
 HyperText Markup Language, better known as HTML, is the foundational language of all content on the web.
 
 To better understand what HTML is, let's break down the acronym.  

@@ -4,6 +4,8 @@ coverImageBackgroundPosition: "50% 87%;"
 
 # CLI vs. GUI?
 
+> CLI, GUIs, shells?  You may not know it, but you're very familiar with all three.
+
 Today we'll get more familiar with the differences between a CLI and a GUI.  These terms are thrown around a lot.  And honestly, their definitions are pretty easy to understand.  Just defining them wouldn't justify a blog article.
 
 As such, in this article, I am going to go a couple of steps deeper. The reason for this more-in-depth exploration is that understanding the relationship between an Operating System and CLIs/GUIs will help you think through more complicated processes later on.

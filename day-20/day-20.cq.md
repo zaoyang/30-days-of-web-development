@@ -4,7 +4,7 @@ coverImageBackgroundPosition: "50% 87%;"
 
 # A closer look at the top 4 Programming Languages
 
-Now that we have a sense of what the top Programming Languages are, we should investigate what these Programming Languages are used for.
+> Now that we have a sense of what the top Programming Languages are, we should investigate what these Programming Languages are used for.
 
 In today's blog post, I will cover the top 4 most popular Programming Languages (according to Github's Octoverse).  I discuss the remaining 6 languages in the 📗 "How to Become a Web Developer: A Field Guide."  In this book, I also add code snippets and examples of companies that use the language.
 

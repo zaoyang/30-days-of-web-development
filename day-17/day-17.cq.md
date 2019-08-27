@@ -4,6 +4,8 @@ coverImageBackgroundPosition: "50% 87%;"
 
 # JavaScript in the DevTools
 
+> One of the best ways to start learning JavaScript is by playing with it in the DevTools.
+
 There is no way I could reasonably teach you all you need to know about JavaScript in a couple of blog posts. Instead, I am going to show you some JavaScript code snippets, and show you that they can be executed in the DevTools' Console.
 
 My hope is that by seeing and playing with some simple JavaScript, the syntax starts to become a little familiar, and JavaScript a little less foreign.

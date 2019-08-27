@@ -4,7 +4,7 @@ coverImageBackgroundPosition: "50% 87%;"
 
 # Playing with CSS Selectors
 
-To get more comfortable with Selector Specificity, let's revisit our "css-practice.html" document.  
+> To get more comfortable with Selector Specificity, let's revisit our "css-practice.html" document.  
 
 I've gone ahead and added a couple more elements, some that now have class names and one with an Id.  I've also modified the Internal stylesheet so that we have an "Uncomment sections" as we did in Day 8 when we played with HTML.
 

@@ -4,9 +4,9 @@ coverImageBackgroundPosition: "50% 87%;"
 
 # What is a terminal, and why should I care?
 
-The terminal is a program that you use to type in commands. It is a text input/output environment.  Not knowing how to use a terminal as a Web Developer would be like a writer not knowing how to use a computer; sure they could use a typewriter or good-old pen and paper, but how effective would they be?
+> Not knowing how to use a terminal would be like a writer not knowing how to use a computer; sure they could use a typewriter or good-old pen and paper, but how effective would they be?
 
-In this article, we'll cover what a terminal is, introduce you to a couple of useful commands, and talk briefly about what commands are.
+The terminal is a program that you use to type in commands. It is a text input/output environment. In this article, we'll cover what a terminal is, introduce you to a couple of useful commands, and talk briefly about what commands are.
 
 ## Opening the terminal
 

@@ -4,7 +4,9 @@ coverImageBackgroundPosition: "50% 87%;"
 
 # Playing with Elements and Tags
 
-We should now be comfortable understanding the basic syntax of HTML. Today we'll start using what we learned yesterday to change the look of a web page.
+> Time to get our hands dirty. Let's write some HTML. 
+
+We should now be comfortable with the basic syntax of HTML. Today we'll start using what we learned yesterday to change the look of a web page.
 
 #### Exercise: Playing with HTML
 
@@ -50,13 +52,7 @@ Nice work! 👏
 
 In your text editor, go ahead and uncomment snippets #2, #3, #4, and #5. In order, the snippets show examples of:
 
-|         HTML element         | What the HTML looks like in the browser |
-| :--------------------------: | :-------------------------------------: |
-|  `<h1>Heading Size 1</h1>`   |         <h1>Heading Size 1</h1>         |
-|      `<b>bold word</b>`      |            <b>bold word</b>             |
-|    `<em>italic word</em>`    |          <em>italic word</em>           |
-|      `<p>paragraph</p>`      |            <p>paragraph</p>             |
-| `<img src="./porcupine.png>` |         ![](src/porcupine.png)          |
+![](public/assets/table-extra.png)
 
 As a reminder, you use HTML tags to wrap what it is you want to apply that HTML tag to.
 

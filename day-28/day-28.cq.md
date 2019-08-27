@@ -4,7 +4,9 @@ coverImageBackgroundPosition: "50% 87%;"
 
 # Introduction to Git
 
-Have you ever run into file saving hell 🔥? You started with good intentions, telling yourself you'd stick with an organized system of v1, v2, etc., but a couple spelling mistakes, and recovered files later you've got a file system like the following:
+>Have you ever run into file saving hell 🔥? Git to the rescue 🚨.
+
+You started with good intentions, telling yourself you'd stick with an organized system of v1, v2, etc., but a couple spelling mistakes, and recovered files later you've got a file system like the following:
 
 ![](public/assets/file-poop.png)
 

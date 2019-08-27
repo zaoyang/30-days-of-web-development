@@ -4,7 +4,7 @@ coverImageBackgroundPosition: "50% 87%;"
 
 # Frameworks and Libraries
 
-To get in front of what might later become confusing, I want to stop and quickly talk about **Frameworks and Libraries**.
+> To get in front of what might later become confusing, I want to stop and quickly talk about **Frameworks and Libraries**.
 
 You'll often hear people refer to _Frameworks_, _Libraries_, and _Programming Languages_ as if they were all the same.
 

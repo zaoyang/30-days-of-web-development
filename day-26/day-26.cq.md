@@ -4,6 +4,8 @@ coverImageBackgroundPosition: "50% 87%;"
 
 # File Paths Part II
 
+> Rounding out our file paths discussion with the Absolute File Path.  Trick: think about trees 🌳.
+
 Now that we have a better understanding of what file paths are, and specifically what **Relative File Paths** are, today we'll finish up our conversation by looking at the second type of file path: Absolute File Paths.
 
 
