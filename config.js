@@ -28,7 +28,7 @@ module.exports = ({ dedent }) => ({
 
   In this series, we start from the basics and walk through everything you need to know to get started with Web Development.
     `,
-  pdfLength: "330+",
+  pdfLength: "220+",
   faq: [
     {
       q: "What is this?",
@@ -68,7 +68,7 @@ module.exports = ({ dedent }) => ({
   ctaFormXid: "8c1ddc4f62b89862cde6aa74850295b0",
   ctaFormName: "Web Form submitted",
   ctaInfVersion: "1.70.0.77019",
-  modalCtaHeader: "Learn Web Development (from the very beginning) in 30 days",
+  modalCtaHeader: "Learn Web Dev (from the very beginning) in 30 days",
   modalCtaBody: dedent`
   Enter your name and email address below, then click the **"Send my free PDF"** button to get started
   `,
