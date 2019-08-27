@@ -6,8 +6,6 @@ coverImageBackgroundPosition: "50% 87%;"
 
 > I get a little Computer Science 101 👩‍🏫 in this article. But, I promise you'll appreciate the background information.
 
-W> Today is the longest of all the blog articles, about a 6 min read. It's all reading, no exercises. It also happens to be one of my favorite 😁.
-
 Before we begin, I want to define what a Programming Language is. So far the only Programming Language we've introduced is JavaScript; HTML and CSS are both markup languages.
 
 Put very simply, a **Programming Language is a language that is used to write a set of instructions**. These instructions are written to produce of output. A **programmer** is someone who writes these instructions.
