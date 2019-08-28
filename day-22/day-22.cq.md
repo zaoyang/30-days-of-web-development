@@ -34,7 +34,7 @@ But let's chat about the added **ES6** and **SCSS** verbiage.
 
 You can think of ES as the current "version" of JavaScript[^version]. This ES6 "version" released such significant improvements to JavaScript that by adding ES6, the employer is confirming you are up-to-date with the latest and greatest JavaScript functionality. If you're curious about what exactly ES (ECMAScript) means, and why I've added quotes around "version," [Wikipedia provides a detailed write up](https://en.wikipedia.org/wiki/ECMAScript).
 
-SCSS is a CSS preprocessor. More formally, a preprocessor is a program that lets you generate CSS from a specific and unique set of syntax rules[^preprocessor]. In some ways, a preprocessor is like a Framework or a Library, to the extent that it's making CSS more powerful or easier to write.
+SCSS is a CSS preprocessor. More formally, a [preprocessor](https://developer.mozilla.org/en-US/docs/Glossary/CSS_preprocessor) is a program that lets you generate CSS from a specific and unique set of syntax rules. In some ways, a preprocessor is like a Framework or a Library, to the extent that it's making CSS more powerful or easier to write.
 
 However, what a preprocessor is, or ES6, is not the point. Instead, the takeaway is that the job posting is essentially saying: "we want you to know at an expert level the 3 core foundational languages of the web: HTML, CSS, and JavaScript."
 
@@ -75,7 +75,6 @@ This article was just an introduction. I trust you will take it from here, searc
 
 Tomorrow, we're going to learn about my favorite tool: the terminal 🙌🏼.
 
-[^preprocessor]: https://developer.mozilla.org/en-US/docs/Glossary/CSS_preprocessor
 [^wp]: WordPress is a CMS - Content Management System
 [^version]: The truth is ECMAScript is actually up to version 10, but major browsers are still implementing version 6. I also know JavaScript and ECMAScript are not the same thing, but to avoid overwhelming a beginner, I am keeping things simple.
 [^book]: In the book 📗"How to Become a Web Developer: A Field Guide," I analyze different job postings. I look at one from GitHub Jobs, StackOverflow Jobs, and several from Smashing Magazine Jobs.

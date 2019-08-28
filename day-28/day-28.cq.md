@@ -14,7 +14,7 @@ You're not alone.  This problem is universal: developers, grandmas, your mail-pe
 
 Web Developers are especially demanding when it comes to version control.  They are continually making small tweaks, revising, sharing code, and looking at changes done to code in the past.  Today, Git is the technology that developers use to solve for their onerous version control needs.
 
-Git is open-source, meaning that it is free to use and may be redistributed or modified[^open-source].  Released in 2005, Git become popular very quickly and had wide-sweeping impacts on the programming community.  There were Version Control Systems before Git came along, but Git's unique approach to tracking changes was an industry game-changer.
+Git is [open-source](https://en.wikipedia.org/wiki/The_Open_Source_Definition), meaning that it is free to use and may be redistributed or modified.  Released in 2005, Git become popular very quickly and had wide-sweeping impacts on the programming community.  There were Version Control Systems before Git came along, but Git's unique approach to tracking changes was an industry game-changer.
 
 There has been and still is no real competitor to Git.  As a future Web Developer, you will need to know how to use it.
 
@@ -49,20 +49,20 @@ Local VCS also didn't come close to solving the issue of different developers co
 >I would too, Bob.
 
 #### Centralized  Version Control Systems (CVCS)
-Next came Centralized Version Control Systems (CVCS). CVCS improved upon the process enough that they were the industry standard through the 90s up until Git was released[^cvcs]. 
+Next came [Centralized Version Control Systems](https://en.wikipedia.org/wiki/Perforce) (CVCS). CVCS improved upon the process enough that they were the industry standard through the 90s up until Git was released. 
 
 Unlike VCS, CVCS stored the codebase in a single place, not on individual computers.  Whoever needed to work on something would check out that file to work on it; similar to checking out a book from a library.  The problem, what happens if the place with your codebase burns down, or the library floods?  
 
 > Meet Kat. She's a programmer from 2003.  
 
-> Co-worker: "Hey, Kat, did you hear there was a massive hail storm in Aurora, Nebraska. They recorded 7-inch diameter hail[^hail]!  Isn't that where we have the computer that holds all of our code?"
+> Co-worker: "Hey, Kat, did you hear there was a massive hail storm in Aurora, Nebraska. They recorded 7-inch diameter [hail](https://en.wikipedia.org/wiki/List_of_costly_or_deadly_hailstorms#North_America)!  Isn't that where we have the computer that holds all of our code?"
 
 >Kat: "I quit."
 
 >I would too, Kat.
 
 #### Distributed Version Control System (DVCS)
-The third times a charm.  Building off of VCS and CVCS, developers created Distributed Version Control Systems (DVCS).  **Git is a DVCS**[^DVCS].   
+The third times a charm.  Building off of VCS and CVCS, developers created [Distributed Version Control Systems](https://en.wikipedia.org/wiki/Distributed_version_control) (DVCS).  **Git is a DVCS**.   
 
 In DVCS, programmers check out a fully mirrored version of the codebase.  If this were a library, instead of checking out a book, you'd be checking out a mirrored image of the library, the book included.  Thus, if the library burned to the ground, anyone who checked out a mirrored version of the library could restore it with their version.  
 
@@ -153,8 +153,3 @@ There is a heck-of-a-lot that I did not cover here.  And it pains me a little to
 As a future Web Developer, Git will become apart of your day-to-day workflow.  The more familiar you are with Git, the more powerful and efficient developer you'll be. 
 
 Tomorrow, I'll introduce GitHub and explain the Git + GitHub relationship.
-
-[^open-source]:https://en.wikipedia.org/wiki/The_Open_Source_Definition
-[^cvcs]:https://en.wikipedia.org/wiki/Perforce
-[^hail]:https://en.wikipedia.org/wiki/List_of_costly_or_deadly_hailstorms#North_America
-[^DVCS]:https://en.wikipedia.org/wiki/Distributed_version_control

@@ -28,13 +28,13 @@ Not in any way related to JavaScript, Java is an extremely mature language. It i
 
 While some may consider Java "verbose", Java is also considered a relatively easy Programming Language to learn. It has an extensive class library, and a strong open-source community - meaning that a lot of functionality is already written for you.
 
-Java is used for both web applications, like Google Docs, and also for applications on your computer. For example, any Open Office[^openoffice] application - think applications like Microsoft Word or Excel - is written in Java.
+Java is used for both web applications, like Google Docs, and also for applications on your computer. For example, any [Open Office](https://en.wikipedia.org/wiki/OpenOffice.org) application - think applications like Microsoft Word or Excel - is written in Java.
 
-Java is now owned by Oracle[^oracle], so if you are using Oracle products, then it's a safe bet that Java is involved.
+Java is now owned by [Oracle](https://www.oracle.com/sun/), so if you are using Oracle products, then it's a safe bet that Java is involved.
 
 Java is also a popular language for use in Android Smartphone applications, and the Internet of Things (IoT).
 
-T>The term IoT will come up in other Programming Languages. It essentially means anything that provides a system of related computer devices that talk to each other over a network[^iot]. Examples include things like home security systems (e.g., Nest), or Amazon Alexa and Google Assistant[^iotex].
+T>The term [IoT](https://en.wikipedia.org/wiki/Internet_of_things) will come up in other Programming Languages. It essentially means anything that provides a system of related computer devices that talk to each other over a network. Examples include things like home security systems (e.g., Nest), or Amazon Alexa and Google Assistant.
 
 A downside of Java is that historically it tends to use up a lot of memory (though this has improved in recent years). It is powerful, but that power comes at a cost.
 
@@ -42,9 +42,9 @@ A downside of Java is that historically it tends to use up a lot of memory (thou
 
 ### Python: Bring on the Data
 
-Python has grown into a very popular language used for software development, infrastructure management, and data science. It is also a key driver in big data analytics and artificial intelligence (AI)[^python].
+Python has grown into a very popular language used for software development, infrastructure management, and data science. It is also a key driver in big data analytics and artificial intelligence (AI).
 
-Python can be used for desktop General User Interface (a.k.a. GUI) applications; think of any application you download and put on your computer. For example, Dropbox's Desktop interface is built using Python[^dropbox].
+Python can be used for desktop General User Interface (a.k.a. GUI) applications; think of any application you download and put on your computer. For example, Dropbox's Desktop interface is built using [Python](https://realpython.com/world-class-companies-using-python/#dropbox).
 
 ![](public/assets/dropbox.png)
 
@@ -56,7 +56,7 @@ Nearly all of the popular open-source libraries for _Deep Learning_ (such as Ten
 
 ### PHP: One of the Web’s Original Languages
 
-PHP, though on a mild downward trend, is not going away anytime soon. WordPress is built on PHP. If you are not already familiar with WordPress, it is a website creation tool. WordPress _is the largest_ Website Creation tool, and it is estimated that 27% of the websites on the internet are powered using WordPress[^wp]. If you want to build WordPress websites, you'll need to know PHP.
+PHP, though on a mild downward trend, is not going away anytime soon. WordPress is built on PHP. If you are not already familiar with WordPress, it is a website creation tool. WordPress _is the largest_ Website Creation tool, and it is estimated that 27% of the websites on the internet are powered using [WordPress](https://www.whoishostingthis.com/compare/wordpress/stats/). If you want to build WordPress websites, you'll need to know PHP.
 
 Facebook also uses PHP. However, Facebook is somewhat "old," and it is generally thought that if Facebook were to be started today, they would use something other than PHP.
 
@@ -70,12 +70,6 @@ PHP used to be the de facto Programming Language to learn after JavaScript, but 
 
 Tomorrow we're going to take a slight detour and talk about Libraries and Frameworks, which are often talked about as if they were Programming Languages.  We'll clarify this relationship.
 
-[^openoffice]: https://en.wikipedia.org/wiki/OpenOffice.org
-[^oracle]: https://www.oracle.com/sun/
-[^iot]: https://en.wikipedia.org/wiki/Internet_of_things
-[^iotex]: https://iot.do/devices
-[^dropbox]: https://realpython.com/world-class-companies-using-python/#dropbox
-[^wp]: https://www.whoishostingthis.com/compare/wordpress/stats/
+
 [^node]: Node.js is not a Programming Language, Framework or Library. It is a run-time environment built on the Chrome JavaScript engine. https://en.wikipedia.org/wiki/Node.js
 [^analogy]: I'm taking the concept from Rory MacDonald and his article on the [Pros and Cons of Ruby on Rails](https://www.madetech.com/blog/pros-and-cons-of-ruby-on-rails), but I'll be making some tweaks to fit our discussion.
-[^python]: https://www.python.org/about/

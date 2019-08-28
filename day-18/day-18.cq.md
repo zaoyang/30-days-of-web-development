@@ -56,7 +56,7 @@ To best answer that question, I'm going to show you a sentence written in standa
 01000010011001010010000001110011011101010111001001100101001000000111010001101111001000000110010001110010011010010110111001101011001000000111100101101111011101010111001000100000010011110111011001100001011011000111010001101001011011100110010100101110
 ```
 
-Machine code is either written in hexadecimal or binary. A computer can read both. If you're like most everyone, reading and writing binary and hexadecimal is not something you can easily do. The only thing capable of quickly reading through machine code is your computer's central processing unit (CPU). Your computer likes machine code because the short syntax makes it easy for your CPU to execute it extremely fast[^machinecode].
+Machine code is either written in hexadecimal or binary. A computer can read both. If you're like most everyone, reading and writing binary and hexadecimal is not something you can easily do. The only thing capable of quickly reading through machine code is your computer's central processing unit (CPU). Your computer likes [machine code](https://en.wikipedia.org/wiki/Machine_code#cite_note-7) because the short syntax makes it easy for your CPU to execute it extremely fast.
 
 #### Low to High-level Programming Languages
 
@@ -107,5 +107,3 @@ When we typed JavaScript into the DevTools' Console, we were witnessing an inter
 Whew, sorry for going all CS-101 on you. But I think it's valuable to understand some of these practical concepts even if you don't _need_ to know them to read/write programming languages.
 
 Tomorrow, we'll leave the traditional lecturing behind, and explore the top 10 Programming Languages.
-
-[^machinecode]: https://en.wikipedia.org/wiki/Machine_code#cite_note-7

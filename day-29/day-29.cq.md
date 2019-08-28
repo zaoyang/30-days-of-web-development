@@ -70,6 +70,7 @@ Before we wrap up today, I want to briefly talk about GitHub as an asset when ap
 Your GitHub activity, profile, and repositories will be much more valuable to any prospective employer than your resume.  It's also likely that any project you take as part of the application process will be done using the Git / GitHub workflow.
 
 Employers will use your GitHub profile to determine: what if any repositories you are contributing to, what repositories you have made yourself, and if you are actively using Git.  In the programming world, it's less about what school you went to, and more about what you've created or are contributing to.  If you have an active presence in the GitHub community, your future employer will be sure to take notice.  
+
 #### Tomorrow is our last day!
 
 We've covered a lot, and if you're a bit overwhelmed, you're not alone. Getting starting in Web Development, knowing how to focus and spend your energy studying the right things, is challenging.  I wrote the book 📗"How to Become a Web Developer: A Field Guide" because I wanted to write the book I needed when I first started.  I wanted to give a field guide for how to navigate all this information.

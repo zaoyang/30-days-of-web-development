@@ -28,7 +28,7 @@ For example, the ["shell-script-practice.sh](https://github.com/fullstackio/30-d
 
 ![](public/assets/executable-files.png)
 
-All of these files run a program on your computer. When you open _Adobe Illustrator_ or the _Calculator_ application, you are running executable files[^appexe].
+All of these files run a program on your computer. When you open _Adobe Illustrator_ or the _Calculator_ application, you are running [executable files](https://medium.com/@jalendport/what-exactly-is-your-shell-path-2f076f02deb4).
 
 Another, less obvious, example of an executable file are the commands we've been running in the terminal. Think about it; every time we executed a command in the terminal, the commands _do_ something. Behind the scenes, these commands are linked to executable files.
 
@@ -49,5 +49,3 @@ Go through the quiz, and do your best. I by no means have any way of knowing how
 Tomorrow, I'll be introducing you to one of your soon-to-be favorite tools: **Git**
 
 Simply put, Git helps you keep track of file changes. If that doesn't sound like a tool that will be a "soon-to-be favorite" give me by the end of tomorrow's article to convince you otherwise.
-
-[^appexe]: https://medium.com/@jalendport/what-exactly-is-your-shell-path-2f076f02deb4

@@ -16,7 +16,7 @@ Assuming you have access to a computer, the internet, and the self-motivation to
 
 Learning about Web Development is not only for the hoodied introvert who overuses the word "algorithm." Web Development is one of the few careers attainable via a self-taught curriculum, making itself available to a diverse range of people.
 
-According to Stack Overflow's 2019 Developer Survey Results, close to 37% of Professional Developers do _not_ have an undergraduate degree in Computer Science[^stackoverfloweducation].
+According to Stack Overflow's 2019 Developer Survey Results, close to 37% of Professional Developers do _not_ have an undergraduate degree in [Computer Science](https://insights.stackoverflow.com/survey/2019#education).
 
 ![](public/assets/stackoverflow-undergraduate-degree.png)
 
@@ -30,7 +30,7 @@ This is a personal question I can't answer, but I can give you potentially persu
 
 T> A personal story: Post-graduate, I have worked as an Economist, a Barista, a Bartender, Personal Trainer, Event Manager, and now as Frontend Developer. In my current position, I work remotely - from home 🏡 - and I love my job. I solve problems, I am challenged, and work with a diverse, smart group of co-workers. Additionally, I know that as I grow my skills, my job prospects and job security rise correspondingly.
 
-The field of Web Development is growing, and the demand is high. According to the Bureau of Labor Statistics, Computer and IT occupations are the fastest-growing of all US occupations[^bls].
+The field of Web Development is growing, and the demand is high. According to the Bureau of Labor Statistics, Computer and IT occupations are the fastest-growing of all [US occupations](https://www.bls.gov/ooh/computer-and-information-technology/home.htm).
 
 The **\$\$\$** isn't bad either. Back to StackOverflow's Annual Developers Survey, we can see at the very least, a career in Web Development can pay in the six-figure range.
 
@@ -50,6 +50,4 @@ A widely circulated illustration for what it takes to become a Web Developer can
 
 Tomorrow we'll learn about and get familiar with a critical tool used by Web Developers, the browser's Developer Tools.
 
-[^bls]: https://www.bls.gov/ooh/computer-and-information-technology/home.htm
-[^stackoverfloweducation]: https://insights.stackoverflow.com/survey/2019#education
 [^w3s]: W3School is a popular website for learning all things Web Development.

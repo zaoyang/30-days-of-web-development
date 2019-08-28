@@ -12,7 +12,7 @@ My hope is that by seeing and playing with some simple JavaScript, the syntax st
 
 ### JavaScript in the DevTools' Console
 
-All major web browsers come shipped with JavaScript[^majorbrowsers].  Without getting into too many details, what this means is that the browser can *read* and *run* the JavaScript language[^jsengine].  
+All major web browsers come shipped with [JavaScript](https://www.enable-javascript.com/).  Without getting into too many details, what this means is that the browser can *read* and *run* the [JavaScript language](https://en.wikipedia.org/wiki/JavaScript_engine).  
 
 For us, this also means that we can type JavaScript directly into the browser's DevTools' Console and it will read and run JavaScript on the fly.  If we tried to do this with another programming language, say like Java, the Console would return a bunch of errors.
 
@@ -71,6 +71,3 @@ You'll get an error.  Now try the JavaScript equivalent of the PHP `echo` comman
 The point of this blog post was to introduce you to JavaScript, and show you that the browser can interpret it.  Which, as we saw with PHP, is not the case for other programming languages.
 
 Tomorrow, we'll dive into more detail about what a Programming Language is.  Remember JavaScript is a Programming Language, HTML and CSS are not; they are Markup Languages.  Why this is, will become clearer in tomorrow's blog post.
-
-[^majorbrowsers]:https://www.enable-javascript.com/
-[^jsengine]:https://en.wikipedia.org/wiki/JavaScript_engine

@@ -6,7 +6,7 @@ coverImageBackgroundPosition: "50% 87%;"
 
 > No matter what kind of programmer you decide to become, JavaScript is a language that you will need to know.  
 
-The most recent statistics show that JavaScript is used by about **95% of all websites**[^percent].
+The most recent statistics show that JavaScript is used by about [**95% of all websites**](https://en.wikipedia.org/wiki/JavaScript).
 
 Today, we'll get a sense of how important and prevalent JavaScript is on the web and look at how it came to be that way.
 
@@ -59,4 +59,3 @@ In some sense, JavaScript was like the Ford of the automobile industry, given ac
 ### What's next?
 Now that we have a sensible appreciation for JavaScript, tomorrow we'll play with JavaScript in the DevTools.  The reason we will be using the DevTools is that, remember, all major browser can read and process JavaScript 😉.
 
-[^percent]:https://en.wikipedia.org/wiki/JavaScript

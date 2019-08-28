@@ -24,9 +24,12 @@ For example, the popular Library called React was built by Facebook. Facebook cr
 
 If you haven't guessed already, I'm a fan of non-computer analogies. Thus, in keeping with this theme, a good analogy is to think of Frameworks and Libraries as netspeak. Don't know what netspeak is? I bet you do; you just didn't know it was called "netspeak."
 
-> "omg becky luk @ her butt. It is so big. She looks lk one of those rap guys girlfriends[^sirmixalot]."
+> "LOL" = Laugh out loud
+> "OMG" = Oh my god
+> "FYI" = For your information
+> "TBH" = To be honest
 
-The "omg", "luk", "@", "lk" are what is referred to as netspeak. So back to the analogy. Netspeak, is the Framework and Library of the English language. I doubt many grammarians would say that Netspeak is making the English language more powerful. But it _is_ shortening the number of characters you need to type and making it faster to communicate[^analogy].
+These are all examples of what is referred to as netspeak. So back to the analogy. Netspeak, is the Framework and Library of the English language. I doubt many grammarians would say that Netspeak is making the English language more powerful. But it _is_ shortening the number of characters you need to type and making it faster to communicate[^analogy].
 
 Frameworks and Libraries have become a crucial part of Web Development. They are a topic you will learn more about as you progress in your learning.
 
@@ -101,5 +104,4 @@ Some key things to remember are that Libraries and Frameworks are built off of t
 If this felt like a detour ↪️, it's because it was. Why we made this detour will be more apparent tomorrow when we look at deciphering Web Developer job postings.
 
 [^whyreact]: https://reactjs.org/blog/2013/06/05/why-react.html
-[^sirmixalot]: If you don't instantly recognize these lyrics, you need to attend more wedding parties, or catch up on the best of the [90s music](https://en.wikipedia.org/wiki/Baby_Got_Back).
 [^analogy]: It's an analogy, so it's not a 1:1 comparison. In other words, take it with a grain of salt 🧂.

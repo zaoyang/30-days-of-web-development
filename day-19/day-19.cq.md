@@ -12,7 +12,7 @@ In today's post, we will discuss the **state of Programming Languages**, which o
 
 ## How do I know what Programming Language to learn?
 
-You can approach this question a couple of different ways. One is to look at the most popular Programming Languages. Several helpful resources collect information about Programming Language popularity/use[^tiobe]. We will look at two: Stack Overflow's Developer Survey Results[^insights], and Github's Octoverse survey[^octoverse].
+You can approach this question a couple of different ways. One is to look at the most popular Programming Languages. Several helpful resources collect information about Programming Language popularity/use[^tiobe]. We will look at two: [Stack Overflow's Developer Survey Results](https://insights.stackoverflow.com/survey/2019/#technology-programming-scripting-and-markup-languages), and [Github's Octoverse survey](https://octoverse.github.com/projects#languages).
 
 **Stack Overflow's Developer Survey Results: Popular Technologies**
 ![](public/assets/stackoverflow-insights.png)
@@ -24,7 +24,7 @@ Stack Overflow includes non-Programming Languages, like HTML, CSS, and SQL.  Als
 
 You can see some patterns between the Stack Overflow and Octoverse charts. The most obvious is that JavaScript is at the top of each list. This shouldn't be a surprise after learning about JavaScript in the previous blog posts.
 
-**Java** and **Python** are also growing in popularity. Python, in particular, has gotten lots of buzz recently[^fastest-growing].
+**Java** and **Python** are also growing in popularity. Python, in particular, has gotten lots of [buzz recently](https://stackoverflow.blog/2017/09/06/incredible-growth-python/?_ga=2.115552772.385778221.).
 
 **Ruby's** popularity seems to be going down, and the new kid on the block is something called **Typescript**.
 
@@ -45,7 +45,7 @@ I am using the default search settings, which has me looking at the US in the la
 **JavaScript vs. Python, US, last 12 months**
 ![](public/assets/js-python-us.png)
 
-Notice that even though JavaScript is the more "popular" Programming Language, Google Trends shows that Python is searched more often. Stack Overflow uses a survey of developers to gather its data[^somethod], and Github bases its data on the "amount of code written" type measurements[^githubmethod]. This upturn in Python searches _may_ support the buzz that Python is on the up-and-up.
+Notice that even though JavaScript is the more "popular" Programming Language, Google Trends shows that Python is searched more often. Stack Overflow uses a survey of developers to gather its [data](https://insights.stackoverflow.com/survey/2018/), and Github bases its data on the "amount of code written" [type measurements](https://octoverse.github.com/projects#languages). This upturn in Python searches _may_ support the buzz that Python is on the up-and-up.
 
 3\. Let's switch it up and look at JavaScript vs. Python, but this time **worldwide**, and over the **last 5 years** - [see chart here.](https://trends.google.com/trends/explore?date=today%205-y&q=%2Fm%2F02p97,%2Fm%2F05z1_)
 
@@ -63,7 +63,7 @@ It's impossible to explain these differences completely.  But it's a good guess 
 
 Google Trends gives a little more insight into what's going on with PHP. Depending on how much weight you give searches of "PHP," it is a reasonable guess that PHP's popularity _is decreasing_.  Or, at least there's some evidence that suggests it is.
 
-Another interesting tidbit is the popularity of PHP in Utah. I can't explain this entirely, other than to say that Utah has become somewhat of a Silicon Valley of the Rocky Mountains.  Utah has a large population, with Universities and a relatively low cost of living. Companies like eBay and Adobe have all recently opened large branches in the state[^utah].
+Another interesting tidbit is the popularity of PHP in Utah. I can't explain this entirely, other than to say that Utah has become somewhat of a Silicon Valley of the Rocky Mountains.  Utah has a large population, with Universities and a relatively low cost of living. Companies like eBay and Adobe have all recently opened large branches in the [state](https://www.cnbc.com/2016/07/13/a-high-tech-mecca-rises-to-rival-silicon-valley.html).
 
 Feel free to do more Google Trend searches. Play around with other mentioned Programming Languages from the Github and Stack Overflow reports. Google Trends allows you to get more specific based on region, so it might be worth trying to narrow down trends closer to your home base. Also, try searching for things like "PHP web developer jobs," etc.
 
@@ -76,9 +76,3 @@ Our next step is to look at what these top Programming Languages are used for. A
 This will be our task in tomorrow's blog post.  I will cover the top 4 most popular Programming Languages (according to Github's Octoverse).
 
 [^tiobe]: One could also look at the [TIOBE Index](https://www.tiobe.com/tiobe-index/)
-[^insights]: https://insights.stackoverflow.com/survey/2019/#technology-programming-scripting-and-markup-languages
-[^somethod]: https://insights.stackoverflow.com/survey/2018/
-[^githubmethod]: https://octoverse.github.com/projects#languages
-[^utah]: https://www.cnbc.com/2016/07/13/a-high-tech-mecca-rises-to-rival-silicon-valley.html
-[^octoverse]: https://octoverse.github.com/projects#languages
-[^fastest-growing]: https://stackoverflow.blog/2017/09/06/incredible-growth-python/?_ga=2.115552772.385778221.
