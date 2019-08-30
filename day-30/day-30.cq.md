@@ -12,7 +12,9 @@ Having made it through to the past 29 blog posts, you now have a better sense of
 
 In this last article, I will not be introducing any new content or Exercises. Instead, I am going to encourage you to venture forward and start thinking about where you want to end up, and map a way to get there.
 
-In the book 📗"How to Become a Web Developer: A Field Guide," I have created a Field Guide that helps you draw this map. Additionally, there is an option to download a curriculum and hear from other professional developers about how they made it into their fields. All of them did not follow the traditional degree to job path. They give great advice about how to avoid some of the pitfalls that are apparent only with hindsight and experience.
+![](public/assets/how-to-become-a-webdeveloper-field-guide-250h@2x.png)
+
+In the book ["How to Become a Web Developer: A Field Guide,"](https://www.newline.co/web-developers-field-guide) I have created a Field Guide that helps you draw this map. Additionally, there is an option to download a curriculum and hear from other professional developers about how they made it into their fields. All of them did not follow the traditional degree to job path. They give great advice about how to avoid some of the pitfalls that are apparent only with hindsight and experience.
 
 The book covers in much more detail and with additional exercises, the topics covered in the last 29 days. The 29 days are snapshots 📸 from the chapters of that book, which culminate into a final chapter that reviews the "Field Guide." The PDF version of the field guide is a printable resource.
 
@@ -45,6 +47,8 @@ Having added styles, try your hand at adding a CSS animation. You don't need to 
 
 > Yesterday brought the beginning, tomorrow brings the end, though somewhere in the middle we became best friends. #BFF 💙
 
-If the content of these blog posts have been helpful, and you would like to learn more, I encourage you to check out the 📗 "How to Become a Web Developer: A Field Guide" here.
+If the content of these blog posts have been helpful, and you would like to learn more, I encourage you to check out the 📗 ["How to Become a Web Developer: A Field Guide" here](https://www.newline.co/web-developers-field-guide).
+
+![](public/assets/how-to-become-a-webdeveloper-field-guide-250h@2x.png)
 
 If you have any questions, please feel free to message me on [Twitter](https://twitter.com/angelgarbarino) or contact Fullstack.io for more information.
