@@ -28,7 +28,7 @@ module.exports = ({ dedent }) => ({
 
   In this series, we start from the basics and walk through everything you need to know to get started with Web Development.
     `,
-  pdfLength: "220+",
+  pdfLength: "180+",
   faq: [
     {
       q: "What is this?",
@@ -64,8 +64,8 @@ module.exports = ({ dedent }) => ({
   publishedOn: "2019-08-27",
   lessonLanguage: "Day",
   ctaFormAction:
-    "https://fd338.infusionsoft.com/app/form/process/8c1ddc4f62b89862cde6aa74850295b0",
-  ctaFormXid: "8c1ddc4f62b89862cde6aa74850295b0",
+    "https://fd338.infusionsoft.com/app/form/process/8c7a63ebe16752c9a2eb63d1063c00af",
+  ctaFormXid: "8c7a63ebe16752c9a2eb63d1063c00af",
   ctaFormName: "Web Form submitted",
   ctaInfVersion: "1.70.0.77019",
   modalCtaHeader: "Learn Web Dev (from the very beginning) in 30 days",
