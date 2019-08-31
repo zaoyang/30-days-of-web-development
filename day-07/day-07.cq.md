@@ -21,7 +21,6 @@ HTML **tags** are special keywords surrounded by a pair of angle brackets `<tag 
 ![](public/assets/table-1.png)
 
 Some tags, like the tag used to display an image `<img >`, do not have a closing version. This is because you do not need to define an opening and closing to display an image, just a location of where the image can be found.
-{#porcupine}
 
 ![](public/assets/table-2.png)
 
