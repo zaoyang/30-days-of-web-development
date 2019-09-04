@@ -20,7 +20,7 @@ To use comments, you wrap the HTML with an opening and closing comment tag. To o
 
 The text in-between the opening and closing set of characters is what is commented out.
 
-1\. In your text editor download and then open the following HTML document [`html-practice.html`](https://github.com/fullstackio/30-days-of-web-development/blob/master/day-08/src/html-practice.html).
+1\. In your text editor download and then open the following HTML document [`html-practice.html`](https://raw.githubusercontent.com/fullstackio/30-days-of-web-development/master/day-08/src/html-practice.html).
 
 2\. Because of the theme I am using with VSCode, my comments in the following screenshot show as <span style="color: grey">greyed-out</span>. Depending on your text editor's theme, a similar style will be applied to your commented out HTML. Regardless of what color the theme applies, your text editor is trying to show you that this HTML is not displaying.
 

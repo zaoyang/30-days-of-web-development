@@ -10,7 +10,7 @@ I've gone ahead and added a couple more elements, some that now have class names
 
 #### Exercise
 
-1\. Open in your text editor and browser the updated HTML file that I am now calling: [`css-selector-practice`](https://github.com/fullstackio/30-days-of-web-development/blob/master/day-13/src/css-selector-practice.html).
+1\. Open in your text editor and browser the updated HTML file that I am now calling: [`css-selector-practice`](https://raw.githubusercontent.com/fullstackio/30-days-of-web-development/master/day-13/src/css-selector-practice.html).
 
 2\. Like on Day 8, in our HTML uncomment practice, we will be uncommenting the CSS sections one by one.
 
@@ -49,7 +49,7 @@ Well, that's fun, I mean, who doesn't like rainbows 🌈?
 
 The key here is that Ids trump them all, _but_ Ids can only be used once.
 
-I>You can find a final version of the "css-selector-practice.html" document [here](https://github.com/fullstackio/30-days-of-web-development/blob/master/day-13/src/css-selector-practice-final.html), without any of the comments.
+I>You can find a final version of the "css-selector-practice.html" document [here](https://raw.githubusercontent.com/fullstackio/30-days-of-web-development/master/day-13/src/css-selector-practice-final.html), without any of the comments.
 
 ### What's next?
 

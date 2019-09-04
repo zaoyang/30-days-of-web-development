@@ -22,7 +22,7 @@ The File System is made up of two types of files:
 
 1\. **Data files**. Think anything that contains data, text files, word docs, images, mp3, etc.
 
-For example, the ["shell-script-practice.sh](https://github.com/fullstackio/30-days-of-web-development/blob/master/day-27/src/shell-script-practice.sh) file that we played with on Day 23 is a data file. Another example is the ["html-practice.html"](https://github.com/fullstackio/30-days-of-web-development/blob/master/day-27/src/html-practice.html) file we played with on Day 8 while learning about HTML. One's an HTML file, the other a Shell Scripting file, but they are both data files.
+For example, the ["shell-script-practice.sh](https://raw.githubusercontent.com/fullstackio/30-days-of-web-development/master/day-27/src/shell-script-practice.sh) file that we played with on Day 23 is a data file. Another example is the ["html-practice.html"](https://raw.githubusercontent.com/fullstackio/30-days-of-web-development/master/day-27/src/html-practice.html) file we played with on Day 8 while learning about HTML. One's an HTML file, the other a Shell Scripting file, but they are both data files.
 
 2\. **Executable files**. These are files that when you open them, they execute something. It's a good bet that any file in your Applications folder is an executable file.
 
@@ -36,7 +36,7 @@ Another, less obvious, example of an executable file are the commands we've been
 
 Let's see how well you know your File Types. We'll be using the terminal and a Shell Script file to take our "quiz." Because practice 🤓.
 
-1\. Download the following [Shell Script file](https://github.com/fullstackio/30-days-of-web-development/blob/master/day-27/src/quiz.sh), and then, as we did in Day 23, navigate to your Downloads folder, and open the file using the `bash` command.
+1\. Download the following [Shell Script file](https://raw.githubusercontent.com/fullstackio/30-days-of-web-development/master/day-27/src/quiz.sh), and then, as we did in Day 23, navigate to your Downloads folder, and open the file using the `bash` command.
 
 `bash quiz.sh`
 

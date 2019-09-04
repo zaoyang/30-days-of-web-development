@@ -32,7 +32,7 @@ You'll want to select the Free version which you can find under "Visual Studio C
 
 4\. Next, let's open a simple text file using VSCode.
 
-Download the following [`test-file.txt`](public/src/1-setup/test-file.txt).
+Download the following [`test-file.txt`](https://raw.githubusercontent.com/fullstackio/30-days-of-web-development/master/day-05/src/test-file.txt).
 
 Back in VSCode, open the file you just downloaded by clicking File -> Open, and select the file `test-file.txt`.
 

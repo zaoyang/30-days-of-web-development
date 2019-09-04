@@ -60,7 +60,7 @@ I>**Folder and Directory essentially mean the same thing**. "Directory" is a cla
 
 #### Exercise: Shell command practice
 
-1\. Download the [shell-script-practice.sh](https://github.com/fullstackio/30-days-of-web-development/blob/master/day-23/src/shell-script-practice.sh) file to your downloads folder on your computer.
+1\. Download the [shell-script-practice.sh](https://raw.githubusercontent.com/fullstackio/30-days-of-web-development/master/day-23/src/shell-script-practice.sh) file to your downloads folder on your computer.
 
 2\. If you'd like to peak, go ahead and open this file with your text editor. The code you see is written in the Bash Scripting language; a programming language that works with the Bash Shell. The Bash Shell is the default Shell that comes with macOS.
 

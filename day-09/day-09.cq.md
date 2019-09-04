@@ -30,7 +30,7 @@ In fact, the HTML document we are going to use is the final version of the "html
 
 #### Exercise: Play with CSS in the DevTools
 
-In case you no longer have the "html-practice.html" file, you can download a new one this time called [`css-practice.html`](https://github.com/fullstackio/30-days-of-web-development/blob/master/day-09/src/css-practice.html).
+In case you no longer have the "html-practice.html" file, you can download a new one this time called [`css-practice.html`](https://raw.githubusercontent.com/fullstackio/30-days-of-web-development/master/day-09/src/css-practice.html).
 
 1\. Open this file in your Chrome browser, and open the DevTools.
 
