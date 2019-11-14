@@ -16,7 +16,7 @@ T> **JavaScript is a programming language**, unlike HTML and CSS, which are mark
 
 What do I mean when I say "JavaScript makes that structure (HTML) interactive"?  To help answer that question, I've created an HTML file that uses JavaScript to add interactivity in the form of a turtle 🐢 and rabbit 🐇 racing each other.
 
-1\. Because this HTML file uses two images, you need to download the following [folder](src), and then right-click to open the "js-example.html" file in Chrome.
+1\. Because this HTML file uses two images, you need to download the following [folder](public/assets/30d-webdev-day-15-src.zip), and then right-click to open the "js-example.html" file in Chrome.
 
 Once open, you should see a web page that looks something like the following:
 
