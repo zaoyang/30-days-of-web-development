@@ -20,7 +20,7 @@ A lot. Generally speaking, they manage the hardware of your computer. Your compu
 
 - **Managing Process**. All the applications you currently have running on your computer are all controlled by your computer's Operating System.
 
-- **Managing Memory**. Your computer's memory primarily comes from RAM (rapid-access memory). All processes, applications, and actions on a computer requires some amount of memory.
+- **Managing Memory**. Your computer's memory primarily comes from RAM (random access memory). All processes, applications, and actions on a computer requires some amount of memory.
 
 - **Managing Storage**. Memory and storage are different. Storage is associated directly with your computer's hard disk drive or solid-state drive. Storage is where data stays until forcefully removed. Things remain in storage even when your computer is off.
 
