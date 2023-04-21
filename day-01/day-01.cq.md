@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Can I become a Web Developer?
+# How to Become a Web Developer
 
 > I want to stress - because I was unsure when I first started my journey - you can learn how to become a Web Developer and find a job in the field on your own.
 

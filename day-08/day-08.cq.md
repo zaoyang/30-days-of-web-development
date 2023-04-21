@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Playing with Elements and Tags
+# How to Structure an HTML Page with Tags and Elements
 
 > Time to get our hands dirty. Let's write some HTML.
 

@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Giving HTML some style 😎
+# A Beginner's Guide to CSS [with examples and exercises]
 
 > Our HTML is rather plain. Let's use CSS to give it some style 😎.
 

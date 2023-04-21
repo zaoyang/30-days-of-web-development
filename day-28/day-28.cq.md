@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Introduction to Git
+# Introduction to Git for Web Developers
 
 >Have you ever run into file saving hell 🔥? Git to the rescue 🚨.
 

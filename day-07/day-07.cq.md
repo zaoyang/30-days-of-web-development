@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Tags and Elements - HTML
+# HTML Tags and Elements: Definitions, Examples, and Relationships
 
 > Elements are made up of tags, tags are not made up of elements. Elements are the building blocks 🏗 of HTML.
 

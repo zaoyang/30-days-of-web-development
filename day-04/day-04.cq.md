@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# GUIs and Shells
+# GUIs, Shells, and Kernels: Definitions, Examples, and Relationships
 
 > GUIs and Shells are two important terms we are going to explore. Understanding how they relate to our Operating System will clarify potential points of confusion later on.
 

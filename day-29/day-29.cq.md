@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Introduction to GitHub
+# Introduction to GitHub for Web Developers
 
 > GitHub is the single largest host for Git repositories.  Git repositories, if you remember, are projects (e.g., folders, directories) that are managed by Git's version control.  
 

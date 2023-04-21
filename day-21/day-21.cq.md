@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Frameworks and Libraries
+# Frameworks vs Libraries: Explanations and Examples 
 
 > To get in front of what might later become confusing, I want to stop and quickly talk about **Frameworks and Libraries**.
 

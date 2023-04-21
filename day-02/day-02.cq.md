@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Developer Tools - Setup & Tooling
+# How to Open and Understand Developer Tools
 
 > Before we can begin, we need to get familiar with some essential tools. The first of which is the DevTools.
 

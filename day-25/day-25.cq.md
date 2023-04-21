@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# File Paths Part I
+# Relative File Path vs Absolute File Paths
 
 > File Paths are grammar's equivalent to the words "except" and "accept."  People don't _really_ know the difference, they guess and hope for the best 🤞.
 
