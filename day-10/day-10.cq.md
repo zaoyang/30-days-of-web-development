@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# CSS and HTML together
+# How to Link CSS to HTML: Inline style and Stylesheets
 
 > But how do we get CSS onto a web page? There are three basic ways of adding CSS to a web page: Inline style, Internal and External stylesheets.
 

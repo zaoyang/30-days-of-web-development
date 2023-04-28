@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# A closer look at the top 4 Programming Languages
+# The Top 4 Programming Languages and their Applications
 
 > Now that we have a sense of what the top Programming Languages are, we should investigate what these Programming Languages are used for.
 

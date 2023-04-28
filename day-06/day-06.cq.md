@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# HTML is a Markup Language
+# What is HTML? An Introduction to Web Development
 
 > HTML is the foundational language of all content on the web.  Let's get familiar with it.
 

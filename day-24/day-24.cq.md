@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# CLI vs. GUI?
+# What are CLIs and GUIs? Differences and Similarities, Explained
 
 > CLI, GUIs, shells?  You may not know it, but you're very familiar with all three.
 

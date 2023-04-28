@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Selector Specificity - CSS
+# Understanding CSS Specificity: Id, Class, and Tag Selectors
 
 > What's easier to say, "toy boat ⛵️" or "selector specificity" three times fast?  Try it out. I can say neither.
 

@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Operating System - Setup & Tooling
+# Web Development Basics: What Do Operating Systems Do?
 
 > Whether you're a Windows or Mac user, you can participate in all the exercises. But, let's make sure we understand why an Operating System is important for our work as future Web Developers.
 

@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Navigating Job Postings
+# Decoding Web Developer Job Postings
 
 > By the end of this article, you'll have a better understanding of how to read Web Developer job descriptions. As well as how to decipher what kind of skills they're asking for.
 

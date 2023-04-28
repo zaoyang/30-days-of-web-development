@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# CSS Units
+# CSS Units: What They are and How to Use Them
 
 > Today we'll be focusing on the different CSS units, which indicate a size. We will use the DevTools to play with different variations.
 

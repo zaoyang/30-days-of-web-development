@@ -2,7 +2,7 @@
 coverImageBackgroundPosition: "50% 87%;"
 ---
 
-# Text Editor - Setup & Tooling
+# Setting Up and Tooling A Web Development Text Editor
 
 > Today, you will meet your soon to be best friend: the text editor. A text editor is a fancy tool that developers use to write code.
 
