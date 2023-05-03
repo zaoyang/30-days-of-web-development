@@ -55,7 +55,7 @@ module.exports = ({ dedent }) => ({
   If at any point you feel stuck, have further questions, feel free to reach out to us by:
 
   * Creating an issue at the [Github repo](https://github.com/fullstackio/30-days-of-web-development).
-  * Tweeting at us at [@fullstackio](https://twitter.com/fullstackio).
+  * Tweeting at us at [@newlinedotco](https://twitter.com/newlinedotco).
 `,
   authorSlugs: ["angel"],
   closingCtaH1: "Get started now",
