@@ -38,7 +38,7 @@ module.exports = ({ dedent }) => ({
     {
       q: "What if I get stuck?",
       a:
-        "Just [send us an email](vue@fullstack.io) and we'll be happy to help you get unstuck."
+        "Just [send us an email](mailto:vue@fullstack.io) and we'll be happy to help you get unstuck."
     },
     {
       q: "Who wrote this?",
